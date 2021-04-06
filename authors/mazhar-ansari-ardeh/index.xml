@@ -6,10 +6,19 @@
     <description>Recent content in Mazhar Ansari Ardeh on Yi Mei @ VUW</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Mar 2021 00:00:00 +1300</lastBuildDate>
+    <lastBuildDate>Thu, 01 Apr 2021 00:00:00 +1300</lastBuildDate>
     
 	<atom:link href="https://meiyi1986.github.io/authors/mazhar-ansari-ardeh/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Surrogate-Assisted Genetic Programming with Diverse Transfer for the Uncertain Capacitated Arc Routing Problem</title>
+      <link>https://meiyi1986.github.io/publication/ardeh-2021-surrogate/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +1300</pubDate>
+      
+      <guid>https://meiyi1986.github.io/publication/ardeh-2021-surrogate/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Novel Multi-Task Genetic Programming Approach to Uncertain Capacitated Arc Routing Problem</title>

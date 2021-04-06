@@ -6,10 +6,19 @@
     <description>Recent content in Jordan MacLachlan on Yi Mei @ VUW</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Nov 2019 00:00:00 +1300</lastBuildDate>
+    <lastBuildDate>Thu, 01 Apr 2021 00:00:00 +1300</lastBuildDate>
     
 	<atom:link href="https://meiyi1986.github.io/authors/jordan-maclachlan/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Look-Ahead Genetic Programming for Uncertain Capacitated Arc Routing Problem</title>
+      <link>https://meiyi1986.github.io/publication/maclachlan-2021-look/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +1300</pubDate>
+      
+      <guid>https://meiyi1986.github.io/publication/maclachlan-2021-look/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Genetic Programming Hyper-Heuristics with Vehicle Collaboration for Uncertain Capacitated Arc Routing Problems</title>
