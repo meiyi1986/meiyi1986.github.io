@@ -6,10 +6,19 @@
     <description>Recent content in Boxiong Tan on Yi Mei @ VUW</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +1200</lastBuildDate>
+    <lastBuildDate>Mon, 01 Mar 2021 00:00:00 +1300</lastBuildDate>
     
 	<atom:link href="https://meiyi1986.github.io/authors/boxiong-tan/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Evolutionary Multi-Objective Optimization for Web Service Location Allocation Problem</title>
+      <link>https://meiyi1986.github.io/publication/tan-2018-evolutionary/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +1300</pubDate>
+      
+      <guid>https://meiyi1986.github.io/publication/tan-2018-evolutionary/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Cooperative Coevolution Genetic Programming Hyper-Heuristic Approach for On-line Resource Allocation in Container-based Clouds</title>
@@ -62,15 +71,6 @@
       <pubDate>Sat, 01 Dec 2018 00:00:00 +1300</pubDate>
       
       <guid>https://meiyi1986.github.io/publication/tan-2018-genetic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Evolutionary Multi-Objective Optimization for Web Service Location Allocation Problem</title>
-      <link>https://meiyi1986.github.io/publication/tan-2018-evolutionary/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +1300</pubDate>
-      
-      <guid>https://meiyi1986.github.io/publication/tan-2018-evolutionary/</guid>
       <description></description>
     </item>
     
