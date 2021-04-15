@@ -709,7 +709,7 @@ Grouping Constrained Storage Location Assignment Problem&#34; &lt;a href=&#34;ht
 
 &lt;p&gt;本奖学金为新西兰惠灵顿维多利亚大学与中国留学基金委合作计划项目，毕业后将授予新西兰惠灵顿维多利亚大学博士学位。该奖学金包括免除最多4年的学费以及提供最多4年的生活费（约合一万+人民币/月），将让你在新西兰的生活学习毫无经济压力。&lt;/p&gt;
 
-&lt;h2 id=&#34;研究方向&#34;&gt;研究方向：&lt;/h2&gt;
+&lt;h2 id=&#34;研究方向&#34;&gt;研究方向&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;演化计算、调度与组合优化&lt;/li&gt;
@@ -770,11 +770,28 @@ Grouping Constrained Storage Location Assignment Problem&#34; &lt;a href=&#34;ht
 
 &lt;h2 id=&#34;关于惠灵顿&#34;&gt;关于惠灵顿&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://meiyi1986.github.io/img/tepapa.jpg&#34; alt=&#34;国会大厦&#34; /&gt;
-|                   |                     |
-|   :&amp;mdash;:           |     :&amp;mdash;:           |
-| &lt;img src=&#34;https://meiyi1986.github.io/img/weta.jpg&#34; alt=&#34;维塔工作室&#34; /&gt; | &lt;img src=&#34;https://meiyi1986.github.io/img/oriental-bay.jpg&#34; alt=&#34;Oriental Bay&#34; /&gt; |
-| &lt;img src=&#34;https://meiyi1986.github.io/img/parliament.jpg&#34; alt=&#34;国会大厦&#34; /&gt; | &lt;img src=&#34;https://meiyi1986.github.io/img/airport.png&#34; alt=&#34;机场&#34; /&gt; |&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://meiyi1986.github.io/img/tepapa.jpg&#34; alt=&#34;国会大厦&#34; /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://meiyi1986.github.io/img/weta.jpg&#34; alt=&#34;维塔工作室&#34; /&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://meiyi1986.github.io/img/oriental-bay.jpg&#34; alt=&#34;Oriental Bay&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://meiyi1986.github.io/img/parliament.jpg&#34; alt=&#34;国会大厦&#34; /&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;https://meiyi1986.github.io/img/airport.png&#34; alt=&#34;机场&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 
 &lt;p&gt;坐落在新西兰北岛南端的首都惠灵顿，是新西兰第二大城市，也是世界上最宜居的城市之一。它被《孤独星球》（Lonely Planet）誉为“世界上最酷的小首都”。它背靠连绵青山，面朝万顷碧波。 既有自然风光旖旎迷人，又有人文艺术清新高雅。 而这里的人深谙生活的艺术，把每一天都过得惬意灵动，精致浪漫。新西兰国家博物馆（Te Papa Tongarewa)以及世界著名电影《指环王》、《阿凡达》等的制作公司维塔工作室(Weta Digital)均坐落在惠灵顿。&lt;/p&gt;
 
