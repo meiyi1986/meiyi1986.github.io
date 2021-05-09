@@ -6,10 +6,19 @@
     <description>Recent content in Bin Xin on Yi Mei @ VUW</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +1300</lastBuildDate>
+    <lastBuildDate>Sat, 01 May 2021 00:00:00 +1200</lastBuildDate>
     
 	<atom:link href="https://meiyi1986.github.io/authors/bin-xin/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Automated Coordination Strategy Design using Genetic Programming for Dynamic Multi-Point Dynamic Aggregation</title>
+      <link>https://meiyi1986.github.io/publication/gao-2021-automated/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +1200</pubDate>
+      
+      <guid>https://meiyi1986.github.io/publication/gao-2021-automated/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Adaptive Coordination Ant Colony Optimisation for Multi-Point Dynamic Aggregation</title>
