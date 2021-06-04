@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>Genetic Programming with Delayed Routing for Multi-Objective Dynamic Flexible Job Shop Scheduling</title>
+      <link>https://meiyi1986.github.io/publication/xu-2020-genetic/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +1300</pubDate>
+      
+      <guid>https://meiyi1986.github.io/publication/xu-2020-genetic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Bi-level Ant Colony Optimization Algorithm for Capacitated Electric Vehicle Routing Problem</title>
       <link>https://meiyi1986.github.io/publication/jia-2021-bi/</link>
       <pubDate>Mon, 01 Mar 2021 00:00:00 +1300</pubDate>
@@ -111,6 +120,15 @@
     </item>
     
     <item>
+      <title>Genetic Programming Hyper-Heuristics with Vehicle Collaboration for Uncertain Capacitated Arc Routing Problems</title>
+      <link>https://meiyi1986.github.io/publication/maclachlan-2019-genetic/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +1300</pubDate>
+      
+      <guid>https://meiyi1986.github.io/publication/maclachlan-2019-genetic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Surrogate-Assisted Evolutionary Multitasking Genetic Programming for Dynamic FlexibleJob Shop Scheduling</title>
       <link>https://meiyi1986.github.io/publication/zhang-2020-surrogate/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +1300</pubDate>
@@ -147,11 +165,11 @@
     </item>
     
     <item>
-      <title>Genetic Programming with Delayed Routing for Multi-Objective Dynamic Flexible Job Shop Scheduling</title>
-      <link>https://meiyi1986.github.io/publication/xu-2020-genetic/</link>
+      <title>A Predictive-Reactive Approach with Genetic Programming and Cooperative Coevolution for Uncertain Capacitated Arc Routing Problem</title>
+      <link>https://meiyi1986.github.io/publication/liu-2019-predictive/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +1300</pubDate>
       
-      <guid>https://meiyi1986.github.io/publication/xu-2020-genetic/</guid>
+      <guid>https://meiyi1986.github.io/publication/liu-2019-predictive/</guid>
       <description></description>
     </item>
     
@@ -161,24 +179,6 @@
       <pubDate>Wed, 01 Jan 2020 00:00:00 +1300</pubDate>
       
       <guid>https://meiyi1986.github.io/publication/huang-2020-fast/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Genetic Programming Hyper-Heuristics with Vehicle Collaboration for Uncertain Capacitated Arc Routing Problems</title>
-      <link>https://meiyi1986.github.io/publication/maclachlan-2019-genetic/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 +1300</pubDate>
-      
-      <guid>https://meiyi1986.github.io/publication/maclachlan-2019-genetic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Predictive-Reactive Approach with Genetic Programming and Cooperative Co-evolution for Uncertain Capacitated Arc Routing Problem</title>
-      <link>https://meiyi1986.github.io/publication/liu-2019-predictive/</link>
-      <pubDate>Mon, 01 Apr 2019 00:00:00 +1300</pubDate>
-      
-      <guid>https://meiyi1986.github.io/publication/liu-2019-predictive/</guid>
       <description></description>
     </item>
     
