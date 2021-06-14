@@ -432,13 +432,13 @@ Grouping Constrained Storage Location Assignment Problem&#34; &lt;a href=&#34;ht
 &lt;h3 id=&#34;masters&#34;&gt;Masters&lt;/h3&gt;
 
 &lt;ol&gt;
-    &lt;i&gt;Fergus Currie (Victoria University of Wellington, 2021): &#34;Multi-criteria decision making for genetics breeding program design&#34; (with Dr Maren Wellenreuther and Dr Linley Jesson)&lt;/i&gt;
-    &lt;i&gt;*__Boon Wan Tan__ (Victoria University of Wellington, 2019): &#34;Neural Network for Combinatorial Optimisation Problems&#34;*&lt;/i&gt;
-    &lt;i&gt;*__ManWui Choi__ (Victoria University of Wellington, 2019): &#34;Evolutionary Computation for Container Loading&#34;*&lt;/i&gt;
-    &lt;i&gt;*__Shaolin Wang__ (Victoria University of Wellington, 2018): &#34;Evolutionary Computation for Uncertain Arc Routing&#34; (with Prof Mengjie Zhang)*&lt;/i&gt;
-    &lt;i&gt;*__Youhan Xia__ (University of Melbourne, Australia, graduated in 2017): &#34;Ant Colony System for Itinerary Planning with Restaurants&#34; (with Dr Jeffrey Chan)*&lt;/i&gt;
-    &lt;i&gt;*__Boxiong Tan__ (Victoria University of Wellington, graduated in 2016): &#34;Evolutionary Computation for Service Location Allocation&#34; (with Dr Hui Ma)*&lt;/i&gt;
-    &lt;i&gt;*__Haobo Fu__ (University of Science and Technology of China, graduated in 2010): &#34;Meta-heuristics for Capacitated Arc Routing Problems&#34; (with Prof Ke Tang)*&lt;/i&gt;
+&lt;li&gt;Fergus Currie (Victoria University of Wellington, 2021): &#34;Multi-criteria decision making for genetics breeding program design&#34; (with Dr Maren Wellenreuther and Dr Linley Jesson)&lt;/li&gt;
+&lt;li&gt;*__Boon Wan Tan__ (Victoria University of Wellington, 2019): &#34;Neural Network for Combinatorial Optimisation Problems&#34;*&lt;/li&gt;
+&lt;li&gt;*__ManWui Choi__ (Victoria University of Wellington, 2019): &#34;Evolutionary Computation for Container Loading&#34;*&lt;/li&gt;
+&lt;li&gt;*__Shaolin Wang__ (Victoria University of Wellington, 2018): &#34;Evolutionary Computation for Uncertain Arc Routing&#34; (with Prof Mengjie Zhang)*&lt;/li&gt;
+&lt;li&gt;*__Youhan Xia__ (University of Melbourne, Australia, graduated in 2017): &#34;Ant Colony System for Itinerary Planning with Restaurants&#34; (with Dr Jeffrey Chan)*&lt;/li&gt;
+&lt;li&gt;*__Boxiong Tan__ (Victoria University of Wellington, graduated in 2016): &#34;Evolutionary Computation for Service Location Allocation&#34; (with Dr Hui Ma)*&lt;/li&gt;
+&lt;li&gt;*__Haobo Fu__ (University of Science and Technology of China, graduated in 2010): &#34;Meta-heuristics for Capacitated Arc Routing Problems&#34; (with Prof Ke Tang)*&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&#34;honours-students&#34;&gt;Honours Students&lt;/h3&gt;
@@ -481,8 +481,10 @@ Grouping Constrained Storage Location Assignment Problem&#34; &lt;a href=&#34;ht
       
       <guid>https://meiyi1986.github.io/ecco-talks/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;2021/06/16, &lt;strong&gt;&lt;a href=&#34;https://ecs.victoria.ac.nz/Main/GradShaolinWang&#34;&gt;Shaolin Wang&lt;/a&gt;&lt;/strong&gt;,&lt;/li&gt;
-&lt;li&gt;2021/06/09, &lt;strong&gt;&lt;a href=&#34;https://ecs.wgtn.ac.nz/Main/GradMengXu&#34;&gt;Meng Xu&lt;/a&gt;&lt;/strong&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;2021/06/23, &lt;strong&gt;&lt;a href=&#34;https://ecs.victoria.ac.nz/Main/GradShaolinWang&#34;&gt;Shaolin Wang&lt;/a&gt;&lt;/strong&gt;,&lt;/li&gt;
+&lt;li&gt;2021/06/16, &lt;strong&gt;&lt;a href=&#34;https://ecs.wgtn.ac.nz/Main/GradYifanYang&#34;&gt;Yifan Yang&lt;/a&gt;&lt;/strong&gt;,&lt;/li&gt;
+&lt;li&gt;2021/06/09, &lt;strong&gt;&lt;a href=&#34;https://ecs.wgtn.ac.nz/Main/GradMengXu&#34;&gt;Meng Xu&lt;/a&gt;&lt;/strong&gt;, GP with lexicase selection for dynamic scheduling.&lt;/li&gt;
 &lt;li&gt;2021/06/02, &lt;strong&gt;&lt;a href=&#34;https://ecs.victoria.ac.nz/Main/GradMazharAnsariArdeh&#34;&gt;Mazhar Anzari Ardeh&lt;/a&gt;&lt;/strong&gt;, Multi-task GP for UCARP.&lt;/li&gt;
 &lt;li&gt;2021/05/26, &lt;strong&gt;&lt;a href=&#34;https://ecs.victoria.ac.nz/Main/Kirita-RoseEscott&#34;&gt;Kirita-Rose Escott&lt;/a&gt;&lt;/strong&gt;, practice PhD proposal.&lt;/li&gt;
 &lt;li&gt;2021/05/19, &lt;strong&gt;&lt;a href=&#34;https://ecs.wgtn.ac.nz/Main/GradTaiwoAdeyemiAkindele&#34;&gt;Taiwo Akindele&lt;/a&gt;&lt;/strong&gt;, Grouping GA for resource allocation in Cloud.&lt;/li&gt;
