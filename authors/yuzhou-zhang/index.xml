@@ -6,10 +6,19 @@
     <description>Recent content in Yuzhou Zhang on Yi Mei @ VUW</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +1300</lastBuildDate>
+    <lastBuildDate>Thu, 01 Apr 2021 00:00:00 +1300</lastBuildDate>
     
 	<atom:link href="https://meiyi1986.github.io/authors/yuzhou-zhang/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Divide-and-Conquer Large Scale Capacitated Arc Routing Problems with Route Cutting Off Decomposition</title>
+      <link>https://meiyi1986.github.io/publication/zhang-2020-divide/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +1300</pubDate>
+      
+      <guid>https://meiyi1986.github.io/publication/zhang-2020-divide/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Route Clustering and Search Heuristic for LargeScale Multi-Depot Capacitated Arc Routing Problem</title>
@@ -17,15 +26,6 @@
       <pubDate>Tue, 01 Dec 2020 00:00:00 +1300</pubDate>
       
       <guid>https://meiyi1986.github.io/publication/zhang-2020-route/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Divide-and-Conquer Large Scale Capacitated Arc Routing Problems with Route Cutting Off Decomposition</title>
-      <link>https://meiyi1986.github.io/publication/zhang-2020-divide/</link>
-      <pubDate>Sun, 01 Nov 2020 00:00:00 +1300</pubDate>
-      
-      <guid>https://meiyi1986.github.io/publication/zhang-2020-divide/</guid>
       <description></description>
     </item>
     
