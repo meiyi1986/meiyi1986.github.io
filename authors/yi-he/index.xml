@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yi He on Yi Mei @ VUW</title>
+    <link>https://meiyi1986.github.io/authors/yi-he/</link>
+    <description>Recent content in Yi He on Yi Mei @ VUW</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +1300</lastBuildDate>
+    
+	<atom:link href="https://meiyi1986.github.io/authors/yi-he/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Novel Methodology for Architectural Wind Environment Study by Integrating CFD Simulation, Multiple Parametric Tools and Evaluation Criteria</title>
+      <link>https://meiyi1986.github.io/publication/he-2020-novel/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +1300</pubDate>
+      
+      <guid>https://meiyi1986.github.io/publication/he-2020-novel/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
