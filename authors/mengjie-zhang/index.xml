@@ -6,10 +6,19 @@
     <description>Recent content in Mengjie Zhang on Yi Mei @ VUW</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Apr 2021 00:00:00 +1300</lastBuildDate>
+    <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +1200</lastBuildDate>
     
 	<atom:link href="https://meiyi1986.github.io/authors/mengjie-zhang/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Genetic Programming with Niching for Uncertain Capacitated Arc Routing Problem</title>
+      <link>https://meiyi1986.github.io/publication/wang-2021-genetic/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +1200</pubDate>
+      
+      <guid>https://meiyi1986.github.io/publication/wang-2021-genetic/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Multi-Objective Genetic Programming Approach with Self-Adaptive Alpha Dominance to Uncertain Capacitated Arc Routing Problem</title>
