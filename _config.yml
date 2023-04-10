@@ -11,9 +11,9 @@ title                    : "Yi Mei's homepage"
 title_separator          : "-"
 name                     : &name "Yi Mei"
 description              : &description "personal description"
-url                      : https://yi-mei-ecco.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://meiyi1986.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "yi-mei-ecco/yi-mei-ecco.github.io"
+repository               : "meiyi1986/meiyi1986.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
