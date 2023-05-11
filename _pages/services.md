@@ -41,7 +41,7 @@ I serve as a PC member of 60+ international conferences.
 <li>International Joint Conferences on Artificial Intelligence (IJCAI) 2021, 2022, 2023</li>
 <li>ACM Genetic and Evolutionary Computation Conference (GECCO) 2017, 2018, 2019, 2020, 2021, 2022, 2023</li>
 <li>IEEE Congress on Evolutionary Computation (CEC) 2013, 2014, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023</li>
-<li>World Conference on eXplainable Artificial Intelligence 2023</li>
+<li>World Conference on eXplainable Artificial Intelligence (xAI) 2023</li>
 <li>IEEE Symposium Series on Computational Intelligence (SSCI) 2016, 2017, 2019, 2020, 2021, 2022</li>
 <li>EMO 2021, 2022</li>
 <li>International Conference on Simulated Evolution And Learning (SEAL) 2014, 2017</li>
