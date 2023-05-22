@@ -8,6 +8,7 @@ author_profile: true
 ## PhD
 
 <ol>
+  <li><b>Ze Chen</b> (Victoria University of Wellington, 2023): "Machine Learning for Fish Growth Prediction" (with Prof Mengjie Zhang, Drs. Maren Wellenrauther and Linley Jesson from <a href="https://www.plantandfood.com">Plant and Food Research</a>)</li>
   <li><b>Junwei Pang</b> (Victoria University of Wellington, 2023): "TBD (with Prof Mengjie Zhang)</li>
   <li><b>Saining Liu</b> (Victoria University of Wellington, 2023): "TBD (with Prof Mengjie Zhang)</li>
   <li><b>Yuan Tian</b> (Victoria University of Wellington, 2023): "TBD (with Prof Mengjie Zhang)</li>
@@ -43,7 +44,7 @@ author_profile: true
 <ol>
   <li><b>Madhuri Mapari</b> (Victoria University of Wellington, 2023): "Interpretable Reinforcement Learning with Genetic Programming"</li>
   <!-- <li><b>Thomson Thomas</b> (Victoria University of Wellington, 2022): "Evolutionary Computation for Cloud Resource Allocation"</li> -->
-  <li><b>Fergus Currie</b> (Victoria University of Wellington, 2022): "Multi-criteria decision making for genetics breeding program design" (with Dr Maren Wellenreuther and Dr Linley Jesson, <a href="https://www.plantandfood.com">Plant and Food Research</a>)</li>
+  <li><b>Fergus Currie</b> (Victoria University of Wellington, 2022): "Multi-criteria decision making for genetics breeding program design" (with Drs. Maren Wellenreuther and Dr Linley Jesson from <a href="https://www.plantandfood.com">Plant and Food Research</a>)</li>
   <li><i><b>Boon Wan Tan</b> (Victoria University of Wellington, 2019): "Neural Network for Combinatorial Optimisation Problems"</i></li>
   <li><i><b>Shaolin Wang</b> (Victoria University of Wellington, 2018): "Evolutionary Computation for Uncertain Arc Routing" (with Prof Mengjie Zhang)</i></li>
   <li><i><b>Youhan Xia</b> (University of Melbourne, Australia, graduated in 2017): "Ant Colony System for Itinerary Planning with Restaurants" (with Dr Jeffrey Chan)</i></li>
