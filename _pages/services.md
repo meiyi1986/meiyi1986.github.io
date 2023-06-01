@@ -81,12 +81,13 @@ I serve as a reviewer of 50+ international journals, including the top/major jou
 <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221021">IEEE Transactions on Systems, Man, and Cybernetics: Systems</a>, IEEE <strong>(Q1)</strong></li>
 <li><a href="https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8856">IEEE Transactions on Automation Science and Engineering</a>, IEEE <strong>(Q1)</strong></li>
 <li><a href="https://www.journals.elsevier.com/swarm-and-evolutionary-computation">Swarm and Evolutionary Computation</a>, Elsevier <strong>(Q1)</strong></li>
+<li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4629386">IEEE Transactions on Services Computing</a>, IEEE <strong>(ARC/CORE Tier A*, Q1)</strong></li>
 <li><a href="https://www.journals.elsevier.com/future-generation-computer-systems">Future Generation Computer Systems</a>, Elsevier <strong>(ARC/CORE Tier A, Q1)</strong></li>
 <li><a href="http://www.journals.elsevier.com/information-sciences/">Information Sciences</a>, Elsevier <strong>(ARC/CORE Tier A, Q1)</strong></li>
 <li><a href="https://proceedingsoftheieee.ieee.org">Proceedings of the IEEE</a>, IEEE <strong>(Q1)</strong></li>
 <li><a href="https://www.journals.elsevier.com/computers-and-operations-research">Computers and Operations Research</a> (Q1)</li>
-<li><a href="http://www.journals.elsevier.com/transportation-research-part-c-emerging-technologies/">Transportation Research Part C</a>, Elsevier <strong>(Q1)</strong></li>
-<li><a href="http://www.journals.elsevier.com/transportation-research-part-d-transport-and-environment/">Transportation Research Part D</a>, Elsevier <strong>(Q1)</strong></li>
+<li><a href="http://www.journals.elsevier.com/transportation-research-part-c-emerging-technologies/">Transportation Research: Part C</a>, Elsevier <strong>(Q1)</strong></li>
+<li><a href="http://www.journals.elsevier.com/transportation-research-part-d-transport-and-environment/">Transportation Research: Part D</a>, Elsevier <strong>(Q1)</strong></li>
 <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6245516">IEEE Transactions on Emerging Topics in Computing</a>, IEEE <strong>(Q1)</strong></li>
 <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687316">IEEE Transactions on Transportation Electrification</a>, IEEE <strong>(Q1)</strong></li>
 <li><a href="https://www.tandfonline.com/toc/tjor20/current">Journal of the Operational Research Society</a>, Taylor & Francis <strong>(Q1)</strong></li>
@@ -98,8 +99,8 @@ I serve as a reviewer of 50+ international journals, including the top/major jou
 <li><a href="https://www.tandfonline.com/toc/tprs20/current">International Journal of Production Research</a>, Taylor & Francis <strong>(Q1)</strong></li>
 <li><a href="https://www.journals.elsevier.com/waste-management">Waste Management</a>, Elsevier <strong>(Q1)</strong></li>
 <li><a href="https://www.journals.elsevier.com/computers-and-industrial-engineering">Computers and Industrial Engineering</a>, Elsevier <strong>(Q1)</strong></li>
-<li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4629386">IEEE Transactions on Services Computing</a>, IEEE <strong>(Q1)</strong></li>
 <li><a href="https://www.journals.elsevier.com/pervasive-and-mobile-computing">Pervasive and Mobile Computing</a>, Elsevier <strong>(Q1)</strong></li>
+<li><a href="https://academic.oup.com/jcde">Journal of Computational Design and Engineering</a>, Oxford University Press <strong>(Q1)</strong></li>
 <li><a href="http://www.journals.elsevier.com/applied-soft-computing/">Applied Soft Computing</a>, Elsevier <strong>(Q1)</strong> (<i>Outstanding Reviewer 2015, 2017</i>)</li>
 <li><a href="http://www.journals.elsevier.com/engineering-applications-of-artificial-intelligence/">Engineering Applications of Artificial Intelligence</a>, Elsevier <strong>(Q1)</strong></li>
 <li><a href="https://www.journals.elsevier.com/expert-systems-with-applications">Expert Systems with Applications</a>, Elsevier <strong>(Q1)</strong></li>
