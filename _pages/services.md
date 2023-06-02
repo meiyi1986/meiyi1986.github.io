@@ -74,19 +74,19 @@ I serve as a reviewer of 60+ international journals, including the top/major jou
 <li><a href="http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4235">IEEE Transactions on Evolutionary Computation</a>, IEEE <strong>(ARC/CORE Tier A*, Q1)</strong></li>
 <li><a href="https://dl.acm.org/journal/csur">ACM Computing Surveys</a>, ACM <strong>(ARC/CORE Tier A*, Q1)</strong></li>
 <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=71">IEEE Transactions on Parallel and Distributed Systems</a>, IEEE <strong>(ARC/CORE Tier A*, Q1)</strong></li>
+<li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4629386">IEEE Transactions on Services Computing</a>, IEEE <strong>(ARC/CORE Tier A*, Q1)</strong></li>
 <li><a href="http://www.mitpressjournals.org/loi/evco">Evolutionary Computation Journal</a>, MIT Press <strong>(ARC/CORE Tier A, Q1)</strong></li>
 <li><a href="http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036">IEEE Transactions on Cybernetics</a>, IEEE <strong>(ARC/CORE Tier A, Q1)</strong> (<i>Outstanding Reviewer 2018</i>)</li>
 <li><a href="http://www.journals.elsevier.com/european-journal-of-operational-research/">European Journal of Operational Research</a>, Elsevier <strong>(ARC/CORE Tier A, Q1)</strong></li>
+<li><a href="https://www.journals.elsevier.com/future-generation-computer-systems">Future Generation Computer Systems</a>, Elsevier <strong>(ARC/CORE Tier A, Q1)</strong></li>
+<li><a href="http://www.journals.elsevier.com/information-sciences/">Information Sciences</a>, Elsevier <strong>(ARC/CORE Tier A, Q1)</strong></li>
 <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10207">IEEE Computational Intelligence Magazine</a>, IEEE <strong>(Q1)</strong></li>
 <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221021">IEEE Transactions on Systems, Man, and Cybernetics: Systems</a>, IEEE <strong>(Q1)</strong></li>
 <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424">IEEE Transactions on Industrial Informatics</a>, IEEE <strong>(Q1)</strong></li>
 <li><a href="https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8856">IEEE Transactions on Automation Science and Engineering</a>, IEEE <strong>(Q1)</strong></li>
 <li><a href="https://www.journals.elsevier.com/swarm-and-evolutionary-computation">Swarm and Evolutionary Computation</a>, Elsevier <strong>(Q1)</strong></li>
-<li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4629386">IEEE Transactions on Services Computing</a>, IEEE <strong>(ARC/CORE Tier A*, Q1)</strong></li>
-<li><a href="https://www.journals.elsevier.com/future-generation-computer-systems">Future Generation Computer Systems</a>, Elsevier <strong>(ARC/CORE Tier A, Q1)</strong></li>
-<li><a href="http://www.journals.elsevier.com/information-sciences/">Information Sciences</a>, Elsevier <strong>(ARC/CORE Tier A, Q1)</strong></li>
 <li><a href="https://proceedingsoftheieee.ieee.org">Proceedings of the IEEE</a>, IEEE <strong>(Q1)</strong></li>
-<li><a href="https://www.journals.elsevier.com/computers-and-operations-research">Computers and Operations Research</a> (Q1)</li>
+<li><a href="https://www.journals.elsevier.com/computers-and-operations-research">Computers and Operations Research</a> <strong>(Q1)</strong></li>
 <li><a href="http://www.journals.elsevier.com/transportation-research-part-c-emerging-technologies/">Transportation Research: Part C</a>, Elsevier <strong>(Q1)</strong></li>
 <li><a href="http://www.journals.elsevier.com/transportation-research-part-d-transport-and-environment/">Transportation Research: Part D</a>, Elsevier <strong>(Q1)</strong></li>
 <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6245516">IEEE Transactions on Emerging Topics in Computing</a>, IEEE <strong>(Q1)</strong></li>
