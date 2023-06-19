@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Associate Professor\\
+Associate Professor (Reader) \\
 Associate Dean (Research) \\
 Faculty of Engineering ([FEng](https://www.wgtn.ac.nz/engineering))\\
 School of Engineering and Computer Science ([SECS](https://www.wgtn.ac.nz/engineering/school-of-engineering-and-computer-science))\\
