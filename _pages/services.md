@@ -19,6 +19,7 @@ author_profile: true
 ## Conference Organisation
 
 <ul>
+<li><strong>ECOM Track Co-Chair</strong>, ACM Genetic and Evolutionary Computation Conference (GECCO) 2024</li>,
 <li><strong>Finance Chair</strong>, Conference on Image and Vision Computing New Zealand (IVCNZ) 2020</li>
 <li><strong>Proceedings Chair</strong>, IEEE Congress on Evolutionary Computation (CEC) 2019</li>
 <li><strong>Tutorial Co-chair</strong>, Pacific Rim International Conferences on Artificial Intelligence (PRICAI) 2019</li>
