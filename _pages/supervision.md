@@ -14,9 +14,9 @@ author_profile: true
   <li><b>Yuan Tian</b> (Victoria University of Wellington, 2023): "TBD (with Prof Mengjie Zhang)</li>
   <li><b>James Hepi</b> (Victoria University of Wellington, 2023): "TBD (with A/Prof Ian Welsh and Dr Kevin Shedlock)</li>
   <li><b>Jern Tat Chin</b> (Victoria University of Wellington, 2021): "AI and ML for Finance Prediction" (with Prof Hai Lin)</li>
-  <li><b>Jordan MacLachlan</b> (Victoria University of Wellington, 2021): "Evolutionary Computation for Ambulance Routing" (with Prof Mengjie Zhang)</li>
-  <li><b>Zhixing Huang</b> (Victoria University of Wellington, 2020): "Genetic Programming for Dynamic Scheduling" (with Prof Mengjie Zhang)</li>
-  <li><b>Meng Xu</b> (Victoria University of Wellington, 2020): "Genetic Programming for Dynamic Scheduling" (with Prof Mengjie Zhang)</li>
+  <li><b>Jordan MacLachlan</b> (Victoria University of Wellington, 2021): "Evolutionary Computation for Ambulance Routing" (with Prof Mengjie Zhang and Dr. Fangfang Zhang)</li>
+  <li><b>Zhixing Huang</b> (Victoria University of Wellington, 2020): "Genetic Programming for Dynamic Scheduling" (with Prof Mengjie Zhang and Dr. Fangfang Zhang)</li>
+  <li><b>Meng Xu</b> (Victoria University of Wellington, 2020): "Genetic Programming for Dynamic Scheduling" (with Prof Mengjie Zhang and Dr. Fangfang Zhang)</li>
   <li><b>Taiwo Akindele</b> (Victoria University of Wellington, 2020): "Resource Allocation problem in Cloud" (with A/Prof Hui Ma)</li>
   <li><b>Shaolin Wang</b> (Victoria University of Wellington, 2019): "Genetic Programming for Uncertain Arc Routing Problem" (with Prof Mengjie Zhang)</li>
   <li><b>Joao Costa</b> (Victoria University of Wellington, 2019): "Hyper-heuristic for Vehicle Routing" (with Prof Mengjie Zhang)</li>
