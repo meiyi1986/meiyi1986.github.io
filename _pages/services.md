@@ -83,6 +83,7 @@ I serve as a reviewer of 60+ international journals, including the top/major jou
 <li><a href="http://www.journals.elsevier.com/information-sciences/">Information Sciences</a>, Elsevier <strong>(ARC/CORE Tier A, Q1)</strong></li>
 <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10207">IEEE Computational Intelligence Magazine</a>, IEEE <strong>(Q1)</strong></li>
 <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221021">IEEE Transactions on Systems, Man, and Cybernetics: Systems</a>, IEEE <strong>(Q1)</strong></li>
+<li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6979">IEEE Transactions on Intelligence Transportation Systems</a>, IEEE <strong>(Q1)</strong></li>
 <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9424">IEEE Transactions on Industrial Informatics</a>, IEEE <strong>(Q1)</strong></li>
 <li><a href="https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8856">IEEE Transactions on Automation Science and Engineering</a>, IEEE <strong>(Q1)</strong></li>
 <li><a href="https://www.journals.elsevier.com/swarm-and-evolutionary-computation">Swarm and Evolutionary Computation</a>, Elsevier <strong>(Q1)</strong></li>
