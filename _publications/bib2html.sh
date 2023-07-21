@@ -24,3 +24,6 @@ sed -i '' 's+\[&nbsp;<a href="publication-conf_bib.html#huang2022investigation"+
 
 # add "Best Paper" to Shaolin's GECCO2022 paper
 sed -i '' 's+\[&nbsp;<a href="publication-conf_bib.html#wang2022local"+ <b style="color:red;">(ECOM Track Best Paper Award)</b> &nbsp;<a href="publication-conf_bib.html#wang2022local"+g' publication-conf.html
+
+# add "Best Paper" to Zhixing's GECCO2023 paper
+sed -i '' 's+\[&nbsp;<a href="publication-conf_bib.html#huang2023grammar"+ <b style="color:red;">(GP Track Best Paper Award)</b> &nbsp;<a href="publication-conf_bib.html#huang2023grammar"+g' publication-conf.html
