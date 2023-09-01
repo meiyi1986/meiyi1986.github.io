@@ -8,11 +8,12 @@ author_profile: true
 ## PhD
 
 <ol>
+  <li><b>Ruiqi Chen</b> (Victoria University of Wellington, 2023): "Reinforcement learning and evolutionary computation for scheduling" (with Prof Mengjie Zhang and Dr Fangfang Zhang)</li>
   <li><b>Ze Chen</b> (Victoria University of Wellington, 2023): "Machine Learning for Fish Growth Prediction" (with Prof Mengjie Zhang, Drs. Maren Wellenrauther and Linley Jesson from <a href="https://www.plantandfood.com">Plant and Food Research</a>)</li>
   <li><b>Junwei Pang</b> (Victoria University of Wellington, 2023): "TBD (with Prof Mengjie Zhang)</li>
   <li><b>Saining Liu</b> (Victoria University of Wellington, 2023): "TBD (with Prof Mengjie Zhang)</li>
   <li><b>Yuan Tian</b> (Victoria University of Wellington, 2023): "TBD (with Prof Mengjie Zhang)</li>
-  <li><b>James Hepi</b> (Victoria University of Wellington, 2023): "TBD (with A/Prof Ian Welsh and Dr Kevin Shedlock)</li>
+  <li><b>James Hepi</b> (Victoria University of Wellington, 2023): "Incremental learning for image process on mobile device for indigenous plant recognition (with A/Prof Ian Welch and Dr Kevin Shedlock)</li>
   <li><b>Jern Tat Chin</b> (Victoria University of Wellington, 2021): "AI and ML for Finance Prediction" (with Prof Hai Lin)</li>
   <li><b>Jordan MacLachlan</b> (Victoria University of Wellington, 2021): "Evolutionary Computation for Ambulance Routing" (with Prof Mengjie Zhang and Dr. Fangfang Zhang)</li>
   <li><b>Zhixing Huang</b> (Victoria University of Wellington, 2020): "Genetic Programming for Dynamic Scheduling" (with Prof Mengjie Zhang and Dr. Fangfang Zhang)</li>
