@@ -57,10 +57,10 @@ author_profile: true
 ## Honours Students
 
 <ol>
-  <li><b>Isaac Young</b> (Victoria University of Wellington, 2023): "Machine Learning for Automated Medical Dispatch"</li>
+  <li><b>Isaac Young</b> (Victoria University of Wellington, 2023): "Machine Learning for Automated Medical Dispatch" (<span style="color: #FF0000"><b>Dean's List</b></span>)</li>
   <li><b>Rose Taylor</b> (Victoria University of Wellington, 2023): "Machine Learning for Fish Growth Prediction" (with Plant and Food Research)</li>
   <li><b>Elliot Ramoo</b> (Victoria University of Wellington, 2023): "Comparative Analysis of Methods for Job Shop Scheduling" (with Dr. Fangfang Zhang)</li>
-  <li><b>Callum Macaskill</b> (Victoria University of Wellington, 2022): "Genetic Programming for Online Delivery Allocation"</li>
+  <li><b>Callum Macaskill</b> (Victoria University of Wellington, 2022): "Genetic Programming for Online Delivery Allocation" (<span style="color: #FF0000"><b>Dean's List</b></span>)</li>
   <li><b>Mohnish Ramanujam</b> (Victoria University of Wellington, 2022): "Genetic Tourism Trip Recommendation"</li>
   <li><b>Ze Chen</b> (Victoria University of Wellington, 2022): "Machine Learning for Fish Growth Prediction" (with Plant and Food Research)</li>
   <li><b>Oliver Badrick</b> (Victoria University of Wellington, 2022): "NLP for Tourist Trip Summarisation"</li>
