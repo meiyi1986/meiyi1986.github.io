@@ -8,7 +8,9 @@ author_profile: true
 ## PhD
 
 <ol>
-
+  <li><b>Xiaocheng Liao</b> (Victoria University of Wellington, 2023): "Reinforcement learning and evolutionary computation for combinatorial optimisation" (with Prof Mengjie Zhang)</li>
+  <li><b>Bocheng Lin</b> (Victoria University of Wellington, 2023): "Reinforcement learning and evolutionary computation for combinatorial optimisation" (with Prof Mengjie Zhang)</li>
+  <li><b>Dedy Hendro</b> (Victoria University of Wellington, 2023): "Machine Learning for Cyber-security" (with A/Prof. Ian Welch and Dr. Andrew Lensen)</li>
   <li><b>Ruiqi Chen</b> (Victoria University of Wellington, 2023): "Reinforcement learning and evolutionary computation for scheduling" (with Prof Mengjie Zhang and Dr Fangfang Zhang)</li>
   <li><b>Ze Chen</b> (Victoria University of Wellington, 2023): "Machine Learning for Fish Growth Prediction" (with Prof Mengjie Zhang, Drs. Maren Wellenrauther and Linley Jesson from <a href="https://www.plantandfood.com">Plant and Food Research</a>)</li>
   <li><b>Junwei Pang</b> (Victoria University of Wellington, 2023): "Interpretable genetic programming for scheduling" (with Prof Mengjie Zhang)</li>
