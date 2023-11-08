@@ -11,10 +11,11 @@ redirect_from:
 Associate Professor / Reader \\
 Associate Dean (Research) \\
 Faculty of Engineering ([FEng](https://www.wgtn.ac.nz/engineering)) \\
-School of Engineering and Computer Science ([SECS](https://www.wgtn.ac.nz/engineering/school-of-engineering-and-computer-science)) \\
-Victoria University of Wellington
-Evolutionary Computation for Combinatorial Optimisation Group ([ECCO](https://vuw-ecco.netlify.app/)) \\
-Evolutionary Computation and Machine Learning Research Group ([ECRG](https://ecs.wgtn.ac.nz/Groups/ECRG/WebHome)) 
+Centre for Data Science and Artificial Intelligence ([CDSAI](https://www.wgtn.ac.nz/cdsai)) \\
+Victoria University of Wellington \\ \\
+Evolutionary Computation for Combinatorial Optimisation Group ([ECCO](https://ecs.wgtn.ac.nz/Groups/ECCO/WebHome)) \\
+Evolutionary Computation and Machine Learning Research Group ([ECRG](https://ecs.wgtn.ac.nz/Groups/ECRG/WebHome)) \\
+IEEE Taskforce on Evolutionary Scheduling and Combinatorial Optimisation ([TESCO](https://homepages.ecs.vuw.ac.nz/~yimei/ieee-tf-esco/))
 
 
 <span style="color: #FF0000"><b>[PhD Vacancy]</b></span>: I am looking for <b>PhD/MSc/Honours/Summer Research</b> students. If you have similar <a href="#research-interests">research interests</a> with me, please do not hesitate to <a href="mailto:yi.mei@ecs.vuw.ac.nz">contact</a> me. <br/>
@@ -55,7 +56,7 @@ NEWS
 
 Biography
 ======
-Dr. Yi Mei is an Associate Professor at the School of Engineering and Computer Science, Victoria University of Wellington, Wellington, New Zealand. 
+Dr. Yi Mei is an Associate Professor and Associate Dean (Research) at the Faculty of Engineering, Victoria University of Wellington, Wellington, New Zealand. 
 
 His research interests include evolutionary computation for combinatorial optimisation, genetic programming, automatic algorithm design, explainable AI, multi-objective optimisation, transfer/multitask learning and optimisation. He has published on top journals in EC and Operations Research (OR) such as IEEE TEVC, IEEE TCYB, EJOR, IEEE Transactions on Services Computing, and ACM Transactions on Mathematical Software. He won an IEEE Transactions on Evolutionary Computation Outstanding Paper Award 2017, two GECCO Best Paper Awards in 2022 and 2023, and the EuroGP Best Paper Award 2022. 
 
