@@ -12,7 +12,8 @@ Associate Professor / Reader \\
 Associate Dean (Research) \\
 Faculty of Engineering ([FEng](https://www.wgtn.ac.nz/engineering)) \\
 Centre for Data Science and Artificial Intelligence ([CDSAI](https://www.wgtn.ac.nz/cdsai)) \\
-Victoria University of Wellington ([VUW](https://www.wgtn.ac.nz/)) \\
+Victoria University of Wellington ([VUW](https://www.wgtn.ac.nz/))
+
 
 
 Evolutionary Computation for Combinatorial Optimisation Group ([ECCO](https://ecs.wgtn.ac.nz/Groups/ECCO/WebHome)) \\
