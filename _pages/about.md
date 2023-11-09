@@ -12,7 +12,9 @@ Associate Professor / Reader \\
 Associate Dean (Research) \\
 Faculty of Engineering ([FEng](https://www.wgtn.ac.nz/engineering)) \\
 Centre for Data Science and Artificial Intelligence ([CDSAI](https://www.wgtn.ac.nz/cdsai)) \\
-Victoria University of Wellington \\ \\
+Victoria University of Wellington ([VUW](https://www.wgtn.ac.nz/)) \\
+
+
 Evolutionary Computation for Combinatorial Optimisation Group ([ECCO](https://ecs.wgtn.ac.nz/Groups/ECCO/WebHome)) \\
 Evolutionary Computation and Machine Learning Research Group ([ECRG](https://ecs.wgtn.ac.nz/Groups/ECRG/WebHome)) \\
 IEEE Taskforce on Evolutionary Scheduling and Combinatorial Optimisation ([TESCO](https://homepages.ecs.vuw.ac.nz/~yimei/ieee-tf-esco/))
