@@ -27,3 +27,6 @@ sed -i '' 's+\[&nbsp;<a href="publication-conf_bib.html#wang2022local"+ <b style
 
 # add "Best Paper" to Zhixing's GECCO2023 paper
 sed -i '' 's+\[&nbsp;<a href="publication-conf_bib.html#huang2023grammar"+ <b style="color:red;">(GP Track Best Paper Award)</b> &nbsp;<a href="publication-conf_bib.html#huang2023grammar"+g' publication-conf.html
+
+# add "Best Student Paper Runner-Up Award" to Trevor's AJCAI2023 paper
+sed -i '' 's+\[&nbsp;<a href="publication-conf_bib.html#londt2023xc"+ <b style="color:red;">(Best Student Paper Runner-Up Award)</b> &nbsp;<a href="publication-conf_bib.html#londt2023xc"+g' publication-conf.html
