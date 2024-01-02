@@ -8,7 +8,8 @@ author_profile: true
 ## Editorship
 
 <ul>
-<li><strong>Associate Editor</strong> of IEEE Transactions on Evolutionary Computation</li>
+<li><strong>Associate Editor</strong> of IEEE Transactions on Evolutionary Computation</li> (ARC/CORE Tier A*)
+<li><strong>Associate Editor</strong> of IEEE Transactions on Artificial Intelligence</li>
 <li><strong>Associate Editor</strong> of International Journal of Applied Evolutionary Computation</li>
 <li><strong>Editorial Board Member</strong> of International Journal of Computational Intelligence and Applications</li>
 <li><strong>Editorial Board Member</strong> of International Journal of Bio-Inspired Computation</li>
@@ -41,9 +42,10 @@ I serve as a PC member of 60+ international conferences.
 
 <ul>
 <li>AAAI Conference on Artificial Intelligence (AAAI) 2019, 2020, 2021, 2022, 2023</li>
-<li>International Joint Conferences on Artificial Intelligence (IJCAI) 2021, 2022, 2023</li>
-<li>ACM Genetic and Evolutionary Computation Conference (GECCO) 2017, 2018, 2019, 2020, 2021, 2022, 2023</li>
-<li>IEEE Congress on Evolutionary Computation (CEC) 2013, 2014, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023</li>
+<li>International Joint Conferences on Artificial Intelligence (IJCAI) 2021, 2022, 2023, 2024</li>
+<li>ACM Genetic and Evolutionary Computation Conference (GECCO) 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024</li>
+<li>IEEE Congress on Evolutionary Computation (CEC) 2013, 2014, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024</li>
+<li>International Conference on the Applications of Evolutionary Computation (EvoAPPS) 2024</li>
 <li>World Conference on eXplainable Artificial Intelligence (xAI) 2023</li>
 <li>IEEE Symposium Series on Computational Intelligence (SSCI) 2016, 2017, 2019, 2020, 2021, 2022, 2023</li>
 <li>EMO 2021, 2022</li>
