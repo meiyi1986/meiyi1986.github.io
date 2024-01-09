@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: bib2html3f8467.aux
+The style file: plain.bst
+Database file #1: publication-journal.bib
+Repeated entry---line 67 of file publication-journal.bib
+ : @article{li2023multi
+ :                     ,
+I'm skipping whatever remains of this entry
+You've used 75 entries,
+            2118 wiz_defined-function locations,
+            848 strings with 18120 characters,
+and the built_in function-call counts, 29302 in all, are:
+= -- 2818
+> -- 1825
+< -- 0
++ -- 738
+- -- 640
+* -- 2610
+:= -- 5044
+add.period$ -- 225
+call.type$ -- 75
+change.case$ -- 545
+chr.to.int$ -- 0
+cite$ -- 75
+duplicate$ -- 810
+empty$ -- 1905
+format.name$ -- 640
+if$ -- 5718
+int.to.chr$ -- 0
+int.to.str$ -- 75
+missing$ -- 75
+newline$ -- 378
+num.names$ -- 150
+pop$ -- 421
+preamble$ -- 1
+purify$ -- 470
+quote$ -- 0
+skip$ -- 526
+stack$ -- 0
+substring$ -- 2004
+swap$ -- 75
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 300
+warning$ -- 0
+while$ -- 268
+width$ -- 77
+write$ -- 814
+(There was 1 error message)
