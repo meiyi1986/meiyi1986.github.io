@@ -8,7 +8,7 @@ author_profile: true
 ## Editorship
 
 <ul>
-<li><strong>Associate Editor</strong> of IEEE Transactions on Evolutionary Computation</li> (ARC/CORE Tier A*)
+<li><strong>Associate Editor</strong> of IEEE Transactions on Evolutionary Computation (ARC/CORE Tier A*)</li>
 <li><strong>Associate Editor</strong> of IEEE Transactions on Artificial Intelligence</li>
 <li><strong>Associate Editor</strong> of International Journal of Applied Evolutionary Computation</li>
 <li><strong>Editorial Board Member</strong> of International Journal of Computational Intelligence and Applications</li>
