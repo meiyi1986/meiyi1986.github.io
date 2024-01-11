@@ -145,6 +145,7 @@ I serve as a reviewer of 60+ international journals, including the top/major jou
 
 <ul>
 <li><strong>Fellow</strong> of <a href="https://www.engineeringnz.org/">Engineering New Zealand</a></li>
+<li><strong>Chair</strong> of IEEE Computational Intelligence Society Travel Grant Subcommittee</li>
 <li><strong>Chair</strong> of <a href="https://homepages.ecs.vuw.ac.nz/~yimei/ieee-tf-esco/">IEEE Taskforce on Evolutionary Scheduling and Combinatorial Optimisation</a>, 2021-present</li>
 <li><strong>Chair</strong> of <a href="https://r10.ieee.org/nzc/">IEEE New Zealand Central Section</a>, 2021-present</li>
 <li><strong>Vice-chair</strong> of <a href="http://cis.ieee.org/emergent-technologies-tc.html/">IEEE CIS Emergent Technologies Technical Committee</a>, 2017-2018</li>
