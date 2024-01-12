@@ -32,15 +32,16 @@ Computation Approach", <strong>New Zealand Royal Society Catalyst Leaders Fund</
 ## Awards
 
 <ul>
-<li><b>2023</b>, <b>Best Student Paper Runner-Up Award</b>: Australasian Joint Conference on Artificial Intelligence (<a href="https://link.springer.com/chapter/10.1007/978-981-99-8391-9_33">paper</a>)</li>
+<li><b>2023</b>, <b>Best Poster Award Runner-Up</b>: Australasian Joint Conference on Artificial Intelligence (<a href="https://link.springer.com/chapter/10.1007/978-981-99-8391-9_32">paper</a>)</li>
+<li><b>2023</b>, <b>Best Student Paper Award Runner-Up</b>: Australasian Joint Conference on Artificial Intelligence (<a href="https://link.springer.com/chapter/10.1007/978-981-99-8391-9_33">paper</a>)</li>
 <li><b>2023</b>, <b>HUMIES Silver Award</b>: ACM Genetic and Evolutionary Computation Conference (GECCO) 2023</li>
 <li><b>2023</b>, <b>Best Paper Award</b>: ACM Genetic and Evolutionary Computation Conference, GP Track (<a href="https://dl.acm.org/doi/10.1145/3583131.3590394">paper</a>)</li>
 <li><b>2022</b>, Victoria University of Wellington Post-Graduate Student Association <b>Supervisor Award</b> (Honourable Mention)</li>
 <li><b>2022</b>, <b>Best Paper Award</b>: ACM Genetic and Evolutionary Computation Conference, ECOM Track (<a href="https://dl.acm.org/doi/10.1145/3512290.3528723">paper</a>)</li>
 <li><b>2022</b>, <b>Best Paper Award</b>: European Conference on Genetic Programming (<a href="https://link.springer.com/chapter/10.1007/978-3-031-02056-8_11">paper</a>)</li>
 <li><b>2018</b>, Victoria University of Wellington <b>Early Career Research Excellence Award</b></li>
-<li><b>2018</b>, Best Paper Runner-Up: Australasian Joint Conference on Artificial Intelligence  (<a href="https://link.springer.com/chapter/10.1007/978-3-030-03991-2_43">paper</a>)</li>
-<li><b>2018</b>, Best Paper Runner-Up: International Conference on Web Services (<i>ARC/CORE Rank A</i>)  (<a href="https://ieeexplore.ieee.org/document/8456328">paper</a>)</li>
+<li><b>2018</b>, Best Paper Award Runner-Up: Australasian Joint Conference on Artificial Intelligence  (<a href="https://link.springer.com/chapter/10.1007/978-3-030-03991-2_43">paper</a>)</li>
+<li><b>2018</b>, Best Paper Award Runner-Up: International Conference on Web Services (<i>ARC/CORE Rank A</i>)  (<a href="https://ieeexplore.ieee.org/document/8456328">paper</a>)</li>
 <li><b>2017</b>, <b>Outstanding Paper Award</b>: IEEE Transactions on Evolutionary Computation (top journal in EC) (<a href="https://ieeexplore.ieee.org/document/6595612">paper</a>)</li>
 <li><b>2016</b>, Best Paper Nomination: European Conference on Evolutionary Computation in Combinatorial Optimization (<a href="https://link.springer.com/chapter/10.1007/978-3-319-30698-8_14">paper</a>)</li>
 <li><b>2014</b>, 2nd Prize, Competition at IEEE World Congress on Computational Intelligence: Optimisation of Problems with Multiple Interdependent Components (as sole algorithm designer and programmer)</li>
