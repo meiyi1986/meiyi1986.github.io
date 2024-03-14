@@ -20,20 +20,20 @@ author_profile: true
 ## Conference Organisation
 
 <ul>
-<li>A <strong>Program Chair</strong>, International Conferences on Artificial Intelligence (PRICAI) 2025</li>
-<li>A <strong>ECOM Track Chair</strong>, ACM Genetic and Evolutionary Computation Conference (GECCO) 2024</li>
-<li>A <strong>J2C Papers Chair</strong>, World Congress on Computational Intelligence (WCCI) 2024</li>
-<li>The <strong>Finance Chair</strong>, Conference on Image and Vision Computing New Zealand (IVCNZ) 2020</li>
-<li>The <strong>Proceedings Chair</strong>, IEEE Congress on Evolutionary Computation (CEC) 2019</li>
-<li>A <strong>Tutorial Chair</strong>, Pacific Rim International Conferences on Artificial Intelligence (PRICAI) 2019</li>
-<li>A <strong>Sponsorship Chair</strong>, Australasian Joint Conference on Artificial Intelligence 2018</li>
-<li>A <strong>Technical Chair</strong>, International Conference on Data Intelligence and Security (ICDIS) 2018</li>
-<li>An <strong>Organisational Committee Member</strong>, International Conference on Computers and Industrial Engineering (CIE) 2018</li>
-<li>A <strong>Chair</strong> of IEEE Symposium on Evolutionary Scheduling and Combinatorial Optimisation, in IEEE SSCI 2019, 2020, 2021, 2022, 2023</li>
-<li>A <strong>Chair</strong> of Special Session on Evolutionary Scheduling and Combinatorial Optimisation, IEEE Congress on Evolutionary Computation (CEC) 2016, 2017, 2018, 2019, 2020, 2021, 2022</li>
-<li>A <strong>Chair</strong> of Special Session on Evolutionary Computation for Service-Oriented Computing, IEEE Congress on Evolutionary Computation (CEC) 2017, 2018, 2019</li>
-<li>A <strong>Chair</strong> of Special Session on Transfer Learning in Evolutionary Computation, IEEE Congress on Evolutionary Computation (CEC) 2016</li>
-<li>A <strong>Chair</strong> of Special Session on Computational Intelligence for Scheduling and Combinatorial Optimization, Asia-Pacific Symposium on Intelligent and Evolutionary Systems (IES) 2016</li>
+<li><strong>Program Chair</strong>, International Conferences on Artificial Intelligence (PRICAI) 2025</li>
+<li><strong>ECOM Track Chair</strong>, ACM Genetic and Evolutionary Computation Conference (GECCO) 2024</li>
+<li><strong>J2C Papers Chair</strong>, World Congress on Computational Intelligence (WCCI) 2024</li>
+<li><strong>Finance Chair</strong>, Conference on Image and Vision Computing New Zealand (IVCNZ) 2020</li>
+<li><strong>Proceedings Chair</strong>, IEEE Congress on Evolutionary Computation (CEC) 2019</li>
+<li><strong>Tutorial Chair</strong>, Pacific Rim International Conferences on Artificial Intelligence (PRICAI) 2019</li>
+<li><strong>Sponsorship Chair</strong>, Australasian Joint Conference on Artificial Intelligence 2018</li>
+<li><strong>Technical Chair</strong>, International Conference on Data Intelligence and Security (ICDIS) 2018</li>
+<li><strong>Organisational Committee Member</strong>, International Conference on Computers and Industrial Engineering (CIE) 2018</li>
+<li><strong>Chair</strong> of IEEE Symposium on Evolutionary Scheduling and Combinatorial Optimisation, in IEEE SSCI 2019, 2020, 2021, 2022, 2023</li>
+<li><strong>Chair</strong> of Special Session on Evolutionary Scheduling and Combinatorial Optimisation, IEEE Congress on Evolutionary Computation (CEC) 2016, 2017, 2018, 2019, 2020, 2021, 2022</li>
+<li><strong>Chair</strong> of Special Session on Evolutionary Computation for Service-Oriented Computing, IEEE Congress on Evolutionary Computation (CEC) 2017, 2018, 2019</li>
+<li><strong>Chair</strong> of Special Session on Transfer Learning in Evolutionary Computation, IEEE Congress on Evolutionary Computation (CEC) 2016</li>
+<li><strong>Chair</strong> of Special Session on Computational Intelligence for Scheduling and Combinatorial Optimization, Asia-Pacific Symposium on Intelligent and Evolutionary Systems (IES) 2016</li>
 </ul>
 
 ## Conference Program Committee Member
