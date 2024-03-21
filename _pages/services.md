@@ -20,6 +20,7 @@ author_profile: true
 ## Conference Organisation
 
 <ul>
+<li><strong>General Chair</strong>, Australasian Joint Conference on Artificial Intelligence 2026</li>	
 <li><strong>Program Chair</strong>, International Conferences on Artificial Intelligence (PRICAI) 2025</li>
 <li><strong>ECOM Track Chair</strong>, ACM Genetic and Evolutionary Computation Conference (GECCO) 2024</li>
 <li><strong>J2C Papers Chair</strong>, World Congress on Computational Intelligence (WCCI) 2024</li>
