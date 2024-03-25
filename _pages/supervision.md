@@ -27,8 +27,8 @@ author_profile: true
   <li><b>Zhixing Huang</b> (Victoria University of Wellington, 2020): "Genetic Programming for Dynamic Scheduling" (with Prof Mengjie Zhang and Dr. Fangfang Zhang)</li>
   <li><b>Meng Xu</b> (Victoria University of Wellington, 2020): "Genetic Programming for Dynamic Scheduling" (with Prof Mengjie Zhang and Dr. Fangfang Zhang)</li>
   <li><b>Taiwo Akindele</b> (Victoria University of Wellington, 2020): "Resource Allocation problem in Cloud" (with A/Prof Hui Ma)</li>
-  <li><b>Shaolin Wang</b> (Victoria University of Wellington, 2019): "Genetic Programming for Uncertain Arc Routing Problem" (with Prof Mengjie Zhang)</li>
   <li><b>Shubhangi Patel</b> (Victoria University of Wellington, 2019): "Operations research in medical scheduling" (with A/Prof Vipul Jain)</li>
+  <li><i><b>Shaolin Wang</b> (Victoria University of Wellington, 2019): "Explainable Genetic Programming for Evolving Routing Policies of Uncertain Capacitated Arc Routing Problems" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Explainable_Genetic_Programming_for_Evolving_Routing_Policies_of_Uncertain_Capacitated_Arc_Routing_Problems/24208311">[PhD thesis]</a> (with Prof Mengjie Zhang)</i></li>
   <li><i><b>Joao Costa</b> (Victoria University of Wellington, completed in 2023): "Hyper-heuristic for Vehicle Routing" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Hyper-Heuristics_for_Automatic_Configuration_of_Local_Search-based_Heuristics_for_the_Large-Scale_Vehicle_Routing_Problem/24188859">[PhD thesis]</a> (with Prof Mengjie Zhang)</i></li>
   <li><i><b>Amirhossein Mostofi</b> (Victoria University of Wellington, completed in 2021): "Select issues in designing license contracts of strategic alliances in the pharmaceutical supply chain" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Select_issues_in_designing_license_contracts_of_strategic_alliances_in_the_pharmaceutical_supply_chain_/19095077/1">[PhD thesis]</a> (with A/Prof Vipul Jain)</i></li>
   <li><i><b>Mazhar Anzari Ardeh</b> (Victoria University of Wellington, completed in 2021): "Transfer Optimisation in Genetic Programming for Solving Uncertain Capacitated Arc Routing Problem" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Transfer_Optimisation_in_Genetic_Programming_for_Solving_Uncertain_Capacitated_Arc_Routing_Problem/20311185">[PhD thesis]</a> (with Prof Mengjie Zhang)</i></li>
@@ -51,6 +51,7 @@ author_profile: true
 ## Masters
 
 <ol>
+  <li><b>Jessie Dong</b> (Victoria University of Wellington, 2024): "Machine Learning for Automatic Essay Marking"</li>
   <li><b>Madhuri Mapari</b> (Victoria University of Wellington, 2023): "Interpretable Reinforcement Learning with Genetic Programming"</li>
   <!-- <li><b>Thomson Thomas</b> (Victoria University of Wellington, 2022): "Evolutionary Computation for Cloud Resource Allocation"</li> -->
   <li><b>Fergus Currie</b> (Victoria University of Wellington, 2022): "Multi-criteria decision making for genetics breeding program design" (with Drs. Maren Wellenreuther and Dr Linley Jesson from <a href="https://www.plantandfood.com">Plant and Food Research</a>)</li>
@@ -65,6 +66,9 @@ author_profile: true
 ## Honours Students
 
 <ol>
+  <li><b>Calvin Li</b> (Victoria University of Wellington, 2024): "Tourist Trip Recommendation by Machine Learning" (with Stuart Marshall)</li>
+  <li><b>Suveesthiga Sathiyaseelan</b> (Victoria University of Wellington, 2024): "Genetic Programming for Ralway Network Rescheduling" (with Transdev)</li>
+  <li><b>Tomin Jessil</b> (Victoria University of Wellington, 2024): "Machine Learning for Fish Breeding Design" (with Plant and Food Research)</li>
   <li><b>Isaac Young</b> (Victoria University of Wellington, 2023): "Machine Learning for Automated Medical Dispatch" (<span style="color: #FF0000"><b>Dean's List</b></span>)</li>
   <li><b>Rose Taylor</b> (Victoria University of Wellington, 2023): "Machine Learning for Fish Growth Prediction" (with Plant and Food Research)</li>
   <li><b>Elliot Ramoo</b> (Victoria University of Wellington, 2023): "Comparative Analysis of Methods for Job Shop Scheduling" (with Dr. Fangfang Zhang)</li>
