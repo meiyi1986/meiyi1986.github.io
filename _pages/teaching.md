@@ -8,7 +8,7 @@ author_profile: true
 ## 2024
 
 - <a href="https://www.wgtn.ac.nz/courses/AIML/232/2024/offering?crn=35050">Techniques in Artificial Intelligence (AIML232)</a> **[Course Coordinator]**
-- <a href="https://www.wgtn.ac.nz/courses/aiml/426/2023/offering?crn=33068">Evolutionary Computation and Learning (AIML426)</a> **[Course Coordinator]**
+- <a href="https://www.wgtn.ac.nz/courses/aiml/426/2024/offering?crn=33068">Evolutionary Computation and Learning (AIML426)</a> **[Course Coordinator]**
 
 ## 2023
 
