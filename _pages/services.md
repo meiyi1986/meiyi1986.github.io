@@ -8,13 +8,14 @@ author_profile: true
 ## Editorship
 
 <ul>
-<li><strong>Associate Editor</strong> of IEEE Transactions on Evolutionary Computation (ARC/CORE Tier A*)</li>
-<li><strong>Associate Editor</strong> of IEEE Transactions on Artificial Intelligence</li>
-<li><strong>Associate Editor</strong> of International Journal of Applied Evolutionary Computation</li>
-<li><strong>Editorial Board Member</strong> of International Journal of Computational Intelligence and Applications</li>
-<li><strong>Editorial Board Member</strong> of International Journal of Bio-Inspired Computation</li>
-<li><strong>Editorial Board Member</strong> of International Journal of Automation and Control</li>
-<li><strong>Guest Editor</strong> of Special Issue on Automated Design and Adaptation of Heuristics for Scheduling and Combinatorial Optimisation, Genetic Programming and Evolvable Machines, 2016</li>
+<li><strong>Associate Editor</strong>, IEEE Transactions on Evolutionary Computation (ARC/CORE Tier A*)</li>
+<li><strong>Associate Editor</strong>, IEEE Transactions on Artificial Intelligence</li>
+<li><strong>Associate Editor</strong>, International Journal of Applied Evolutionary Computation</li>
+<li><strong>Editorial Board Member</strong>, International Journal of Computational Intelligence and Applications</li>
+<li><strong>Editorial Board Member</strong>, International Journal of Bio-Inspired Computation</li>
+<li><strong>Editorial Board Member</strong>, International Journal of Automation and Control</li>
+<li><strong>Guest Editor</strong>, Special Issue on Advancing Computational Intelligence in Autonomous Learning and Optimization Systems, IEEE Computational Intelligence Magazine, 2024</li>
+<li><strong>Guest Editor</strong>, Special Issue on Automated Design and Adaptation of Heuristics for Scheduling and Combinatorial Optimisation, Genetic Programming and Evolvable Machines, 2016</li>
 </ul>
 
 ## Conference Organisation
