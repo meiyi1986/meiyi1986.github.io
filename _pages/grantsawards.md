@@ -13,7 +13,8 @@ author_profile: true
 - **2021-**, "Large scale bi-level evolutionary optimization", 62072234, <strong>National Natural Science Foundation of China</strong>, &yen;xx RMB (Overseas AI)
 - **2021-**, "Study on the key problems of large scale many-objective optimization", 62073155, <strong>National Natural Science Foundation of China</strong>, &yen;xx RMB (Overseas AI) 
 -->
-<li><b>2024-2026</b>, "Machine Learning for Combinatorial Optimisation: An Evolutionary
+<li><b>2024-2027</b>, "Machine Learning for Emergency Medical Dispatch: A Data Driven Approach", <strong>MBIE Endeavour Smart Idea Fund</strong>, $1,000,000 NZD. (<b>PI</b>)</li>
+<li><b>2024-2027</b>, "Machine Learning for Combinatorial Optimisation: An Evolutionary
 Computation Approach", <strong>New Zealand Royal Society Catalyst Leaders Fund</strong>, $150,000 NZD. (<b>PI</b>)</li>
 <li><b>2022-2023</b>, "Te Taupanga Tapoi: A Post-COVID Kaupapa Māori Tour Recommendation System", <strong>VUW Faculty Strategic Research Grant SHEADI</strong>, $49,000 NZD. (<b>PI</b>)</li> 
 <li><b>2022-2023</b>, "Te Kapahaka Punaha Taupanga (The Kapahaka Software Judging System)", <strong>SfTI Seed Project Fund</strong>, $200,000 NZD. (<b>Co-PI</b>)</li> 
