@@ -8,7 +8,8 @@ author_profile: true
 ## PhD
 
 <ol>
-  <li><b>Xiaocheng Liao</b> (Victoria University of Wellington, 2023): "Experience-based combinatorial optimisation" (with Prof Mengjie Zhang)</li>
+  <li><b>Jiyuan Pei</b> (Victoria University of Wellington, 2024): "Adaptive operator selection" (with Prof Mengjie Zhang)</li>
+  <li><b>Xiaocheng Liao</b> (Victoria University of Wellington, 2023): "Genetic programming for real-time traffic control" (with Prof Mengjie Zhang)</li>
   <li><b>Bocheng Lin</b> (Victoria University of Wellington, 2023): "Reinforcement learning and evolutionary computation for combinatorial optimisation" (with Prof Mengjie Zhang)</li>
   <li><b>Dedy Hendro</b> (Victoria University of Wellington, 2023): "Machine Learning for Cyber-security" (with A/Prof. Ian Welch and Dr. Andrew Lensen)</li>
   <li><b>Ruiqi Chen</b> (Victoria University of Wellington, 2023): "Reinforcement learning and evolutionary computation for scheduling" (with Prof Mengjie Zhang and Dr Fangfang Zhang)</li>
