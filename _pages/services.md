@@ -23,6 +23,7 @@ author_profile: true
 <ul>
 <li><strong>Technical Chair</strong>, CI for Energy, Transport and Environmental Sustainability Symposium, SSCI 2025</li>
 <li><strong>Program Chair</strong>, International Conferences on Artificial Intelligence (PRICAI) 2025</li>
+<li><strong>Publicity Chair</strong>, International Conference on Evolutionary Multi-Criterion Optimization (EMO) 2025</li>
 <li><strong>Chair</strong>, CDSAI Workshop on Evolutionary Machine Learning and Optimisation, Victoria University of Wellington, 11-12 July 2024</li>
 <li><strong>ECOM Track Chair</strong>, ACM Genetic and Evolutionary Computation Conference (GECCO) 2024</li>
 <li><strong>J2C Papers Chair</strong>, World Congress on Computational Intelligence (WCCI) 2024</li>
