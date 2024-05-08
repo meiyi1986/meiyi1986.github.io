@@ -33,3 +33,9 @@ sed -i '' 's+\[&nbsp;<a href="publication-conf_bib.html#londt2023xc"+ <b style="
 
 # add "Beat Poster Runner-Up Award" to Nora's AJCAI2023 paper
 sed -i '' 's+\[&nbsp;<a href="publication-conf_bib.html#xu2023semantic"+ <b style="color:red;">(Best Poster Award Runner-Up)</b> &nbsp;<a href="publication-conf_bib.html#xu2023semantic"+g' publication-conf.html
+
+# add "CIS Newsletter Research Frontier" to Nora's CIM2023 paper
+sed -i '' 's+\[&nbsp;<a href="publication-journal_bib.html#xu2023genetic3"+ <b style="color:blue;">(CIS Newsletter Research Frontier)</b> &nbsp;<a href="publication-journal_bib.html#xu2023genetic3"+g' publication-journal.html
+
+# add "CIS Newsletter Research Frontier" to Yuzhou's CIM2023 paper
+sed -i '' 's+\[&nbsp;<a href="publication-journal_bib.html#zhang2023rocash2"+ <b style="color:blue;">(CIS Newsletter Research Frontier)</b> &nbsp;<a href="publication-journal_bib.html#zhang2023rocash2"+g' publication-journal.html
