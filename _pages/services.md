@@ -60,7 +60,7 @@ I serve as a PC member of 60+ international conferences.
 <li>International Conference on Computational Collective Intelligence (ICCCI) 2019</li>
 <li>International Conference on Swarm Intelligence (ICSI) 2018, 2022</li>
 <li>International Conference on Data Mining and Big Data (DMBD) 2018, 2019, 2020, 2022</li>
-<li>International Conference on Swarm Intelligence (ANTS) 2016, 2018, 2022</li>
+<li>International Conference on Swarm Intelligence (ANTS) 2016, 2018, 2022, 2024</li>
 <li>International Conference on Advanced Computational Intelligence (ICACI) 2018</li>
 <li>International ACM Conference on Management of Emergent Digital EcoSystems (MEDES) 2018, 2019, 2020</li>
 <li>International Conference on Data Intelligence and Security (ICDIS) 2018, 2019, 2020, 2022</li>
