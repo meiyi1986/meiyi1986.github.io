@@ -44,14 +44,14 @@ author_profile: true
 ## Visiting PhD (act as Primary Supervisor during their visits)
 
 <ol>
-  <li><b style="color:Tomato;">Shaojin Geng</b> (Visiting student from Tongji University, 2023-2025): "Multi-task multi-objective job shop scheduling"</li>
-  <li><b style="color:Tomato;">Xinxin Xu</b> (Visiting student from Ocean University of China, 2023-2025): "Genetic programming for harbour ship scheduling"</li>
-  <li><b style="color:Tomato;">Long Chen</b> (Visiting student from Beijing Jiaotong University, 2023-2024): "Genetic programming for train scheduling"</li>
-  <li><b style="color:Tomato;">Zaixing Sun</b> (Visiting student from Harbin Institute of Technology, 2023-2024): "Genetic programming for dynamic workflow scheduling"</li>
-  <li><b style="color:Tomato;">Tong Guo</b> (Visiting student from Beihang University, 2023-2024): "Evolutionary computation for airflow management"</li>
-  <li><i><b style="color:Tomato;">Guanqiang Gao</b> (Visiting student from Beijing Institute of Technology, 2019-2020, completed in 2021): "Evolutionary Computation for Robot Pathfinding and Resource Allocation"</i></li>
-  <li><i><b style="color:Tomato;">Binzi Xu</b> (Visiting student from Jiangnan University, 2018-2019): "Intelligent Optimisation Methods for Production Scheduling" <a href="https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CDFD&QueryID=0&CurRec=1&dbname=CDFDTEMP&filename=1020007558.nh&urlid=&yx=&v=MDc0NzRxVHJXTTFGckNVUjdxZll1UnNGeW5sVnIvSlZGMjVIck80R2RUSnA1RWJQSVI4ZVgxTHV4WVM3RGgxVDM=">[PhD thesis (in Chinese)]</a></i></li>
-  <li><i><b style="color:Tomato;">Yuxin Liu</b> (Visiting student from Southwestern University, 2016-2017, completed in 2018): "Bio-inspired Route Optimization and Source Identification" <a href="http://gb.oversea.cnki.net/KCMS/detail/detail.aspx?filename=1018859716.nh&dbcode=CDFD&dbname=CDFDREF">[PhD thesis (in Chinese)]</a></i></li>
+  <li><b>Shaojin Geng</b> (Visiting student from Tongji University, 2023-2025): "Multi-task multi-objective job shop scheduling"</li>
+  <li><b>Xinxin Xu</b> (Visiting student from Ocean University of China, 2023-2025): "Genetic programming for harbour ship scheduling"</li>
+  <li><b>Long Chen</b> (Visiting student from Beijing Jiaotong University, 2023-2024): "Genetic programming for train scheduling"</li>
+  <li><b>Zaixing Sun</b> (Visiting student from Harbin Institute of Technology, 2023-2024): "Genetic programming for dynamic workflow scheduling"</li>
+  <li><b>Tong Guo</b> (Visiting student from Beihang University, 2023-2024): "Evolutionary computation for airflow management"</li>
+  <li><i><b>Guanqiang Gao</b> (Visiting student from Beijing Institute of Technology, 2019-2020, completed in 2021): "Evolutionary Computation for Robot Pathfinding and Resource Allocation"</i></li>
+  <li><i><b>Binzi Xu</b> (Visiting student from Jiangnan University, 2018-2019): "Intelligent Optimisation Methods for Production Scheduling" <a href="https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CDFD&QueryID=0&CurRec=1&dbname=CDFDTEMP&filename=1020007558.nh&urlid=&yx=&v=MDc0NzRxVHJXTTFGckNVUjdxZll1UnNGeW5sVnIvSlZGMjVIck80R2RUSnA1RWJQSVI4ZVgxTHV4WVM3RGgxVDM=">[PhD thesis (in Chinese)]</a></i></li>
+  <li><i><b>Yuxin Liu</b> (Visiting student from Southwestern University, 2016-2017, completed in 2018): "Bio-inspired Route Optimization and Source Identification" <a href="http://gb.oversea.cnki.net/KCMS/detail/detail.aspx?filename=1018859716.nh&dbcode=CDFD&dbname=CDFDREF">[PhD thesis (in Chinese)]</a></i></li>
 </ol>
 
 ## Masters
