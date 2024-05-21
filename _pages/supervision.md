@@ -44,7 +44,7 @@ author_profile: true
 ## Visiting PhD (act as Primary Supervisor during their visits)
 
 <ol>
-  <li><b style="color:Tomato;">Shaojin Geng</b> (Visiting student from Tongji University, 2023-2025): "TBD"</li>
+  <li><b style="color:Tomato;">Shaojin Geng</b> (Visiting student from Tongji University, 2023-2025): "Multi-task multi-objective job shop scheduling"</li>
   <li><b style="color:Tomato;">Xinxin Xu</b> (Visiting student from Ocean University of China, 2023-2025): "Genetic programming for harbour ship scheduling"</li>
   <li><b style="color:Tomato;">Long Chen</b> (Visiting student from Beijing Jiaotong University, 2023-2024): "Genetic programming for train scheduling"</li>
   <li><b style="color:Tomato;">Zaixing Sun</b> (Visiting student from Harbin Institute of Technology, 2023-2024): "Genetic programming for dynamic workflow scheduling"</li>
