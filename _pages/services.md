@@ -103,6 +103,7 @@ I serve as a reviewer of 60+ international journals, including the top/major jou
 <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6245516">IEEE Transactions on Emerging Topics in Computing</a>, IEEE <strong>(Q1)</strong></li>
 <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687316">IEEE Transactions on Transportation Electrification</a>, IEEE <strong>(Q1)</strong></li>
 <li><a href="https://www.tandfonline.com/toc/tjor20/current">Journal of the Operational Research Society</a>, Taylor & Francis <strong>(Q1)</strong></li>
+<li><a href="https://onlinelibrary.wiley.com/journal/14753995">International Transactions in Operational Research</a>, Blackwell Publishing <strong>(Q1)</strong></li>
 <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7433297">IEEE Transactions on Emerging Topics in Computational Intelligence</a>, IEEE <strong>(Q1)</strong></li>
 <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=52">IEEE Software</a>, IEEE <strong>(Q1)</strong></li>
 <li><a href="https://www.sciencedirect.com/journal/journal-of-industrial-information-integration">Journal of Industrial Information Integration</a>, Elsevier <strong>(Q1)</strong></li>
