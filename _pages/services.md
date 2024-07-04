@@ -8,7 +8,7 @@ author_profile: true
 ## Editorship
 
 <ul>
-<li><strong>Associate Editor</strong>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4235">IEEE Transactions on Evolutionary Computation</a> (ARC/CORE Tier A*)</li>
+<li><strong>Associate Editor</strong>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4235">IEEE Transactions on Evolutionary Computation</a> (ARC/CORE Tier A*) <span style="color: #FF0000">(Outstanding Associate Editor 2024)</span></li>
 <li><strong>Associate Editor</strong>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9078688">IEEE Transactions on Artificial Intelligence</a></li>
 <li><strong>Associate Editor</strong>, <a href="https://link.springer.com/journal/10951">Journal of Scheduling</a></li>
 <li><strong>Associate Editor</strong>, International Journal of Applied Evolutionary Computation</li>
