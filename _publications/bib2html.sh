@@ -39,3 +39,9 @@ sed -i '' 's+\[&nbsp;<a href="publication-journal_bib.html#xu2023genetic3"+ <b s
 
 # add "CIS Newsletter Research Frontier" to Yuzhou's CIM2023 paper
 sed -i '' 's+\[&nbsp;<a href="publication-journal_bib.html#zhang2023rocash2"+ <b style="color:red;">(CIS Newsletter Research Frontier)</b> &nbsp;<a href="publication-journal_bib.html#zhang2023rocash2"+g' publication-journal.html
+
+# add "Best Paper" to Xiaocheng's GECCO2024 paper
+sed -i '' 's+\[&nbsp;<a href="publication-conf_bib.html#liao2024learning"+ <b style="color:red;">(GP Track Best Paper Award)</b> &nbsp;<a href="publication-conf_bib.html#liao2024learning"+g' publication-conf.html
+
+# add "Best Paper Nomination" to Jiyuan's GECCO2024 paper
+sed -i '' 's+\[&nbsp;<a href="publication-conf_bib.html#pei2024learning"+ <b style="color:red;">(L4EC Track Best Paper Nomination)</b> &nbsp;<a href="publication-conf_bib.html#pei2024learning"+g' publication-conf.html
