@@ -8,6 +8,9 @@ author_profile: true
 ## PhD
 
 <ol>
+  <li><b>Xiangling Chen</b> (Victoria University of Wellington, 2024): "TBD" (with Prof Mengjie Zhang)</li>
+  <li><b>Zhuoyin Qiao</b> (Victoria University of Wellington, 2024): "TBD" (with Dr. Fangfang Zhang and Prof Mengjie Zhang)</li>
+  <li><b>Luyao Zhu</b> (Victoria University of Wellington, 2024): "TBD" (with Dr. Fangfang Zhang and Prof Mengjie Zhang)</li>
   <li><b>Jiyuan Pei</b> (Victoria University of Wellington, 2024): "Adaptive operator selection" (with Prof Mengjie Zhang)</li>
   <li><b>Xiaocheng Liao</b> (Victoria University of Wellington, 2023): "Genetic programming for real-time traffic control" (with Prof Mengjie Zhang)</li>
   <li><b>Bocheng Lin</b> (Victoria University of Wellington, 2023): "Reinforcement learning and evolutionary computation for combinatorial optimisation" (with Prof Mengjie Zhang)</li>
@@ -21,7 +24,7 @@ author_profile: true
   <li><b>Jern Tat Chin</b> (Victoria University of Wellington, 2021): "AI and ML for Finance Prediction" (with Prof Hai Lin)</li>
   <li><b>Jordan MacLachlan</b> (Victoria University of Wellington, 2021): "Evolutionary Computation for Ambulance Routing" (with Prof Mengjie Zhang and Dr. Fangfang Zhang)</li>
   <li><b>Zhixing Huang</b> (Victoria University of Wellington, 2020): "Genetic Programming for Dynamic Scheduling" (with Prof Mengjie Zhang and Dr. Fangfang Zhang)</li>
-  <li><b>Meng Xu</b> (Victoria University of Wellington, 2020): "Genetic Programming for Dynamic Scheduling" (with Prof Mengjie Zhang and Dr. Fangfang Zhang)</li>
+  <li><i><b>Meng Xu</b> (Victoria University of Wellington, 2020): "Advancing Genetic Programming for Learning Scheduling Heuristics" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Advancing_Genetic_Programming_for_Learning_Scheduling_Heuristics/26073502">[PhD thesis]</a> (with Prof Mengjie Zhang and Dr. Fangfang Zhang)</i></li>
   <li><b>Taiwo Akindele</b> (Victoria University of Wellington, 2020): "Resource Allocation problem in Cloud" (with A/Prof Hui Ma)</li>
   <li><b>Shubhangi Patel</b> (Victoria University of Wellington, 2019): "Operations research in medical scheduling" (with A/Prof Vipul Jain)</li>
   <li><i><b>Shaolin Wang</b> (Victoria University of Wellington, 2019): "Explainable Genetic Programming for Evolving Routing Policies of Uncertain Capacitated Arc Routing Problems" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Explainable_Genetic_Programming_for_Evolving_Routing_Policies_of_Uncertain_Capacitated_Arc_Routing_Problems/24208311">[PhD thesis]</a> (with Prof Mengjie Zhang)</i></li>
