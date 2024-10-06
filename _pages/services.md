@@ -155,6 +155,7 @@ I serve as a reviewer of 60+ international journals, including the top/major jou
 <li><strong>Chair</strong> of <a href="https://homepages.ecs.vuw.ac.nz/~yimei/ieee-tf-esco/">IEEE Taskforce on Evolutionary Scheduling and Combinatorial Optimisation</a>, 2021-present</li>
 <li><strong>Chair</strong> of <a href="https://r10.ieee.org/nzc/">IEEE New Zealand Central Section</a>, 2021-present</li>
 <li><strong>Vice-chair</strong> of <a href="http://cis.ieee.org/emergent-technologies-tc.html/">IEEE CIS Emergent Technologies Technical Committee</a>, 2017-2018</li>
+<li><strong>Member</strong> of <a href="https://cis.ieee.org/conferences/welcome-conferences/conferences-commitee/strategic-planning">IEEE CIS Conferences Strategic Planning Subcommittee</a>, 2025</li>
 <li><strong>Member</strong> of <a href="http://cis.ieee.org/intelligent-systems-applications-tc.html">IEEE CIS Intelligent Systems Applications Technical Committee</a>, 2017-2018</li>
 <li><strong>Member</strong> of <a href="https://sites.google.com/view/ieeeaadcs">IEEE Task Force on Automated Algorithm Design, Configuration and Selection</a>, 2019-present</li>
 <li><strong>Member</strong> of <a href="https://sites.google.com/site/ieeetaskforceonhyperheurisitcs/home">IEEE Task Force on Hyper-Heuristics</a>, 2018-present</li>
