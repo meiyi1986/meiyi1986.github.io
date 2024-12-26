@@ -68,7 +68,7 @@ author_profile: true
 
 具体申请方式请见：<a href="https://www.wgtn.ac.nz/scholarships/current/china-scholarships-council-csc-victoria-university-scholarship-scheme">https://www.wgtn.ac.nz/scholarships/current/china-scholarships-council-csc-victoria-university-scholarship-scheme</a>。
 
-本轮截止日期为<b>2024年1月31日</b>（该项目常年有效）。
+本轮截止日期为<b>2025年1月31日</b>（该项目常年有效）。
 
 <br/>
 
