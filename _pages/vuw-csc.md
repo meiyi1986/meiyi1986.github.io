@@ -30,11 +30,11 @@ author_profile: true
 
 ## 导师简介
 
-梅一现任新西兰惠灵顿维多利亚大学工程与计算机科学学院Associate Professor (Reader)。他曾在中国科学技术大学少年班取得学士学位，中国科学技术大学计算机学院取得博士学位。其研究方向为演化（进化）计算与机器学习、调度与组合优化。他在各大演化计算顶级期刊（包括《IEEE Transactions on Evolutionary Computation》、《IEEE Transactions on Cybernetics》、《 IEEE Transactions on Emerging Topics in Computational Intelligence》、《Evolutionary Computation Journal (MIT Press)》上发表多篇论文（总计发表200余篇论文，谷歌学术总引用数5200+，h-index 37），出版专著1部，并曾荣获2017年IEEE Transactions on Evolutionary Computation Outstanding Paper Award。
+梅一现任新西兰惠灵顿维多利亚大学工程与计算机科学学院Associate Professor/Reader。他曾在**中国科学技术大学少年班**取得学士学位，中国科学技术大学计算机学院取得博士学位。其研究方向为演化（进化）计算与机器学习、调度与组合优化。他在各大演化计算顶级期刊（包括《IEEE Transactions on Evolutionary Computation》、《IEEE Transactions on Cybernetics》、《 IEEE Transactions on Emerging Topics in Computational Intelligence》、《Evolutionary Computation Journal (MIT Press)》上发表多篇论文（总计发表250余篇论文，谷歌学术总引用数7800+，h-index 43），出版专著1部，并曾荣获2017年IEEE Transactions on Evolutionary Computation Outstanding Paper Award。
 
-梅一教授为20多名博士研究生的导师，其中10余名博士研究生已成功毕业，并在新西兰、澳洲、欧洲及国内高校与工业界工作。<b>在其指导下有多名博士生获得国际重要奖项，如ACM SigEVO Outstanding Dissertation Award (honourable mention), ACM Genetic and Evolutionary Computation Conference Best Paper Award, EuroGP Best Paper Award。</b>
+梅一教授为30多名博士研究生的导师，其中接近20名博士研究生已成功毕业，并在新西兰、澳洲、欧洲及国内高校与工业界工作。<b>在其指导下有多名博士生获得国际重要奖项，如ACM SigEVO Outstanding Dissertation Award (honourable mention), ACM Genetic and Evolutionary Computation Conference (GECCO) Best Paper Award, ACM GECCO Humies Award, EuroGP Best Paper Award。</b>
 
-他主持/参与多项国家级科研基金，包括New Zealand Royal Society Marsden Fast-Start Fund，MBIE SSIF Fund on Data Science，Science for Technological Innovation Seed Fund（累计超过1000万新西兰元）。他担任5个国际期刊的编委会成员，并担任多个国际学术会议（包括IEEE CEC，ACM GECCO，IEEE SSCI）的组织成员与分会主席。他是IEEE新西兰中央分部主席，IEEE计算智能学会演化调度组合优化Taskforce主席，新西兰工程院院士以及IEEE高级会员。
+他主持/参与多项国家级科研基金，包括New Zealand Royal Society Marsden Fast-Start Fund，MBIE Endeavour Smart Idea Fund, Royal Society Catalyst Leaders Fund, MBIE SSIF Fund on Data Science，Science for Technological Innovation Seed Fund（累计超过1000万新西兰元）。他担任5个国际期刊的编委会成员，并担任多个国际学术会议（包括IEEE CEC，ACM GECCO，IEEE SSCI）的组织成员与分会主席。他是IEEE新西兰中央分部主席，IEEE计算智能学会演化调度组合优化Taskforce主席，新西兰工程院院士以及IEEE高级会员。
 
 ## 研究团队简介
 
