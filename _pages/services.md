@@ -22,6 +22,7 @@ author_profile: true
 ## Conference Organisation
 
 <ul>
+<li><strong>ECOM Track Chair</strong>, ACM Genetic and Evolutionary Computation Conference (GECCO) 2025</li>
 <li><strong>Technical Chair</strong>, CI for Energy, Transport and Environmental Sustainability Symposium, SSCI 2025</li>
 <li><strong>Program Chair</strong>, International Conferences on Artificial Intelligence (PRICAI) 2025</li>
 <li><strong>Publicity Chair</strong>, International Conference on Evolutionary Multi-Criterion Optimization (EMO) 2025</li>
@@ -76,7 +77,7 @@ I serve as a PC member of 60+ international conferences.
 <li>BRICS Congress on Computational Intelligence (BRCIS-CCI) 2015</li>
 <li>International Workshop on Evolutionary Computation and Its Applications (ECIA) 2018</li>
 <li>Conference on Image and Vision Computing New Zealand (IVCNZ) 2020, 2022</li>
- </ul>
+</ul>
 
 ## Journal Reviewer
 
