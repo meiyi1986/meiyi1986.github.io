@@ -30,7 +30,7 @@ author_profile: true
 	<li><strong>Chair</strong>, CDSAI Workshop on Evolutionary Machine Learning and Optimisation, Victoria University of Wellington, 11-12 July 2024</li>
 	<li><strong>ECOM Track Chair</strong>, ACM Genetic and Evolutionary Computation Conference (GECCO) 2024</li>
 	<li><strong>J2C Papers Chair</strong>, World Congress on Computational Intelligence (WCCI) 2024</li>
-	<li><strong>Finance Chair</strong>, Conference on Image and Vision Computing New Zealand (IVCNZ) 2020</li> -->
+	<li><strong>Finance Chair</strong>, Conference on Image and Vision Computing New Zealand (IVCNZ) 2020</li>
 	<li><strong>Proceedings Chair</strong>, IEEE Congress on Evolutionary Computation (CEC) 2019</li>
 	<li><strong>Tutorial Chair</strong>, Pacific Rim International Conferences on Artificial Intelligence (PRICAI) 2019</li>
 	<li><strong>Sponsorship Chair</strong>, Australasian Joint Conference on Artificial Intelligence 2018</li>
@@ -41,8 +41,8 @@ author_profile: true
 	<li><strong>Chair</strong> of Special Session on Evolutionary Computation for Service-Oriented Computing, IEEE Congress on Evolutionary Computation (CEC) 2017, 2018, 2019, 2024, 2025</li>
 	<li><strong>Chair</strong> of Special Session on Evolutionary Multi-Objective Automated Machine Learning (EMO-AutoML), IEEE Congress on Evolutionary Computation (CEC) 2024, 2025
 	<li><strong>Chair</strong> of Special Session on Exploring Advanced Techniques and Applications in AutoML, IEEE International Joint Conference on Neural Networks (IJCNN) 2025
-	<li><strong>Chair</strong> of Special Session on Transfer Learning in Evolutionary Computation, IEEE Congress on Evolutionary Computation (CEC) 2016</li>
-	<li><strong>Chair</strong> of Special Session on Computational Intelligence for Scheduling and Combinatorial Optimization, Asia-Pacific Symposium on Intelligent and Evolutionary Systems (IES) 2016</li>
+	<li><strong>Chair</strong> of Special Session on Transfer Learning in Evolutionary Computation, IEEE Congress on Evolutionary Computation (CEC) 2016</li> -->
+	<li><strong>Chair</strong>, Special Session on Computational Intelligence for Scheduling and Combinatorial Optimization, Asia-Pacific Symposium on Intelligent and Evolutionary Systems (IES) 2016</li>
 </ul>
 
 ## Conference Program Committee Member
