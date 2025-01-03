@@ -34,7 +34,7 @@ Computation Approach", <strong>New Zealand Royal Society Catalyst Leaders Fund</
 
 <ul>
 <li><b>2024</b>, Victoria University of Wellington <b>Research Excellence Award</b></li>
-<li><b>2024</b>, <b>Best Paper Award</b>: ACM Genetic and Evolutionary Computation Conference, GP Track (<a href="https://dl.acm.org/doi/10.1145/3638529.3654037">paper</a>)</li>
+<li><b>2024</b>, <b>Best Paper Award</b>: ACM Genetic and Evolutionary Computation Conference, GP Track [<a href="https://dl.acm.org/doi/10.1145/3638529.3654037">paper</a> | <a href="files/certificate-gecco2024-bpa.jpg">certificate</a>]</li>
 <li><b>2023</b>, <b>Best Poster Award Runner-Up</b>: Australasian Joint Conference on Artificial Intelligence (<a href="https://link.springer.com/chapter/10.1007/978-981-99-8391-9_32">paper</a>)</li>
 <li><b>2023</b>, <b>Best Student Paper Award Runner-Up</b>: Australasian Joint Conference on Artificial Intelligence (<a href="https://link.springer.com/chapter/10.1007/978-981-99-8391-9_33">paper</a>)</li>
 <li><b>2023</b>, <b>HUMIES Silver Award</b>: ACM Genetic and Evolutionary Computation Conference (GECCO) 2023</li>
