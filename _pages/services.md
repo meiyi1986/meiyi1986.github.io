@@ -23,7 +23,7 @@ author_profile: true
 ## Conference Organisation
 
 <ul>
-	<!-- <li><strong>ECOM Track Chair</strong>, ACM Genetic and Evolutionary Computation Conference (GECCO) 2025</li>
+	<li><strong>ECOM Track Chair</strong>, ACM Genetic and Evolutionary Computation Conference (GECCO) 2025</li>
 	<li><strong>Technical Chair</strong>, CI for Energy, Transport and Environmental Sustainability Symposium, SSCI 2025</li>
 	<li><strong>Program Chair</strong>, International Conferences on Artificial Intelligence (PRICAI) 2025</li>
 	<li><strong>Publicity Chair</strong>, International Conference on Evolutionary Multi-Criterion Optimization (EMO) 2025</li>
@@ -36,12 +36,12 @@ author_profile: true
 	<li><strong>Sponsorship Chair</strong>, Australasian Joint Conference on Artificial Intelligence 2018</li>
 	<li><strong>Technical Chair</strong>, International Conference on Data Intelligence and Security (ICDIS) 2018</li>
 	<li><strong>Organisational Committee Member</strong>, International Conference on Computers and Industrial Engineering (CIE) 2018</li>
-	<li><strong>Chair</strong> of IEEE Symposium on Evolutionary Scheduling and Combinatorial Optimisation, in IEEE SSCI 2019, 2020, 2021, 2022, 2023</li>
-	<li><strong>Chair</strong> of Special Session on Evolutionary Scheduling and Combinatorial Optimisation, IEEE Congress on Evolutionary Computation (CEC) 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2024, 2025</li>
-	<li><strong>Chair</strong> of Special Session on Evolutionary Computation for Service-Oriented Computing, IEEE Congress on Evolutionary Computation (CEC) 2017, 2018, 2019, 2024, 2025</li>
-	<li><strong>Chair</strong> of Special Session on Evolutionary Multi-Objective Automated Machine Learning (EMO-AutoML), IEEE Congress on Evolutionary Computation (CEC) 2024, 2025
-	<li><strong>Chair</strong> of Special Session on Exploring Advanced Techniques and Applications in AutoML, IEEE International Joint Conference on Neural Networks (IJCNN) 2025
-	<li><strong>Chair</strong> of Special Session on Transfer Learning in Evolutionary Computation, IEEE Congress on Evolutionary Computation (CEC) 2016</li> -->
+	<li><strong>Chair</strong>, IEEE Symposium on Evolutionary Scheduling and Combinatorial Optimisation, in IEEE SSCI 2019, 2020, 2021, 2022, 2023</li>
+	<li><strong>Chair</strong>, Special Session on Evolutionary Scheduling and Combinatorial Optimisation, IEEE Congress on Evolutionary Computation (CEC) 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2024, 2025</li>
+	<li><strong>Chair</strong>, Special Session on Evolutionary Computation for Service-Oriented Computing, IEEE Congress on Evolutionary Computation (CEC) 2017, 2018, 2019, 2024, 2025</li>
+	<li><strong>Chair</strong>, Special Session on Evolutionary Multi-Objective Automated Machine Learning (EMO-AutoML), IEEE Congress on Evolutionary Computation (CEC) 2024, 2025</li>
+	<li><strong>Chair</strong>, Special Session on Exploring Advanced Techniques and Applications in AutoML, IEEE International Joint Conference on Neural Networks (IJCNN) 2025</li>
+	<li><strong>Chair</strong>, Special Session on Transfer Learning in Evolutionary Computation, IEEE Congress on Evolutionary Computation (CEC) 2016</li>
 	<li><strong>Chair</strong>, Special Session on Computational Intelligence for Scheduling and Combinatorial Optimization, Asia-Pacific Symposium on Intelligent and Evolutionary Systems (IES) 2016</li>
 </ul>
 
