@@ -34,14 +34,14 @@ Computation Approach", <strong>New Zealand Royal Society Catalyst Leaders Fund</
 
 <ul>
 <li><b>2024</b>, Victoria University of Wellington <b>Research Excellence Award</b></li>
-<li><b>2024</b>, <b>Best Paper Award</b>: ACM Genetic and Evolutionary Computation Conference, GP Track [<a href="https://dl.acm.org/doi/10.1145/3638529.3654037">paper</a> | <a href="files/certificate-gecco2024-bpa.jpg">certificate</a>]</li>
-<li><b>2023</b>, <b>Best Poster Award Runner-Up</b>: Australasian Joint Conference on Artificial Intelligence (<a href="https://link.springer.com/chapter/10.1007/978-981-99-8391-9_32">paper</a>)</li>
-<li><b>2023</b>, <b>Best Student Paper Award Runner-Up</b>: Australasian Joint Conference on Artificial Intelligence (<a href="https://link.springer.com/chapter/10.1007/978-981-99-8391-9_33">paper</a>)</li>
-<li><b>2023</b>, <b>HUMIES Silver Award</b>: ACM Genetic and Evolutionary Computation Conference (GECCO) 2023</li>
-<li><b>2023</b>, <b>Best Paper Award</b>: ACM Genetic and Evolutionary Computation Conference, GP Track (<a href="https://dl.acm.org/doi/10.1145/3583131.3590394">paper</a>)</li>
+<li><b>2024</b>, <b>Best Paper Award</b>: ACM Genetic and Evolutionary Computation Conference, GP Track [ <a href="https://dl.acm.org/doi/10.1145/3638529.3654037">paper</a> | <a href="../files/certificate-gecco2024-bpa.jpg">certificate</a> ]</li>
+<li><b>2023</b>, <b>Best Poster Award Runner-Up</b>: Australasian Joint Conference on Artificial Intelligence [ <a href="https://link.springer.com/chapter/10.1007/978-981-99-8391-9_32">paper</a> ]</li>
+<li><b>2023</b>, <b>Best Student Paper Award Runner-Up</b>: Australasian Joint Conference on Artificial Intelligence [ <a href="https://link.springer.com/chapter/10.1007/978-981-99-8391-9_33">paper</a> ]</li>
+<li><b>2023</b>, <b>HUMIES Silver Award</b>: ACM Genetic and Evolutionary Computation Conference (GECCO) 2023 [ <a href="../files/certificate-humies-2023.png">certificate</a> ]</li>
+<li><b>2023</b>, <b>Best Paper Award</b>: ACM Genetic and Evolutionary Computation Conference, GP Track [ <a href="https://dl.acm.org/doi/10.1145/3583131.3590394">paper</a> | <a href="../files/certificate-gecco2023-bpa.png">certificate</a> ]</li>
 <li><b>2022</b>, Victoria University of Wellington Post-Graduate Student Association <b>Supervisor Award</b> (Honourable Mention)</li>
-<li><b>2022</b>, <b>Best Paper Award</b>: ACM Genetic and Evolutionary Computation Conference, ECOM Track (<a href="https://dl.acm.org/doi/10.1145/3512290.3528723">paper</a>)</li>
-<li><b>2022</b>, <b>Best Paper Award</b>: European Conference on Genetic Programming (<a href="https://link.springer.com/chapter/10.1007/978-3-031-02056-8_11">paper</a>)</li>
+<li><b>2022</b>, <b>Best Paper Award</b>: ACM Genetic and Evolutionary Computation Conference, ECOM Track [ <a href="https://dl.acm.org/doi/10.1145/3512290.3528723">paper</a> | <a href="../files/certificate-gecco2022-bpa.jpeg">certificate</a> ]</li>
+<li><b>2022</b>, <b>Best Paper Award</b>: European Conference on Genetic Programming [ <a href="https://link.springer.com/chapter/10.1007/978-3-031-02056-8_11">paper</a> | <a href="../files/certificate-eurogp2022-bpa.png">certificate</a> ]</li>
 <li><b>2018</b>, Victoria University of Wellington <b>Early Career Research Excellence Award</b></li>
 <li><b>2018</b>, Best Paper Award Runner-Up: Australasian Joint Conference on Artificial Intelligence  (<a href="https://link.springer.com/chapter/10.1007/978-3-030-03991-2_43">paper</a>)</li>
 <li><b>2018</b>, Best Paper Award Runner-Up: International Conference on Web Services (<i>ARC/CORE Rank A</i>)  (<a href="https://ieeexplore.ieee.org/document/8456328">paper</a>)</li>
