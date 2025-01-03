@@ -22,7 +22,7 @@ author_profile: true
 
 ## Conference Organisation
 
-<ul>
+<!-- <ul>
 	<li><strong>ECOM Track Chair</strong>, ACM Genetic and Evolutionary Computation Conference (GECCO) 2025</li>
 	<li><strong>Technical Chair</strong>, CI for Energy, Transport and Environmental Sustainability Symposium, SSCI 2025</li>
 	<li><strong>Program Chair</strong>, International Conferences on Artificial Intelligence (PRICAI) 2025</li>
@@ -43,9 +43,9 @@ author_profile: true
 	<li><strong>Chair</strong> of Special Session on Exploring Advanced Techniques and Applications in AutoML, IEEE International Joint Conference on Neural Networks (IJCNN) 2025
 	<li><strong>Chair</strong> of Special Session on Transfer Learning in Evolutionary Computation, IEEE Congress on Evolutionary Computation (CEC) 2016</li>
 	<li><strong>Chair</strong> of Special Session on Computational Intelligence for Scheduling and Combinatorial Optimization, Asia-Pacific Symposium on Intelligent and Evolutionary Systems (IES) 2016</li>
-</ul>
+</ul> -->
 
-<!-- ## Conference Program Committee Member
+## Conference Program Committee Member
 
 <ul>
 	<li>AAAI Conference on Artificial Intelligence (AAAI) 2019, 2020, 2021, 2022, 2023, 2025</li>
@@ -76,7 +76,7 @@ author_profile: true
 	<li>BRICS Congress on Computational Intelligence (BRCIS-CCI) 2015</li>
 	<li>International Workshop on Evolutionary Computation and Its Applications (ECIA) 2018</li>
 	<li>Conference on Image and Vision Computing New Zealand (IVCNZ) 2020, 2022</li>
-</ul> -->
+</ul>
 
 ## Journal Reviewer
 
