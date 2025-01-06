@@ -178,7 +178,7 @@ author_profile: true
 ## Internal (VUW)
 
 <ul>
-	<li><b>Programme Director</b> (Computer Science, Computer Graphics and Games), School of Engineering and Computer Science, October 2024-present</li>
+	<li><b>Programme Director</b>, BSc in Computer Science, October 2024-present</li>
     <li><b>Associate Dean</b> (Research), Faculty of Engineering, June 2023-present</li>
     <li><b>Postgraduate Coordinator</b> (Science), School of Engineering and Computer Science, June 2022-June 2023</li>
     <li>Red-Folder Committee Member (Admission for Masters of COMP/AI/CGRA, PGDipSc COMP/AI/CGRA), 2020-2022</li>
