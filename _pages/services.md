@@ -156,7 +156,11 @@ author_profile: true
 	<li><strong>Fellow</strong> of <a href="https://www.engineeringnz.org/">Engineering New Zealand</a></li>
 	<li><strong>Chair</strong> of IEEE Computational Intelligence Society Travel Grant Subcommittee</li>
 	<li><strong>Chair</strong> of <a href="https://homepages.ecs.vuw.ac.nz/~yimei/ieee-tf-esco/">IEEE Taskforce on Evolutionary Scheduling and Combinatorial Optimisation</a>, 2021-present</li>
-	<li><strong>Chair</strong> of <a href="https://r10.ieee.org/nzc/">IEEE New Zealand Central Section</a>, 2021-present</li>
+	<li><strong>Chair</strong> of <a href="https://r10.ieee.org/nzc/">IEEE New Zealand Central Section</a>, 2021-2024</li>
+		<ul>
+			<li>Outstanding Member Retention 2021 [ <a href="../files/certificate-nzcs2021.pdf">certificate</a> ]</li>
+			<li>Outstanding Member Retention 2022 [ <a href="../files/certificate-nzcs2022.pdf">certificate</a> ]</li>
+		</ul>
 	<li><strong>Vice-chair</strong> of <a href="http://cis.ieee.org/emergent-technologies-tc.html/">IEEE CIS Emergent Technologies Technical Committee</a>, 2017-2018</li>
 	<li><strong>Member</strong> of <a href="https://cis.ieee.org/conferences/welcome-conferences/conferences-commitee/strategic-planning">IEEE CIS Conferences Strategic Planning Subcommittee</a>, 2025</li>
 	<li><strong>Member</strong> of <a href="http://cis.ieee.org/intelligent-systems-applications-tc.html">IEEE CIS Intelligent Systems Applications Technical Committee</a>, 2017-2018</li>
