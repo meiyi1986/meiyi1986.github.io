@@ -52,7 +52,7 @@ author_profile: true
 
 <ul>
 	<li>AAAI Conference on Artificial Intelligence (AAAI) 2019, 2020, 2021, 2022, 2023, 2025</li>
-	<li>International Joint Conferences on Artificial Intelligence (IJCAI) 2021, 2022, 2023, 2024, 2025</li>
+	<li>International Joint Conferences on Artificial Intelligence (IJCAI) 2021, 2022, 2023, 2024, 2025 (SPC)</li>
 	<li>ACM Genetic and Evolutionary Computation Conference (GECCO) 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024</li>
 	<li>IEEE Congress on Evolutionary Computation (CEC) 2013, 2014, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024</li>
 	<li>International Conference on the Applications of Evolutionary Computation (EvoAPPS) 2024</li>
