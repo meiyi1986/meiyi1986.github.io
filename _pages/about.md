@@ -9,6 +9,8 @@ redirect_from:
 ---
 
 Associate Professor / Reader \\
+Programme Director (Computer Science) \\
+School of Engineering and Computer Science ([SECS](https://www.wgtn.ac.nz/ecs)) \\
 Associate Dean (Research) \\
 Faculty of Engineering ([FEng](https://www.wgtn.ac.nz/engineering)) \\
 Centre for Data Science and Artificial Intelligence ([CDSAI](https://www.wgtn.ac.nz/cdsai)) \\
