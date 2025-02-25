@@ -27,6 +27,7 @@ author_profile: true
 
 <ul>
 	<li><strong>ECOM Track Chair</strong>, ACM Genetic and Evolutionary Computation Conference (GECCO) 2025</li>
+	<li><strong>Chair</strong>, <a href="https://homepages.ecs.vuw.ac.nz/~yimei/waiodm2025.html">CDSAI Workshop on AI for Optimisation and Decision Making</a>, Victoria University of Wellington, 20 February 2025</li>
 	<li><strong>Technical Chair</strong>, CI for Energy, Transport and Environmental Sustainability Symposium, SSCI 2025</li>
 	<li><strong>Program Chair</strong>, International Conferences on Artificial Intelligence (PRICAI) 2025</li>
 	<li><strong>Publicity Chair</strong>, International Conference on Evolutionary Multi-Criterion Optimization (EMO) 2025</li>
