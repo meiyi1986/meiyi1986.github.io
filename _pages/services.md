@@ -164,6 +164,7 @@ author_profile: true
 			<li>Outstanding Member Retention 2022 [ <a href="../files/certificate-nzcs2022.pdf">certificate</a> ]</li>
 		</ul>
 	<li><strong>Vice-chair</strong> of <a href="http://cis.ieee.org/emergent-technologies-tc.html/">IEEE CIS Emergent Technologies Technical Committee</a>, 2017-2018</li>
+	<li><strong>Member</strong> of <a href="https://cis.ieee.org/committees/diversity-inclusion">IEEE CIS Diversity and Inclusion Subcommittee</a>, 2025</li>
 	<li><strong>Member</strong> of <a href="https://cis.ieee.org/conferences/welcome-conferences/conferences-commitee/strategic-planning">IEEE CIS Conferences Strategic Planning Subcommittee</a>, 2025</li>
 	<li><strong>Member</strong> of <a href="http://cis.ieee.org/intelligent-systems-applications-tc.html">IEEE CIS Intelligent Systems Applications Technical Committee</a>, 2017-2018</li>
 	<li><strong>Member</strong> of <a href="https://sites.google.com/view/ieeeaadcs">IEEE Task Force on Automated Algorithm Design, Configuration and Selection</a>, 2019-present</li>
