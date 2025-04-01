@@ -75,8 +75,13 @@ author_profile: true
 ## Honours Students
 
 <ol>
+  <li><b>Emily Ford</b> (Victoria University of Wellington, 2025): "Tourist Trip Recommendation by Machine Learning"</li>
+  <li><b>Amy King</b> (Victoria University of Wellington, 2025): "Simulating Railway Network Rescheduling" (with Transdev)</li>
+  <li><b>Jackie Zhou</b> (Victoria University of Wellington, 2025): "Emergency Medical Dispatch Visualiser"</li>
+  <li><b>Joseph Robertshaw</b> (Victoria University of Wellington, 2025): "Genetic Programming for Emergency Medical Dispatching"</li>
+  <li><b>Alvien Salvado</b> (Victoria University of Wellington, 2025): "Genetic Programming for Railway Network Rescheduling" (with Transdev)</li>
   <li><b>Calvin Li</b> (Victoria University of Wellington, 2024): "Tourist Trip Recommendation by Machine Learning" (with Stuart Marshall)</li>
-  <li><b>Suveesthiga Sathiyaseelan</b> (Victoria University of Wellington, 2024): "Genetic Programming for Ralway Network Rescheduling" (with Transdev)</li>
+  <li><b>Suveesthiga Sathiyaseelan</b> (Victoria University of Wellington, 2024): "Genetic Programming for Railway Network Rescheduling" (with Transdev)</li>
   <li><b>Tomin Jessil</b> (Victoria University of Wellington, 2024): "Machine Learning for Fish Breeding Design" (with Plant and Food Research)</li>
   <li><b>Isaac Young</b> (Victoria University of Wellington, 2023): "Machine Learning for Automated Medical Dispatch" (<span style="color: #FF0000"><b>Dean's List</b></span>)</li>
   <li><b>Rose Taylor</b> (Victoria University of Wellington, 2023): "Machine Learning for Fish Growth Prediction" (with Plant and Food Research)</li>
