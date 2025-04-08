@@ -105,6 +105,9 @@ author_profile: true
 ## Summer Research Scholarship Students
 
 <ol>
+  <li><b>William Huang</b> (Victoria University of Wellington, 2024): "Genetic Programming for Dynamic Electric Dial-a-Ride"</li>
+  <li><b>Joseph Robertshaw</b> (Victoria University of Wellington, 2024): "Genetic Programming for Emergency Medical Dispatching"</li>
+  <li><b>Jackie Zhou</b> (Victoria University of Wellington, 2024): "Emergency Medical Dispatch Visualiser"</li>
   <li><b>Vinh Nguyen</b> (Victoria University of Wellington, 2022): "Evolutionary Reinforcement Learning"</li>
   <li><b>Ze Chen</b> (Victoria University of Wellington, 2022): "Machine Learning for Fish Growth Prediction" (with Plant and Food Research)</li>
   <li><b>Elliot Ramoo</b> (Victoria University of Wellington, 2022): "Comparative Analysis of Methods for Job Shop Scheduling" (with Dr. Fangfang Zhang)</li>
