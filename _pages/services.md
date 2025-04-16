@@ -136,6 +136,7 @@ author_profile: true
 	<li><a href="http://www.springer.com/computer/ai/journal/10710">Genetic Programming and Evolvable Machines</a>, Springer</li>
 	<li><a href="https://ieeeaccess.ieee.org">IEEE Access</a>, IEEE</li>
 	<li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570654">IEEE/CAA Journal of Automatica Sinica</a>, IEEE</li>
+	<li><a href="https://www.sciencedirect.com/journal/journal-of-systems-architecture">Journal of Systems Architecture</a>, Elsevier (Q1)</li>
 	<li><a href="https://www.hindawi.com/journals/mpe/">Mathematical Problems in Engineering</a>, Hindawi</li>
 	<li><a href="http://www.omicsgroup.org/journals/information-technology-software-engineering.php">Journal of Information Technology & Software Engineering</a>, Longdom Publishing SL</li>
 	<li><a href="http://www.mdpi.com/journal/applsci">Applied Sciences</a>, MDPI</li>
