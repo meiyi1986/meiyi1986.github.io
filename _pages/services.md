@@ -19,6 +19,7 @@ author_profile: true
 	<li><strong>Editorial Board Member</strong>, International Journal of Computational Intelligence and Applications</li>
 	<li><strong>Editorial Board Member</strong>, International Journal of Bio-Inspired Computation</li>
 	<li><strong>Editorial Board Member</strong>, International Journal of Automation and Control</li>
+	<li><strong>Guest Editor</strong>, Special Issue on Evolutionary Machine Learning in Business Optimisation, Memetic Computing, 2025</li>
 	<li><strong>Guest Editor</strong>, Special Issue on Advancing Computational Intelligence in Autonomous Learning and Optimization Systems, IEEE Computational Intelligence Magazine, 2024</li>
 	<li><strong>Guest Editor</strong>, Special Issue on Automated Design and Adaptation of Heuristics for Scheduling and Combinatorial Optimisation, Genetic Programming and Evolvable Machines, 2016</li>
 </ul>
