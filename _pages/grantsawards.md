@@ -13,6 +13,7 @@ author_profile: true
 - **2021-**, "Large scale bi-level evolutionary optimization", 62072234, <strong>National Natural Science Foundation of China</strong>, &yen;xx RMB (Overseas AI)
 - **2021-**, "Study on the key problems of large scale many-objective optimization", 62073155, <strong>National Natural Science Foundation of China</strong>, &yen;xx RMB (Overseas AI) 
 -->
+<li><b>2025</b>, "Genetic Programming for Dynamic Electric Dial-a-Ride", <strong>Honda Research Institute Europe Project</strong>, $39,000 NZD (20,000 EURO). (<b>PI</b>)</li>
 <li><b>2024-2027</b>, "Machine Learning for Emergency Medical Dispatch: A Data Driven Approach", <strong>MBIE Endeavour Smart Idea Fund</strong>, $1,000,000 NZD. (<b>PI</b>)</li>
 <li><b>2024-2027</b>, "Machine Learning for Combinatorial Optimisation: An Evolutionary
 Computation Approach", <strong>New Zealand Royal Society Catalyst Leaders Fund</strong>, $150,000 NZD. (<b>PI</b>)</li>
