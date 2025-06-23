@@ -11,6 +11,7 @@ author_profile: true
 	<li><strong>Associate Editor</strong>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4235">IEEE Transactions on Evolutionary Computation</a> (ARC/CORE Tier A*)</li>
 	<ul>
 		<li><span style="color: #FF0000">Outstanding Associate Editor 2024</span> [ <a href="../files/certificate-tevc-oae2024.pdf">certificate</a> ]</li>
+		<li><span style="color: #FF0000">Outstanding Associate Editor 2025</span> [ <a href="../files/certificate-tevc-oae2025.pdf">certificate</a> ]</li>
 	</ul>
 	<li><strong>Associate Editor</strong>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9078688">IEEE Transactions on Artificial Intelligence</a></li>
 	<li><strong>Associate Editor</strong>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10207">IEEE Computational Intelligence Magazine</a></li>
