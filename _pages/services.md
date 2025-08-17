@@ -55,7 +55,7 @@ author_profile: true
 ## Conference Program Committee Member
 
 <ul>
-	<li>AAAI Conference on Artificial Intelligence (AAAI) 2019, 2020, 2021, 2022, 2023, 2025</li>
+	<li>AAAI Conference on Artificial Intelligence (AAAI) 2019, 2020, 2021, 2022, 2023, 2025, 2026</li>
 	<li>European Conference on Artificial Intelligence (ECAI) 2025</li>
 	<li>International Joint Conferences on Artificial Intelligence (IJCAI) 2021, 2022, 2023, 2024, 2025 (SPC)</li>
 	<li>ACM Genetic and Evolutionary Computation Conference (GECCO) 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025</li>
