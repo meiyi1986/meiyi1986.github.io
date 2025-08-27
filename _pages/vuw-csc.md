@@ -18,19 +18,20 @@ author_profile: true
 ## 研究方向
 
 - 演化计算、智能物流、调度与组合优化、供应链优化
-- 基于机器学习与强化学习的组合优化
+- 基于机器学习与强化学习的组合优化(Learning for Optimisation)
 - 演化多目标优化
 - 可解释性（Explainable）的学习与优化
 - 遗传编程（Genetic Programming）
 - 演化动态优化
-- 迁移(Transfer)/多任务(Multitask)优化
-- 自动算法设计
+- 迁移(Transfer)/多任务(Multitask)/持续学习(Lifelong learning)优化
+- 自动算法设计，超启发式(Hyper-heuristics)
 - 演化大规模组合优化
-- 仿真优化（Simulation Optimization）
+- 仿真优化(Simulation Optimization)
+- 以及各种现实优化问题...
 
 ## 导师简介
 
-梅一现任新西兰惠灵顿维多利亚大学工程与计算机科学学院Associate Professor/Reader。他曾在**中国科学技术大学少年班**取得学士学位，中国科学技术大学计算机学院取得博士学位。其研究方向为演化（进化）计算与机器学习、调度与组合优化。他在各大演化计算顶级期刊（包括《IEEE Transactions on Evolutionary Computation》、《IEEE Transactions on Cybernetics》、《 IEEE Transactions on Emerging Topics in Computational Intelligence》、《Evolutionary Computation Journal (MIT Press)》上发表多篇论文（总计发表250余篇论文，谷歌学术总引用数7800+，h-index 43），出版专著1部，并曾荣获2017年IEEE Transactions on Evolutionary Computation Outstanding Paper Award。
+梅一现任新西兰惠灵顿维多利亚大学工程与计算机科学学院Associate Professor/Reader。他曾在**中国科学技术大学少年班**取得学士学位，中国科学技术大学计算机学院取得博士学位。其研究方向为演化（进化）计算与机器学习、调度与组合优化。他在各大演化计算顶级期刊（包括《IEEE Transactions on Evolutionary Computation》、《IEEE Transactions on Cybernetics》、《 IEEE Transactions on Emerging Topics in Computational Intelligence》、《Evolutionary Computation Journal (MIT Press)》上发表多篇论文（总计发表250余篇论文，谷歌学术总引用数9200+，h-index 47），出版专著1部，并曾荣获2017年IEEE Transactions on Evolutionary Computation Outstanding Paper Award。
 
 梅一教授为30多名博士研究生的导师，其中接近20名博士研究生已成功毕业，并在新西兰、澳洲、欧洲及国内高校与工业界工作。<b>在其指导下有多名博士生获得国际重要奖项，如ACM SigEVO Outstanding Dissertation Award (honourable mention), ACM Genetic and Evolutionary Computation Conference (GECCO) Best Paper Award, ACM GECCO Humies Award, EuroGP Best Paper Award。</b>
 
@@ -52,11 +53,11 @@ author_profile: true
 
 [惠灵顿维多利亚大学（Victoria University of Wellington，VUW）](https://www.wgtn.ac.nz/)建校于1897年，位于新西兰首都惠灵顿，是一所大型综合性全国大学，新西兰八大五星级大学之一。惠灵顿维多利亚大学是新西兰最古老的大学之一，作为一所以研究为基础向学生提供高质量教育的大学，它已久负盛名。
 
-根据新西兰高教部对各个大学的科学研究（PBRF）评估， 惠灵顿维多利亚大学的研究质量位列新西兰所有大学第一。在2021年QS世界大学排名中，惠灵顿维多利亚大学位列世界第236位，高于许多国内知名大学如武汉大学(第257位)，同济大学(第291位)，北京师范大学(第292位) 等。
+根据新西兰高教部对各个大学的科学研究（PBRF）评估， 惠灵顿维多利亚大学的研究质量位列新西兰所有大学第一。在2025年QS世界大学排名中，惠灵顿维多利亚大学位列世界第240位。
 
 ## 基本要求
 
-- 硕士毕业或本科GPA 4分制大学本科毕业
+- 硕士毕业
 - 最高学历课程平均分85分以上
 - 有研究经验（在相关期刊或国际会议上发表过学术论文）者优先
 
@@ -68,7 +69,7 @@ author_profile: true
 
 具体申请方式请见：<a href="https://www.wgtn.ac.nz/scholarships/current/china-scholarships-council-csc-victoria-university-scholarship-scheme">https://www.wgtn.ac.nz/scholarships/current/china-scholarships-council-csc-victoria-university-scholarship-scheme</a>。
 
-本轮截止日期为<b>2025年1月31日</b>（该项目常年有效）。
+本轮截止日期为<b>2026年1月31日</b>（该项目常年有效）。
 
 <br/>
 
