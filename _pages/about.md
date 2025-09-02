@@ -20,7 +20,7 @@ Victoria University of Wellington ([VUW](https://www.wgtn.ac.nz/))
 
 Evolutionary Computation for Combinatorial Optimisation Group ([ECCO](https://ecs.wgtn.ac.nz/Groups/ECCO/WebHome)) \\
 Evolutionary Computation and Machine Learning Research Group ([ECRG](https://ecs.wgtn.ac.nz/Groups/ECRG/WebHome)) \\
-IEEE Taskforce on Evolutionary Scheduling and Combinatorial Optimisation ([TESCO](https://homepages.ecs.vuw.ac.nz/~yimei/ieee-tf-esco/))
+IEEE CIS Taskforce on Evolutionary Scheduling and Combinatorial Optimisation ([TESCO](https://cis.taskforce.ieee.org/esco/))
 
 
 <span style="color: #FF0000"><b>[PhD Vacancy]</b></span>: I am looking for <b>PhD/MSc/Honours/Summer Research</b> students. If you have similar <a href="#research-interests">research interests</a> with me, please do not hesitate to <a href="mailto:yi.mei@ecs.vuw.ac.nz">contact</a> me. <br/>
