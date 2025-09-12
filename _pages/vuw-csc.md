@@ -44,7 +44,7 @@ author_profile: true
 
 该团队在顶级期刊和国际知名会议上发表多篇文章，获得多项新西兰政府、皇家科学院和企业项目（项目经费累计超过1亿）。更多信息请见[https://ecs.wgtn.ac.nz/Groups/ECRG/](https://ecs.wgtn.ac.nz/Groups/ECRG/)。
 
-课题组领导人张孟杰（Mengjie Zhang）教授，IEEE Fellow，新西兰皇家科学院院士，新西兰工程院院士，IEEE CIS Distinguished Lecturer 。现任新西兰惠灵顿维多利亚大学（VUW）计算机科学教授及工学部副部长（主管科研与创新），工程与计算机学院研究委员会主席，VUW学术委员会成员以及研究生奖学金委员会成员。出版专著2部，在著名国际杂志如《IEEE Transactions on Evolutionary Computation》、《IEEE Transactions on Cybernetics》和《Evolutionary Computation Journal (MIT Press)》及重要国际学术会议上发表论文700多篇；自2007年起在遗传编程公认网页：[Genetic Programming bibliography](http://www.cs.bham.ac.uk/~wbl/biblio/gp-html/index.html)上被列为世界排名前四的遗传编程算法研究人员。
+课题组领导人张孟杰（Mengjie Zhang）教授，IEEE Fellow，新西兰皇家科学院院士，新西兰工程院院士，IEEE CIS Distinguished Lecturer 。现任新西兰惠灵顿维多利亚大学（VUW）计算机科学教授及工学部副部长（主管科研与创新），工程与计算机学院研究委员会主席，VUW学术委员会成员以及研究生奖学金委员会成员。出版专著2部，在著名国际杂志如《IEEE Transactions on Evolutionary Computation》、《IEEE Transactions on Cybernetics》和《Evolutionary Computation Journal (MIT Press)》及重要国际学术会议上发表论文700多篇；自2007年起在遗传编程公认网页：[Genetic Programming bibliography](https://gpbib.cs.ucl.ac.uk/gp-html/index.html)上被列为世界排名前四的遗传编程算法研究人员。
 
 ## 学校简介
 
@@ -65,7 +65,7 @@ author_profile: true
 ## 申请方式
 
 1. 请联系Dr. Yi Mei (yi.mei@ecs.vuw.ac.nz)，并附上简历与最高学历成绩单。
-2. 在<b>惠灵顿维多利亚大学研究生院官网</b> [https://www.victoria.ac.nz/fgr](https://www.victoria.ac.nz/fgr) 提交博士奖学金申请，<b><font color="red">注意</font></b>一定要在"<b>Name of Scholarship</b>"这一栏里选择"<b>China Scholarships Council (CSC) / Victoria University Scholarship Scheme</b>"。
+2. 在<b>惠灵顿维多利亚大学研究生院官网</b> [https://www.wgtn.ac.nz/fgr](https://www.wgtn.ac.nz/fgr) 提交博士奖学金申请，<b><font color="red">注意</font></b>一定要在"<b>Name of Scholarship</b>"这一栏里选择"<b>China Scholarships Council (CSC) / Victoria University Scholarship Scheme</b>"。
 3. 我们收到申请后会联系你进行面试，并根据评估发送offer。在你取得VUW的offer之后，需要再至<b>国家留学基金委官网</b> [https://www.csc.edu.cn/chuguo](https://www.csc.edu.cn/chuguo) 申请国家留学基金委的奖学金。
 
 具体申请方式请见：<a href="https://www.wgtn.ac.nz/scholarships/current/china-scholarships-council-csc-victoria-university-scholarship-scheme">https://www.wgtn.ac.nz/scholarships/current/china-scholarships-council-csc-victoria-university-scholarship-scheme</a>。
