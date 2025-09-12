@@ -58,6 +58,8 @@ NEWS
 <li>Evolutionary Computation and Learning</li>
 <li>Combinatorial Optimisation</li>
 <li>Genetic Programming</li>
+<li>Reinforcement Learning</li>
+<li>Large Language Models</li>
 <li>Automated Algorithm Design / Hyper-Heuristics</li>
 <li>Multi-objective Optimisation and Decision Making</li>
 <li>AI Planning and Scheduling</li>

@@ -19,6 +19,7 @@ author_profile: true
 
 - 演化计算、智能物流、调度与组合优化、供应链优化
 - 基于机器学习与强化学习的组合优化(Learning for Optimisation)
+- 结合大语言模型的组合优化与决策
 - 演化多目标优化
 - 可解释性（Explainable）的学习与优化
 - 遗传编程（Genetic Programming）
@@ -27,7 +28,7 @@ author_profile: true
 - 自动算法设计，超启发式(Hyper-heuristics)
 - 演化大规模组合优化
 - 仿真优化(Simulation Optimization)
-- 以及各种现实优化问题...
+- 以及各种现实优化问题
 
 ## 导师简介
 
