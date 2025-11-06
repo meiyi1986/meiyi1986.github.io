@@ -28,6 +28,9 @@ author_profile: true
 ## Conference Organisation
 
 <ul>
+	<li><strong>RWA Track Chair</strong>, ACM Genetic and Evolutionary Computation Conference (GECCO) 2026</li>
+	<li><strong>J2C Coordination Chair</strong>, World Congress on Computational Intelligence (WCCI) 2026</li>
+	<li><strong>Program Chair</strong>, Pacific Rim International Conference on Artificial Intelligence (PRICAI) 2025</li>
 	<li><strong>ECOM Track Chair</strong>, ACM Genetic and Evolutionary Computation Conference (GECCO) 2025</li>
 	<li><strong>Area Chair</strong>, IEEE Congress on Evolutionary Computation (CEC) 2025</li>
 	<li><strong>Chair</strong>, <a href="https://homepages.ecs.vuw.ac.nz/~yimei/waiodm2025.html">CDSAI Workshop on AI for Optimisation and Decision Making</a>, Victoria University of Wellington, 20 February 2025</li>
