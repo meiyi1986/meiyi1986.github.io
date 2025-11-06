@@ -89,6 +89,7 @@ author_profile: true
 ## Journal Reviewer
 
 <ol>
+	<li><a href="https://www.nature.com/ncomms/">Nature Communications</a>, Springer Nature</li>
 	<li><a href="http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4235">IEEE Transactions on Evolutionary Computation</a>, IEEE <strong>(ARC/CORE Tier A*, Q1)</strong></li>
 	<li><a href="https://dl.acm.org/journal/csur">ACM Computing Surveys</a>, ACM <strong>(ARC/CORE Tier A*, Q1)</strong></li>
 	<li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=71">IEEE Transactions on Parallel and Distributed Systems</a>, IEEE <strong>(ARC/CORE Tier A*, Q1)</strong></li>
