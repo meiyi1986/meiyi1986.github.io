@@ -19,7 +19,7 @@ author_profile: true
 
 - 演化计算、智能物流、调度与组合优化、供应链优化
 - 基于机器学习与强化学习的组合优化(Learning for Optimisation)
-- 结合大语言模型的组合优化与决策
+- 结合大语言模型(LLM)的组合优化与决策
 - 演化多目标优化
 - 可解释性（Explainable）的学习与优化
 - 遗传编程（Genetic Programming）
@@ -32,11 +32,11 @@ author_profile: true
 
 ## 导师简介
 
-梅一现任新西兰惠灵顿维多利亚大学工程与计算机科学学院Associate Professor/Reader。他曾在**中国科学技术大学少年班**取得学士学位，中国科学技术大学计算机学院取得博士学位。其研究方向为演化（进化）计算与机器学习、调度与组合优化。他在各大演化计算顶级期刊（包括《IEEE Transactions on Evolutionary Computation》、《IEEE Transactions on Cybernetics》、《 IEEE Transactions on Emerging Topics in Computational Intelligence》、《Evolutionary Computation Journal (MIT Press)》上发表多篇论文（总计发表250余篇论文，谷歌学术总引用数9200+，h-index 47），出版专著1部，并曾荣获2017年IEEE Transactions on Evolutionary Computation Outstanding Paper Award。
+梅一现任新西兰惠灵顿维多利亚大学工程与计算机科学学院的Full Professor。他曾在**中国科学技术大学少年班**取得学士学位，中国科学技术大学计算机学院取得博士学位。其研究方向为演化（进化）计算与机器学习、调度与组合优化。他在各大演化计算顶级期刊（包括《IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)》、《IEEE Transactions on Evolutionary Computation (TEVC)》、《IEEE Transactions on Cybernetics (TCYB)》、《 IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)》、《Evolutionary Computation Journal (MIT Press)》以及人工智能顶会（AAAI，IJCAI）上发表多篇论文（总计发表250余篇论文，谷歌学术总引用数9200+，h-index 47），出版专著1部，并曾荣获2017年IEEE Transactions on Evolutionary Computation Outstanding Paper Award。
 
-梅一教授为30多名博士研究生的导师，其中接近20名博士研究生已成功毕业，并在新西兰、澳洲、欧洲及国内高校与工业界工作。<b>在其指导下有多名博士生获得国际重要奖项，如ACM SigEVO Outstanding Dissertation Award (honourable mention), ACM Genetic and Evolutionary Computation Conference (GECCO) Best Paper Award, ACM GECCO Humies Award, EuroGP Best Paper Award。</b>
+梅一教授为30多名博士研究生的导师，其中接近20名博士研究生已成功毕业，并在新西兰、澳洲、欧洲及国内高校与工业界工作。<b>在其指导下有多名博士生获得国际重要奖项，如IEEE CIS PhD Dissertation Award，ACM SigEVO Outstanding Dissertation Award (honourable mention), ACM Genetic and Evolutionary Computation Conference (GECCO) Best Paper Award, ACM GECCO Humies Award, EuroGP Best Paper Award，以及校级杰出研究奖。</b>
 
-他主持/参与多项国家级科研基金，包括New Zealand Royal Society Marsden Fast-Start Fund，MBIE Endeavour Smart Idea Fund, Royal Society Catalyst Leaders Fund, MBIE SSIF Fund on Data Science，Science for Technological Innovation Seed Fund（累计超过1000万新西兰元）。他担任5个国际期刊的编委会成员，并担任多个国际学术会议（包括IEEE CEC，ACM GECCO，IEEE SSCI）的组织成员与分会主席。他是IEEE新西兰中央分部主席，IEEE计算智能学会演化调度组合优化Taskforce主席，新西兰工程院院士以及IEEE高级会员。
+他主持/参与多项国家级科研基金，包括New Zealand Royal Society Marsden Fast-Start Fund，MBIE Endeavour Smart Idea Fund, Royal Society Catalyst Leaders Fund, MBIE SSIF Fund on Data Science，Science for Technological Innovation Seed Fund（累计超过1000万新西兰元）。他担任5个国际期刊的编委会成员（包括IEEE TEVC，CIM，TAI），并担任多个国际学术会议（包括IEEE CEC，ACM GECCO，IEEE SSCI）的组织成员与分会主席。他曾担任IEEE新西兰中央分部主席，IEEE计算智能学会演化调度组合优化Taskforce主席。他是新西兰工程院院士以及IEEE高级会员。
 
 ## 研究团队简介
 
@@ -44,7 +44,7 @@ author_profile: true
 
 该团队在顶级期刊和国际知名会议上发表多篇文章，获得多项新西兰政府、皇家科学院和企业项目（项目经费累计超过1亿）。更多信息请见[https://ecs.wgtn.ac.nz/Groups/ECRG/](https://ecs.wgtn.ac.nz/Groups/ECRG/)。
 
-课题组领导人张孟杰（Mengjie Zhang）教授，IEEE Fellow，新西兰皇家科学院院士，新西兰工程院院士，IEEE CIS Distinguished Lecturer 。现任新西兰惠灵顿维多利亚大学（VUW）计算机科学教授及工学部副部长（主管科研与创新），工程与计算机学院研究委员会主席，VUW学术委员会成员以及研究生奖学金委员会成员。出版专著2部，在著名国际杂志如《IEEE Transactions on Evolutionary Computation》、《IEEE Transactions on Cybernetics》和《Evolutionary Computation Journal (MIT Press)》及重要国际学术会议上发表论文700多篇；自2007年起在遗传编程公认网页：[Genetic Programming bibliography](https://gpbib.cs.ucl.ac.uk/gp-html/index.html)上被列为世界排名前四的遗传编程算法研究人员。
+课题组领导人张孟杰（Mengjie Zhang）教授，IEEE Fellow，新西兰皇家科学院院士，新西兰工程院院士，IEEE CIS Distinguished Lecturer 。现任新西兰惠灵顿维多利亚大学（VUW）计算机科学教授及工学部副部长（主管科研与创新），工程与计算机学院研究委员会主席，VUW学术委员会成员以及研究生奖学金委员会成员。出版专著2部，在著名国际杂志如《IEEE Transactions on Evolutionary Computation》、《IEEE Transactions on Cybernetics》和《Evolutionary Computation Journal (MIT Press)》及重要国际学术会议上发表论文1300多篇；自2007年起在遗传编程公认网页：[Genetic Programming bibliography](https://gpbib.cs.ucl.ac.uk/gp-html/index.html)上被列为世界排名前三的遗传编程算法研究人员。
 
 ## 学校简介
 
@@ -64,7 +64,7 @@ author_profile: true
 
 ## 申请方式
 
-1. 请联系Dr. Yi Mei (yi.mei@ecs.vuw.ac.nz)，并附上简历与最高学历成绩单。
+1. 请联系Prof. Yi Mei (yi.mei@ecs.vuw.ac.nz)，并附上简历与最高学历成绩单。
 2. 在<b>惠灵顿维多利亚大学研究生院官网</b> [https://www.wgtn.ac.nz/fgr](https://www.wgtn.ac.nz/fgr) 提交博士奖学金申请，<b><font color="red">注意</font></b>一定要在"<b>Name of Scholarship</b>"这一栏里选择"<b>China Scholarships Council (CSC) / Victoria University Scholarship Scheme</b>"。
 3. 我们收到申请后会联系你进行面试，并根据评估发送offer。在你取得VUW的offer之后，需要再至<b>国家留学基金委官网</b> [https://www.csc.edu.cn/chuguo](https://www.csc.edu.cn/chuguo) 申请国家留学基金委的奖学金。
 
@@ -85,5 +85,5 @@ author_profile: true
 
 ## 联系方式
 
-更多详情或咨询，请联系Dr. Yi Mei (yi.mei@ecs.vuw.ac.nz)，谢谢！
+更多详情或咨询，请联系Prof. Yi Mei (yi.mei@ecs.vuw.ac.nz)，谢谢！
 
