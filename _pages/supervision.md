@@ -8,10 +8,12 @@ author_profile: true
 ## PhD
 
 <ol>
-  <li><b>Xiangling Chen</b> (Victoria University of Wellington, 2024): "TBD" (with Prof Mengjie Zhang)</li>
-  <li><b>Zhuoyin Qiao</b> (Victoria University of Wellington, 2024): "TBD" (with Dr. Fangfang Zhang and Prof Mengjie Zhang)</li>
-  <li><b>Luyao Zhu</b> (Victoria University of Wellington, 2024): "TBD" (with Dr. Fangfang Zhang and Prof Mengjie Zhang)</li>
-  <li><b>Jiyuan Pei</b> (Victoria University of Wellington, 2024): "Adaptive operator selection" (with Prof Mengjie Zhang)</li>
+  <li><b>Mengjiao Chen</b> (Victoria University of Wellington, 2025): "Machine learning for dynamic scheduling" (with A/Prof. Hui Ma and Dr. Felix Yan)</li>
+  <li><b>Qianhui Wang</b> (Victoria University of Wellington, 2025): "GP for cloud resource allocation" (with Prof Mengjie Zhang)</li>
+  <li><b>Xiangling Chen</b> (Victoria University of Wellington, 2024): "Learning to improve for optimisation" (with Prof Mengjie Zhang)</li>
+  <li><b>Zhuoyin Qiao</b> (Victoria University of Wellington, 2024): "GP for dynamic scheduling" (with Dr. Fangfang Zhang and Prof Mengjie Zhang)</li>
+  <li><b>Luyao Zhu</b> (Victoria University of Wellington, 2024): "GP for dynamic scheduling" (with Dr. Fangfang Zhang and Prof Mengjie Zhang)</li>
+  <li><b>Jiyuan Pei</b> (Victoria University of Wellington, 2024): "Lifelong learning for optimisation" (with Prof Mengjie Zhang)</li>
   <li><b>Xiaocheng Liao</b> (Victoria University of Wellington, 2023): "Genetic programming for real-time traffic control" (with Prof Mengjie Zhang)</li>
   <li><b>Bocheng Lin</b> (Victoria University of Wellington, 2023): "Reinforcement learning and evolutionary computation for combinatorial optimisation" (with Prof Mengjie Zhang)</li>
   <li><b>Dedy Hendro</b> (Victoria University of Wellington, 2023): "Machine Learning for Cyber-security" (with A/Prof. Ian Welch and Dr. Andrew Lensen)</li>
