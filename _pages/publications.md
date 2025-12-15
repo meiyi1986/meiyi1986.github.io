@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-My [Google Scholar Citation](https://scholar.google.com.au/citations?user=vTC_7_wAAAAJ&hl=en) is <b>7400+</b>, h-index is <b>42</b>.
+My [Google Scholar Citation](https://scholar.google.com.au/citations?user=vTC_7_wAAAAJ&hl=en) is <b>10000+</b>, h-index is <b>50</b>.
 
 Below are the full lists of my publications. If you need the PDF of any of the papers, please feel free to <a href="mailto:yi.mei@ecs.vuw.ac.nz">contact</a> me.
 
