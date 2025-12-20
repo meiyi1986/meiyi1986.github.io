@@ -32,7 +32,7 @@ author_profile: true
 
 ## 导师简介
 
-梅一现任新西兰惠灵顿维多利亚大学工程与计算机科学学院的Full Professor。他曾在**中国科学技术大学少年班**取得学士学位，中国科学技术大学计算机学院取得博士学位。其研究方向为演化（进化）计算与机器学习、调度与组合优化。他在各大演化计算顶级期刊（包括《IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)》、《IEEE Transactions on Evolutionary Computation (TEVC)》、《IEEE Transactions on Cybernetics (TCYB)》、《 IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)》、《Evolutionary Computation Journal (MIT Press)》以及人工智能顶会（AAAI，IJCAI）上发表多篇论文（总计发表250余篇论文，谷歌学术总引用数9200+，h-index 47），出版专著1部，并曾荣获2017年IEEE Transactions on Evolutionary Computation Outstanding Paper Award。
+梅一现任新西兰惠灵顿维多利亚大学工程与计算机科学学院的Full Professor。他曾在**中国科学技术大学少年班**取得学士学位，中国科学技术大学计算机学院取得博士学位。其研究方向为演化（进化）计算与机器学习、调度与组合优化。他在各大演化计算顶级期刊（包括《IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)》、《IEEE Transactions on Evolutionary Computation (TEVC)》、《IEEE Transactions on Cybernetics (TCYB)》、《 IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)》、《Evolutionary Computation Journal (MIT Press)》以及人工智能顶会（AAAI，IJCAI）上发表多篇论文（总计发表250余篇论文，谷歌学术总引用数超过1万次，h-index 50），出版专著1部，并曾荣获2017年IEEE Transactions on Evolutionary Computation Outstanding Paper Award。
 
 梅一教授为30多名博士研究生的导师，其中接近20名博士研究生已成功毕业，并在新西兰、澳洲、欧洲及国内高校与工业界工作。<b>在其指导下有多名博士生获得国际重要奖项，如IEEE CIS PhD Dissertation Award，ACM SigEVO Outstanding Dissertation Award (honourable mention), ACM Genetic and Evolutionary Computation Conference (GECCO) Best Paper Award, ACM GECCO Humies Award, EuroGP Best Paper Award，以及校级杰出研究奖。</b>
 
