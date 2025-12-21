@@ -28,6 +28,7 @@ author_profile: true
 ## Conference Organisation
 
 <ul>
+	<li><strong>Special Session Chair</strong>, IEEE International Conference on Automation Science and Engineering (CASE) 2026</li>
 	<li><strong>RWA Track Chair</strong>, ACM Genetic and Evolutionary Computation Conference (GECCO) 2026</li>
 	<li><strong>J2C Coordination Chair</strong>, World Congress on Computational Intelligence (WCCI) 2026</li>
 	<li><strong>Program Chair</strong>, Pacific Rim International Conference on Artificial Intelligence (PRICAI) 2025</li>
