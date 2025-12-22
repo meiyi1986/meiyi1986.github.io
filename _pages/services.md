@@ -135,6 +135,7 @@ author_profile: true
 	<li><a href="https://www.journals.elsevier.com/expert-systems-with-applications">Expert Systems with Applications</a>, Elsevier <strong>(Q1)</strong></li>
 	<li><a href="https://www.journals.elsevier.com/knowledge-based-systems">Knowledge-based Systems</a>, Elsevier <strong>(Q1)</strong></li>
 	<li><a href="https://www.journals.elsevier.com/robotics-and-computer-integrated-manufacturing">Robotics and Computer-Integrated Manufacturing</a>, Elsevier <strong>(Q1)</strong></li>
+	<li><a href="https://www.sciencedirect.com/journal/artificial-intelligence-in-agriculture">Artificial Intelligence in Agriculture</a>, Elsevier <strong>(Q1)</strong></li>
 	<li><a href="https://www.journals.elsevier.com/journal-of-computational-science">Journal of Computational Science</a>, Elsevier <strong>(Q1)</strong></li>
 	<li><a href="http://www.journals.elsevier.com/neurocomputing/">NeuroComputing</a>, Elsevier <strong>(Q1)</strong></li>
 	<li><a href="http://link.springer.com/journal/10951">Journal of Scheduling</a>, Springer <strong>(Q1)</strong></li>
