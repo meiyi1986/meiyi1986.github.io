@@ -8,7 +8,7 @@ author_profile: true
 ## PhD
 
 <ol>
-  <li><b>Mengjiao Chen</b> (Victoria University of Wellington, 2025): "Machine learning for dynamic scheduling" (with A/Prof. Hui Ma and Dr. Felix Yan)</li>
+  <li><b>Mengjiao Chen</b> (Victoria University of Wellington, 2025): "Machine learning for dynamic scheduling" (with A/Prof Hui Ma, Dr Felix Yan, and Prof Mengjie Zhang)</li>
   <li><b>Qianhui Wang</b> (Victoria University of Wellington, 2025): "GP for cloud resource allocation" (with Prof Mengjie Zhang)</li>
   <li><b>Xiangling Chen</b> (Victoria University of Wellington, 2024): "Learning to improve for optimisation" (with Prof Mengjie Zhang)</li>
   <li><b>Zhuoyin Qiao</b> (Victoria University of Wellington, 2024): "GP for dynamic scheduling" (with Dr. Fangfang Zhang and Prof Mengjie Zhang)</li>
