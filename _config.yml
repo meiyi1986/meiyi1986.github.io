@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "A/Prof. Yi Mei"
+  name             : "Prof. Yi Mei"
   avatar           : "profile.png"
-  bio              : "Associate Professor/Reader, Fellow of Engineering New Zealand, IEEE Senior Member"
+  bio              : "Professor, Fellow of Engineering New Zealand, IEEE Senior Member"
   location         : "Wellington, New Zealand"
   employer         : "Victoria University of Wellington"
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
