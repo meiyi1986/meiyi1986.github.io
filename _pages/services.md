@@ -168,7 +168,10 @@ author_profile: true
 
 <ul>
 	<li><strong>Fellow</strong> of <a href="https://www.engineeringnz.org/">Engineering New Zealand</a></li>
-	<li><strong>Newsletter Coordinator</strong> of IEEE Computational Intelligence Society 2026-2027</li>
+	<li><strong>Chair</strong> of IEEE New Zealand Council, 2026-2027</li>
+	<li><strong>Chair</strong> of IEEE Computational Intelligence Society Evolutionary Computation Technical Committee, 2026-2027</li>
+	<li><strong>Chair</strong> of IEEE Computational Intelligence Society Education Portal Subcommittee, 2026-2027</li>
+	<li><strong>Newsletter Coordinator</strong> of IEEE Computational Intelligence Society, 2026-2027</li>
 	<li><strong>Chair</strong> of IEEE Computational Intelligence Society Travel Grant Subcommittee, 2024-2025</li>
 	<li><strong>Chair</strong> of <a href="https://cis.taskforce.ieee.org/esco/">IEEE Taskforce on Evolutionary Scheduling and Combinatorial Optimisation</a>, 2021-2025</li>
 	<li><strong>Chair</strong> of <a href="https://r10.ieee.org/nzc/">IEEE New Zealand Central Section</a>, 2021-2024</li>
