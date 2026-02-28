@@ -8,6 +8,7 @@ author_profile: true
 ## Editorship
 
 <ul>
+	<li><strong>Editor</strong> of IEEE Computational Intelligence Society Newsletter, 2026-2027</li>
 	<li><strong>Associate Editor</strong>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4235">IEEE Transactions on Evolutionary Computation</a> (ARC/CORE Tier A*)</li>
 	<ul>
 		<li><span style="color: #FF0000">Outstanding Associate Editor 2024</span> [ <a href="../files/certificate-tevc-oae2024.pdf">certificate</a> ]</li>
@@ -171,7 +172,6 @@ author_profile: true
 	<li><strong>Chair</strong> of IEEE New Zealand Council, 2026-2027</li>
 	<li><strong>Chair</strong> of IEEE Computational Intelligence Society Evolutionary Computation Technical Committee, 2026-2027</li>
 	<li><strong>Chair</strong> of IEEE Computational Intelligence Society Education Portal Subcommittee, 2026-2027</li>
-	<li><strong>Newsletter Coordinator</strong> of IEEE Computational Intelligence Society, 2026-2027</li>
 	<li><strong>Chair</strong> of IEEE Computational Intelligence Society Travel Grant Subcommittee, 2024-2025</li>
 	<li><strong>Chair</strong> of <a href="https://cis.taskforce.ieee.org/esco/">IEEE Taskforce on Evolutionary Scheduling and Combinatorial Optimisation</a>, 2021-2025</li>
 	<li><strong>Chair</strong> of <a href="https://r10.ieee.org/nzc/">IEEE New Zealand Central Section</a>, 2021-2024</li>
