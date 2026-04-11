@@ -45,3 +45,6 @@ sed -i '' 's+\[&nbsp;<a href="publication-conf_bib.html#liao2024learning"+ <b st
 
 # add "Best Paper Nomination" to Jiyuan's GECCO2024 paper
 sed -i '' 's+\[&nbsp;<a href="publication-conf_bib.html#pei2024learning"+ <b style="color:red;">(L4EC Track Best Paper Nomination)</b> &nbsp;<a href="publication-conf_bib.html#pei2024learning"+g' publication-conf.html
+
+# add "Best Student Paper" to Saining's EvoStar2026 paper
+sed -i '' 's+\[&nbsp;<a href="publication-conf_bib.html#liu2026adaptive"+ <b style="color:red;">(Best Student Paper Award)</b> &nbsp;<a href="publication-conf_bib.html#liu2026adaptive"+g' publication-conf.html
