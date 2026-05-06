@@ -34,6 +34,8 @@ Computation Approach", <strong>New Zealand Royal Society Catalyst Leaders Fund</
 ## Awards
 
 <ul>
+<li><b>2026</b>, <b>Best Student Paper Award</b>: EvoStar - The Leading European Event on Bio‑Inspired AI [ <a href="">paper</a> | <a href="">certificate</a> ]</li>
+<li><b>2025</b>, <b>Best Student Paper Award</b>: IEEE International Telecommunication Networks and Applications Conference (ITNAC) [ <a href="https://ieeexplore.ieee.org/document/11302604">paper</a> | <a href="../files/certificate-itnac2025-bspa.jpg">certificate</a> ]</li>
 <li><b>2024</b>, Victoria University of Wellington <b>Research Excellence Award</b></li>
 <li><b>2024</b>, <b>Best Paper Award</b>: ACM Genetic and Evolutionary Computation Conference, GP Track [ <a href="https://dl.acm.org/doi/10.1145/3638529.3654037">paper</a> | <a href="../files/certificate-gecco2024-bpa.jpg">certificate</a> ]</li>
 <li><b>2023</b>, <b>Best Poster Award Runner-Up</b>: Australasian Joint Conference on Artificial Intelligence [ <a href="https://link.springer.com/chapter/10.1007/978-981-99-8391-9_32">paper</a> ]</li>
