@@ -31,6 +31,7 @@ author_profile: true
 <ul>
 	<li><strong>Publication Chair</strong>, IEEE International Conference on Computer Engineering and Intelligent Control (ICCEIC) 2026</li>
 	<li><strong>Special Session Chair</strong>, IEEE International Conference on Automation Science and Engineering (CASE) 2026</li>
+	<li><strong>Publicity Chair</strong>, International Conference on Data-driven Optimization of Complex Systems (DOCS) 2026</li>
 	<li><strong>RWA Track Chair</strong>, ACM Genetic and Evolutionary Computation Conference (GECCO) 2026</li>
 	<li><strong>J2C Coordination Chair</strong>, World Congress on Computational Intelligence (WCCI) 2026</li>
 	<li><strong>Program Chair</strong>, Pacific Rim International Conference on Artificial Intelligence (PRICAI) 2025</li>
