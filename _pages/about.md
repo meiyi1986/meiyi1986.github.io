@@ -9,10 +9,8 @@ redirect_from:
 ---
 
 Professor \\
-Programme Director (Computer Science) \\
+Programme Director (Computer Science and Computer Graphics) \\
 School of Engineering and Computer Science ([SECS](https://www.wgtn.ac.nz/ecs)) \\
-Associate Dean (Research) \\
-Faculty of Engineering ([FEng](https://www.wgtn.ac.nz/engineering)) \\
 Centre for Data Science and Artificial Intelligence ([CDSAI](https://www.wgtn.ac.nz/cdsai)) \\
 Victoria University of Wellington ([VUW](https://www.wgtn.ac.nz/))
 
@@ -68,11 +66,11 @@ NEWS
 
 Biography
 ======
-Dr. Yi Mei is a Professor and Associate Dean (Research) at the Faculty of Engineering, Victoria University of Wellington, Wellington, New Zealand. 
+Dr. Yi Mei is a Professor at the School of Engineering and Computer Science, Victoria University of Wellington, Wellington, New Zealand. 
 
 His research interests include evolutionary computation for combinatorial optimisation, genetic programming, automatic algorithm design, explainable AI, multi-objective optimisation, transfer/multitask learning and optimisation. He has published on top journals in EC and Operations Research (OR) such as IEEE TEVC, IEEE TCYB, EJOR, IEEE Transactions on Services Computing, and ACM Transactions on Mathematical Software. He won an IEEE Transactions on Evolutionary Computation Outstanding Paper Award 2017, GECCO Best Paper Awards in 2022, 2023, 2024, and the EuroGP Best Paper Award 2022. 
 
-He is an Associate Editor of IEEE Transactions on Evolutionary Computation, Computational Intelligence Magazine, IEEE Transactions on Artificial Intelligence, Journal of Scheduling, and an Editorial Board Member/Associate Editor of four other international journals. He serves as the Chair of IEEE CIS Evolutionary Computation Technical Committee and Education Portal Subcommittee. He was the Chair of the IEEE CIS Taskforce on Evolutionary Scheduling and Combinatorial Optimisation. He was the Chair of the IEEE CIS Travel Grant Subcommittee, a Vice-Chair of the IEEE CIS Emergent Technologies Technical Committee, a member of three IEEE CIS Task Forces and two IEEE CIS Technical Committees. He is recognised as Stanford University/Elsevier's <b>World's Top 2% Scientist</b> since 2021.  He is a <b>Fellow of Engineering New Zealand</b> and an IEEE Senior Member.
+He is an Associate Editor of IEEE Transactions on Evolutionary Computation, Computational Intelligence Magazine, IEEE Transactions on Artificial Intelligence, Journal of Scheduling, and an Editorial Board Member/Associate Editor of four other international journals. He serves as the Chair of IEEE CIS Evolutionary Computation Technical Committee and Education Portal Subcommittee. He was the Chair of the IEEE CIS Taskforce on Evolutionary Scheduling and Combinatorial Optimisation. He was the Chair of the IEEE CIS Travel Grant Subcommittee, a Vice-Chair of the IEEE CIS Emergent Technologies Technical Committee, a member of three IEEE CIS Task Forces and two IEEE CIS Technical Committees. He is recognised as Stanford University/Elsevier's <b>World's Top 2% Scientist</b> since 2021. He is a <b>Fellow of Engineering New Zealand</b> and an IEEE Senior Member.
 
 Education
 ======
