@@ -52,3 +52,7 @@ sed -i '' 's+\[&nbsp;<a href="publication-conf_bib.html#hendro2025investigation"
 
 # add "Best Student Paper" to Saining's EvoStar2026 paper
 sed -i '' 's+\[&nbsp;<a href="publication-conf_bib.html#liu2026adaptive"+ <b style="color:red;">(Best Student Paper Award)</b> &nbsp;<a href="publication-conf_bib.html#liu2026adaptive"+g' publication-conf.html
+
+# add "CEC 2026 Best Paper Nomination"
+sed -i '' 's+\[&nbsp;<a href="publication-conf_bib.html#mao2026self"+ <b style="color:red;">(CEC Best Paper Nomination)</b> &nbsp;<a href="publication-conf_bib.html#mao2026self"+g' publication-conf.html
+
