@@ -9,10 +9,12 @@ author_profile: true
 
 <ul>
 	<li><strong>Editor</strong> of IEEE Computational Intelligence Society Newsletter, 2026-2027</li>
+	<li><strong>Associate Editor</strong>, IEEE Computational Intelligence Letters</li>
 	<li><strong>Associate Editor</strong>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4235">IEEE Transactions on Evolutionary Computation</a> (ARC/CORE Tier A*)</li>
 	<ul>
 		<li><span style="color: #FF0000">Outstanding Associate Editor 2024</span> [ <a href="../files/certificate-tevc-oae2024.pdf">certificate</a> ]</li>
 		<li><span style="color: #FF0000">Outstanding Associate Editor 2025</span> [ <a href="../files/certificate-tevc-oae2025.pdf">certificate</a> ]</li>
+		<li><span style="color: #FF0000">Outstanding Associate Editor 2026</span> [ <a href="../files/certificate-tevc-oae2026.pdf">certificate</a> ]</li>
 	</ul>
 	<li><strong>Associate Editor</strong>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9078688">IEEE Transactions on Artificial Intelligence</a></li>
 	<li><strong>Associate Editor</strong>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10207">IEEE Computational Intelligence Magazine</a></li>
@@ -29,6 +31,7 @@ author_profile: true
 ## Conference Organisation
 
 <ul>
+	<li><strong>General Chair</strong>, Australasian Joint Conference on Artificial Intelligence 2026</li>
 	<li><strong>Publication Chair</strong>, IEEE International Conference on Computer Engineering and Intelligent Control (ICCEIC) 2026</li>
 	<li><strong>Special Session Chair</strong>, IEEE International Conference on Automation Science and Engineering (CASE) 2026</li>
 	<li><strong>Publicity Chair</strong>, International Conference on Data-driven Optimization of Complex Systems (DOCS) 2026</li>
@@ -203,7 +206,7 @@ author_profile: true
 
 <ul>
 	<li><b>Programme Director</b>, BSc in Computer Science, October 2024-present</li>
-    <li><b>Associate Dean</b> (Research), Faculty of Engineering, June 2023-present</li>
+    <li><b>Associate Dean</b> (Research), Faculty of Engineering, June 2023-May 2026</li>
     <li>PhD Scholarship Committee Member, School of Engineering and Computer Science, 2025</li>
     <li>Teaching and Learning Committee Member, School of Engineering and Computer Science, 2025</li>
     <li><b>Postgraduate Coordinator</b> (Science), School of Engineering and Computer Science, June 2022-June 2023</li>
