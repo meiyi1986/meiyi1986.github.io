@@ -53,24 +53,25 @@ NEWS
 <a name="research-interests"></a>Research Interests
 ======
 <ul>
-<li>Evolutionary Computation and Learning</li>
-<li>Combinatorial Optimisation</li>
-<li>Genetic Programming</li>
+<li>Artificial Intelligence</li>
+<li>Machine Learning</li>
+<li>Evolutionary Computation</li>
 <li>Reinforcement Learning</li>
-<li>Large Language Models</li>
-<li>Automated Algorithm Design / Hyper-Heuristics</li>
-<li>Multi-objective Optimisation and Decision Making</li>
-<li>AI Planning and Scheduling</li>
+<li>Optimisation & Decision Making</li>
+<li>Operations Research</li>
+<li>Modelling and Simulation</li>
+<li>Automated Algorithm Design</li>
 <li>Explainable AI</li>
+<li>Real-World Applications</li>
 </ul>
 
 Biography
 ======
 Dr. Yi Mei is a Professor at the School of Engineering and Computer Science, Victoria University of Wellington, Wellington, New Zealand. 
 
-His research interests include evolutionary computation for combinatorial optimisation, genetic programming, automatic algorithm design, explainable AI, multi-objective optimisation, transfer/multitask learning and optimisation. He has published on top journals in EC and Operations Research (OR) such as IEEE TEVC, IEEE TCYB, EJOR, IEEE Transactions on Services Computing, and ACM Transactions on Mathematical Software. He won an IEEE Transactions on Evolutionary Computation Outstanding Paper Award 2017, GECCO Best Paper Awards in 2022, 2023, 2024, and the EuroGP Best Paper Award 2022. 
+His research interests include evolutionary computation for combinatorial optimisation, genetic programming, automatic algorithm design, explainable AI, multi-objective optimisation, transfer/multitask learning and optimisation. He has published on top journals in EC and Operations Research (OR) such as IEEE TEVC, IEEE TCYB, EJOR, IEEE Transactions on Services Computing, and ACM Transactions on Mathematical Software. He won an IEEE Transactions on Evolutionary Computation Outstanding Paper Award 2017, GECCO Best Paper Awards in 2022, 2023, 2024, the EuroGP Best Paper Award 2022, and the EvoStar Best Student Paper Award 2026.
 
-He is an Associate Editor of IEEE Transactions on Evolutionary Computation, Computational Intelligence Magazine, IEEE Transactions on Artificial Intelligence, Journal of Scheduling, and an Editorial Board Member/Associate Editor of four other international journals. He serves as the Chair of IEEE CIS Evolutionary Computation Technical Committee and Education Portal Subcommittee. He was the Chair of the IEEE CIS Taskforce on Evolutionary Scheduling and Combinatorial Optimisation. He was the Chair of the IEEE CIS Travel Grant Subcommittee, a Vice-Chair of the IEEE CIS Emergent Technologies Technical Committee, a member of three IEEE CIS Task Forces and two IEEE CIS Technical Committees. He is recognised as Stanford University/Elsevier's <b>World's Top 2% Scientist</b> since 2021. He is a <b>Fellow of Engineering New Zealand</b> and an IEEE Senior Member.
+He is an Associate Editor of IEEE Transactions on Evolutionary Computation, IEEE Computational Intelligence Magazine, IEEE Transactions on Artificial Intelligence, IEEE Computational Intelligence Letters, Journal of Scheduling, and an Editorial Board Member/Associate Editor of four other international journals. He serves as the Chair of IEEE CIS Evolutionary Computation Technical Committee and Education Portal Subcommittee. He is the Chair of IEEE New Zealand Council. He was the Chair of the IEEE CIS Taskforce on Evolutionary Scheduling and Combinatorial Optimisation. He was the Chair of the IEEE CIS Travel Grant Subcommittee, a Vice-Chair of the IEEE CIS Emergent Technologies Technical Committee, a member of three IEEE CIS Task Forces and two IEEE CIS Technical Committees. He is recognised as Stanford University/Elsevier's <b>World's Top 2% Scientist</b> since 2021. He is a <b>Fellow of Engineering New Zealand</b> and an IEEE Senior Member.
 
 Education
 ======
