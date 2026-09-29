@@ -31,6 +31,7 @@ author_profile: true
 ## Conference Organisation
 
 <ul>
+	<li><strong>RWA Track Chair</strong>, ACM Genetic and Evolutionary Computation Conference (GECCO) 2027</li>
 	<li><strong>General Chair</strong>, Australasian Joint Conference on Artificial Intelligence 2026</li>
 	<li><strong>Publication Chair</strong>, IEEE International Conference on Computer Engineering and Intelligent Control (ICCEIC) 2026</li>
 	<li><strong>Special Session Chair</strong>, IEEE International Conference on Automation Science and Engineering (CASE) 2026</li>
