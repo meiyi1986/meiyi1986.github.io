@@ -8,8 +8,9 @@ author_profile: true
 ## PhD
 
 <ol>
-  <li><b>Boshen Pan</b> (Victoria University of Wellington, 2026): "Machine learning for online decision making" (with Prof Mengjie Zhang)</li>
-  <li><b>Yue Hu</b> (Victoria University of Wellington, 2026): "Machine learning for online inventory control" (with Prof Mengjie Zhang)</li>
+  <li><b>Peiru Li</b> (Victoria University of Wellington, 2026): "Machine learning for grid and energy optimisation" (with Prof Mengjie Zhang)</li>
+  <li><b>Boshen Pan</b> (Victoria University of Wellington, 2026): "Machine learning for natural hazard responses" (with Prof Mengjie Zhang and Prof Yaoxin Wu)</li>
+  <li><b>Yue Hu</b> (Victoria University of Wellington, 2026): "Machine learning for online inventory control" (with Prof Mengjie Zhang and Prof Nora Xu)</li>
   <li><b>Jessie Dong</b> (University of Otago, 2026): "Machine learning for automatic essay scoring" (with Dr Veronica Liesaputra and A/Prof Andrew Trott)</li>
   <li><b>Feige Liu</b> (Victoria University of Wellington, 2026): "Machine learning for dynamic scheduling" (with Dr Fangfang Zhang and Prof Mengjie Zhang)</li>
   <li><b>Kashnika Sarathchandra</b> (Victoria University of Wellington, 2026): "Transfer learning for automatic essay scoring" (with A/Prof Sharon Gao)</li>
