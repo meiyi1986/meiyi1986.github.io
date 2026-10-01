@@ -177,7 +177,7 @@ author_profile: true
 ## Membership
 
 <ul>
-	<li><strong>Fellow</strong> of <a href="https://www.engineeringnz.org/">Engineering New Zealand</a></li>
+	<li><strong>Fellow</strong> of <a href="https://www.engineeringnz.org/">Engineering New Zealand</a> [ <a href="../files/certificate-fengnz.jpg">certificate</a> ]</li>
 	<li><strong>Chair</strong> of IEEE New Zealand Council, 2026-2027</li>
 	<li><strong>Chair</strong> of IEEE Computational Intelligence Society Evolutionary Computation Technical Committee, 2026-2027</li>
 	<li><strong>Chair</strong> of IEEE Computational Intelligence Society Education Portal Subcommittee, 2026-2027</li>
@@ -200,7 +200,7 @@ author_profile: true
 	<li><strong>Member</strong> of IEEE Task Force on Large Scale Optimisation, 2015-2016</li>
 	<li><strong>Treasurer</strong> of IEEE New Zealand Central Section, 2018-2020</li>
 	<li><strong>Young Professional Coordinator</strong> of IEEE New Zealand Central Section, 2018</li>
-	<li>IEEE Senior Member, ACM Member</li>
+	<li><a href="../files/certificate-ieee-sm.jpg">IEEE Senior Member</a>, ACM Member</li>
 </ul>
 
 ## Internal (VUW)
