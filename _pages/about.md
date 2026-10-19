@@ -9,13 +9,19 @@ redirect_from:
   - /about.html
 ---
 
-<div class="home-affiliation" markdown="1">
-**Professor** · Programme Director, Computer Science and Computer Graphics \
-School of Engineering and Computer Science ([SECS](https://www.wgtn.ac.nz/ecs)) \
-Centre for Data Science and Artificial Intelligence ([CDSAI](https://www.wgtn.ac.nz/cdsai)) \
-Victoria University of Wellington ([VUW](https://www.wgtn.ac.nz/))
-
-Member of the [ECCO](https://ecs.wgtn.ac.nz/Groups/ECCO/WebHome) (Evolutionary Computation for Combinatorial Optimisation) and [ECRG](https://ecs.wgtn.ac.nz/Groups/ECRG/WebHome) (Evolutionary Computation and Machine Learning) research groups, and the IEEE CIS Taskforce on Evolutionary Scheduling and Combinatorial Optimisation ([TESCO](https://cis.taskforce.ieee.org/esco/)).
+<div class="home-affiliation">
+<p>
+Professor<br>
+Programme Director (Computer Science and Computer Graphics)<br>
+School of Engineering and Computer Science (<a href="https://www.wgtn.ac.nz/ecs">SECS</a>)<br>
+Centre for Data Science and Artificial Intelligence (<a href="https://www.wgtn.ac.nz/cdsai">CDSAI</a>)<br>
+Victoria University of Wellington (<a href="https://www.wgtn.ac.nz/">VUW</a>)
+</p>
+<p>
+Evolutionary Computation for Combinatorial Optimisation Group (<a href="https://ecs.wgtn.ac.nz/Groups/ECCO/WebHome">ECCO</a>)<br>
+Evolutionary Computation and Machine Learning Research Group (<a href="https://ecs.wgtn.ac.nz/Groups/ECRG/WebHome">ECRG</a>)<br>
+IEEE CIS Taskforce on Evolutionary Scheduling and Combinatorial Optimisation (<a href="https://cis.taskforce.ieee.org/esco/">TESCO</a>)
+</p>
 </div>
 
 <div class="notice--info" markdown="1">
