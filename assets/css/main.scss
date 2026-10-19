@@ -142,7 +142,7 @@ body { color: #2f3437; }
     margin: 0;
     padding: 0.7em 0;
     border-bottom: 1px solid $lighter-gray;
-    font-size: $type-size-6;
+    font-size: 0.9em;
 
     &:last-child { border-bottom: none; }
   }
@@ -209,7 +209,7 @@ details.more {
 
 /* bibtex2html publication lists */
 .bib-list {
-  table { display: block; border: none; font-size: $type-size-6; }
+  table { display: block; border: none; font-size: 0.9em; }
   tr { border: none; }
   td { padding: 0.55em 0.4em; border-bottom: 1px solid $lighter-gray; vertical-align: top; }
   tbody { display: block; }
@@ -401,7 +401,7 @@ details.more {
 
 .pub-group__intro {
   color: $dark-gray;
-  font-size: $type-size-6;
+  font-size: 0.9em;
 }
 
 .pub-features {
@@ -416,7 +416,7 @@ details.more {
   border: 1px solid $border-color;
   border-left: 3px solid $info-color;
   border-radius: $border-radius;
-  font-size: $type-size-6;
+  font-size: 0.9em;
   line-height: 1.45;
 
   &__title,
