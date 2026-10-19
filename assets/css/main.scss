@@ -207,3 +207,60 @@
   white-space: normal;
   overflow-wrap: anywhere;
 }
+
+/* Publications page */
+.pub-jump {
+  margin: 1em 0 1.5em;
+  font-size: $type-size-6;
+  font-weight: bold;
+}
+
+.pub-group__title {
+  margin-top: 1.5em;
+  margin-bottom: 0.25em;
+}
+
+.pub-group__intro {
+  color: $dark-gray;
+  font-size: $type-size-6;
+}
+
+.pub-features {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.pub-feature {
+  margin-bottom: 1em;
+  padding: 0.9em 1.1em;
+  border: 1px solid $border-color;
+  border-left: 3px solid $info-color;
+  border-radius: $border-radius;
+  font-size: $type-size-6;
+  line-height: 1.45;
+
+  &__title,
+  &__authors,
+  &__venue { display: block; }
+
+  &__title { font-weight: bold; font-size: $type-size-5; }
+  &__authors { color: $dark-gray; }
+
+  &__cites {
+    display: inline-block;
+    margin-left: 0.4em;
+    font-weight: bold;
+    color: mix(#000, $info-color, 35%);
+  }
+
+  p {
+    margin: 0.5em 0 0;
+    font-size: 1em;
+  }
+}
+
+.pub-note {
+  font-size: $type-size-7;
+  color: $gray;
+}
