@@ -56,3 +56,6 @@ sed -i '' 's+\[&nbsp;<a href="publication-conf_bib.html#liu2026adaptive"+ <b sty
 # add "CEC 2026 Best Paper Nomination"
 sed -i '' 's+\[&nbsp;<a href="publication-conf_bib.html#mao2026self"+ <b style="color:red;">(CEC Best Paper Nomination)</b> &nbsp;<a href="publication-conf_bib.html#mao2026self"+g' publication-conf.html
 
+# add "CIM 2026 Outstanding Paper Award"
+sed -i '' 's+\[&nbsp;<a href="publication-journal_bib.html#xu2023genetic3"+ <b style="color:red;">(CIM Outstanding Paper Award)</b> &nbsp;<a href="publication-conf_bib.html#xu2023genetic3"+g' publication-journal.html
+

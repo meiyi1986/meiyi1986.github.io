@@ -14,7 +14,7 @@ redirect_from:
 <section class="home-hero">
   <h1 class="home-hero__name">Prof. Yi Mei</h1>
   <!-- PLACEHOLDER: one- or two-sentence pitch in your own words -->
-  <p class="home-hero__tagline">I build AI that learns how to make hard decisions — evolving interpretable algorithms for scheduling, routing and logistics that work in the real world.</p>
+  <p class="home-hero__tagline">I build AI that learns how to make hard decisions, by evolving interpretable algorithms and policies for scheduling, routing and logistics that work in the real world.</p>
 
   <p class="home-hero__affiliation">
     Professor<br>
