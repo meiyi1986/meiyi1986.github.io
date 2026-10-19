@@ -8,14 +8,14 @@ author_profile: true
 My [Google Scholar profile](https://scholar.google.com/citations?user=vTC_7_wAAAAJ) shows <b>12,000+</b> citations and an h-index of <b>56</b>.
 
 <nav class="pub-jump">
-  <a href="#most-cited">Most cited</a> ·
+  <a href="#selected">Selected</a> ·
   <a href="publication-book.html">Books</a> ·
   <a href="publication-journal.html">Journal articles</a> ·
   <a href="publication-conf.html">Conference papers</a> ·
   <a href="publication-chapter.html">Book chapters</a>
 </nav>
 
-<a name="most-cited"></a>
+<a name="selected"></a>
 <h2>Selected Publications</h2>
 <p>A selection of my most cited work, grouped by research area.</p>
 
