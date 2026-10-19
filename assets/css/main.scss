@@ -39,3 +39,48 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Homepage */
+.home-affiliation {
+  margin-bottom: 1.5em;
+  line-height: 1.6;
+}
+
+.news-list {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    padding: 0.35em 0;
+    border-bottom: 1px solid $lighter-gray;
+
+    &:last-child { border-bottom: none; }
+  }
+}
+
+.news-date {
+  display: inline-block;
+  min-width: 3em;
+  font-weight: bold;
+  color: $gray;
+}
+
+.news-tag {
+  display: inline-block;
+  margin-right: 0.4em;
+  padding: 0 0.5em;
+  border-radius: $border-radius;
+  background-color: mix(#fff, $info-color, 85%);
+  color: mix(#000, $info-color, 30%);
+  font-size: $type-size-7;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  vertical-align: middle;
+}
+
+/* Keep long sidebar entries (e.g. employer) from overflowing */
+.author__urls li {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
