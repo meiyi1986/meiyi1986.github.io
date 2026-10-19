@@ -14,7 +14,7 @@ redirect_from:
 <section class="home-hero">
   <h1 class="home-hero__name">Prof. Yi Mei</h1>
   <!-- PLACEHOLDER: one- or two-sentence pitch in your own words -->
-  <p class="home-hero__tagline">I build AI that learns how to make hard decisions, by evolving interpretable algorithms and policies for scheduling, routing and logistics that work in the real world.</p>
+  <p class="home-hero__tagline">I build AI solutions to learn how to make hard decisions, by evolving interpretable algorithms and policies for scheduling, routing, and resource allocation, and their applications to the real world.</p>
 
   <p class="home-hero__affiliation">
     Professor<br>
@@ -46,11 +46,11 @@ redirect_from:
 <div class="home-themes">
   <div class="home-theme">
     <h3><i class="fas fa-dna" aria-hidden="true"></i> Genetic Programming &amp; Automated Algorithm Design</h3>
-    <p>Evolving heuristics and hyper-heuristics that automatically design effective decision rules for dynamic scheduling and routing.</p>
+    <p>Evolving heuristics and meta-heuristics that automatically make optimisation and decisions.</p>
   </div>
   <div class="home-theme">
     <h3><i class="fas fa-brain" aria-hidden="true"></i> Machine Learning for Optimisation</h3>
-    <p>Combining evolutionary computation, reinforcement learning and transfer/multitask learning to solve large-scale combinatorial problems.</p>
+    <p>Evolutionary computation, reinforcement learning and transfer/multitask learning to solve combinatorial optimisation problems.</p>
   </div>
   <div class="home-theme">
     <h3><i class="fas fa-search" aria-hidden="true"></i> Explainable AI</h3>
@@ -61,35 +61,6 @@ redirect_from:
     <p>Emergency medical dispatch, aquaculture, traffic signal control, waste collection and tourism, with government and industry partners.</p>
   </div>
 </div>
-
-<!-- ===================== SELECTED PUBLICATIONS ===================== -->
-<h2 class="home-section-title">Selected Publications</h2>
-<!-- PLACEHOLDER: a starting selection of award-winning and highly cited works — swap in the 5–6 papers you most want visitors to see -->
-<ol class="home-pubs">
-  <li><span class="home-pubs__title"><a href="https://doi.org/10.1109/TEVC.2013.2281543">Cooperative Co-evolution with Differential Grouping for Large Scale Optimization</a></span>
-    <span class="home-pubs__authors">M. N. Omidvar, X. Li, <b>Y. Mei</b>, X. Yao</span>
-    <span class="home-pubs__venue"><i>IEEE Transactions on Evolutionary Computation</i>, 18(3):378–393, 2014</span>
-    <span class="news-tag">TEVC Outstanding Paper Award</span></li>
-  <li><span class="home-pubs__title"><a href="https://doi.org/10.1145/3638529.3654037">Learning Traffic Signal Control via Genetic Programming</a></span>
-    <span class="home-pubs__authors">X. Liao, <b>Y. Mei</b>, M. Zhang</span>
-    <span class="home-pubs__venue"><i>ACM GECCO</i>, 924–932, 2024</span>
-    <span class="news-tag">Best Paper Award</span></li>
-  <li><span class="home-pubs__title"><a href="https://doi.org/10.1145/3583131.3590394">Grammar-guided Linear Genetic Programming for Dynamic Job Shop Scheduling</a></span>
-    <span class="home-pubs__authors">Z. Huang, <b>Y. Mei</b>, F. Zhang, M. Zhang</span>
-    <span class="home-pubs__venue"><i>ACM GECCO</i>, 1137–1145, 2023</span>
-    <span class="news-tag">Best Paper Award</span></li>
-  <li><span class="home-pubs__title"><a href="https://doi.org/10.1145/3512290.3528723">Local Ranking Explanation for Genetic Programming Evolved Routing Policies for Uncertain Capacitated Arc Routing Problems</a></span>
-    <span class="home-pubs__authors">S. Wang, <b>Y. Mei</b>, M. Zhang</span>
-    <span class="home-pubs__venue"><i>ACM GECCO</i>, 314–322, 2022</span>
-    <span class="news-tag">Best Paper Award</span></li>
-  <li><span class="home-pubs__title"><a href="https://doi.org/10.1007/978-981-16-4859-5">Genetic Programming for Production Scheduling: An Evolutionary Learning Approach</a></span>
-    <span class="home-pubs__authors">F. Zhang, S. Nguyen, <b>Y. Mei</b>, M. Zhang</span>
-    <span class="home-pubs__venue">Springer (book), 2021</span></li>
-  <li><span class="home-pubs__title"><a href="https://doi.org/10.1109/TEVC.2013.2281503">Cooperative Coevolution with Route Distance Grouping for Large-Scale Capacitated Arc Routing Problems</a></span>
-    <span class="home-pubs__authors"><b>Y. Mei</b>, X. Li, X. Yao</span>
-    <span class="home-pubs__venue"><i>IEEE Transactions on Evolutionary Computation</i>, 18(3):435–449, 2014</span></li>
-</ol>
-<p class="home-more"><a href="/publications/">Full publication list →</a></p>
 
 <!-- ===================== NEWS ===================== -->
 <h2 class="home-section-title">News</h2>
