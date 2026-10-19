@@ -59,3 +59,6 @@ sed -i '' 's+\[&nbsp;<a href="publication-conf_bib.html#mao2026self"+ <b style="
 # add "CIM 2026 Outstanding Paper Award"
 sed -i '' 's+\[&nbsp;<a href="publication-journal_bib.html#xu2023genetic3"+ <b style="color:red;">(CIM Outstanding Paper Award)</b> &nbsp;<a href="publication-conf_bib.html#xu2023genetic3"+g' publication-journal.html
 
+
+# wrap the lists in the site layout
+python3 wrap_lists.py

@@ -123,6 +123,7 @@ include:
   - _pages
   - files
 exclude:
+  - _publications/wrap_lists.py
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

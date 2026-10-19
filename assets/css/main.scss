@@ -40,6 +40,185 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+/* ==========================================================================
+   Site-wide refinements
+   ========================================================================== */
+
+$accent: $info-color;
+$gold: #b07d00;
+
+body { color: #2f3437; }
+
+.masthead__inner-wrap { padding: 0.9em 1em; }
+.masthead__menu-item--lg a,
+.site-title { font-weight: 700; color: #2f3437; }
+.greedy-nav a { font-weight: 600; }
+.greedy-nav a:hover { color: $accent; }
+
+.page__title { font-weight: 700; letter-spacing: -0.01em; }
+
+.page__content,
+.archive {
+  line-height: 1.6;
+
+  h2 {
+    position: relative;
+    margin-top: 2em;
+    padding-bottom: 0.35em;
+    border-bottom: 1px solid $border-color;
+    font-weight: 700;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -1px;
+      width: 2.5em;
+      height: 3px;
+      background-color: $accent;
+    }
+  }
+
+  h3 { font-weight: 600; }
+
+  a { text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+
+  li { margin-bottom: 0.3em; }
+}
+
+.author__name { font-weight: 700; }
+.author__avatar img { box-shadow: 0 2px 10px rgba(#000, 0.12); }
+
+/* Badges: consistent highlight labels used across pages */
+.badge {
+  display: inline-block;
+  margin: 0 0.15em;
+  padding: 0.05em 0.6em;
+  border-radius: 999px;
+  font-size: 0.82em;
+  font-weight: 700;
+  line-height: 1.7;
+  white-space: nowrap;
+  vertical-align: 0.1em;
+  background-color: mix(#fff, $accent, 88%);
+  color: mix(#000, $accent, 20%);
+
+  &--award {
+    background-color: #fdf1cf;
+    color: #7a5600;
+
+    &::before { content: "\2605\00a0"; color: $gold; }
+  }
+
+  &--honour {
+    background-color: #f1f2f3;
+    color: $dark-gray;
+  }
+
+  &--amount {
+    background-color: #e3f3e8;
+    color: #1e6b3a;
+  }
+
+  &--done {
+    background-color: #f1f2f3;
+    color: $dark-gray;
+  }
+}
+
+/* Highlight summary panel (re-uses the homepage stat cards) */
+.page-highlights { margin-top: 0.5em; }
+
+/* Timeline-style lists for grants, awards, roles */
+.cv-list {
+  list-style: none;
+  margin: 0 0 1.5em;
+  padding: 0;
+
+  > li {
+    display: grid;
+    grid-template-columns: 6.5em 1fr;
+    gap: 0.25em 1em;
+    margin: 0;
+    padding: 0.7em 0;
+    border-bottom: 1px solid $lighter-gray;
+    font-size: $type-size-6;
+
+    &:last-child { border-bottom: none; }
+  }
+
+  &__year {
+    font-weight: 700;
+    color: $accent;
+  }
+
+  &__title { display: block; font-weight: 600; font-size: 1.05em; }
+  &__meta { display: block; color: $dark-gray; }
+
+  .badge--award { font-size: 0.9em; }
+}
+
+@media (max-width: 30em) {
+  .cv-list > li { grid-template-columns: 1fr; }
+}
+
+/* Long compact lists (reviewing, PC memberships) */
+.compact-list {
+  font-size: $type-size-6;
+
+  @include breakpoint($medium) {
+    columns: 2;
+    column-gap: 2em;
+  }
+
+  li { break-inside: avoid; }
+}
+
+details.more {
+  margin: 0.5em 0 1.5em;
+
+  > summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: $accent;
+  }
+}
+
+/* Supervision */
+.student-list {
+  font-size: $type-size-6;
+
+  li { margin-bottom: 0.5em; }
+}
+
+/* Teaching */
+.teaching-year {
+  display: grid;
+  grid-template-columns: 4em 1fr;
+  gap: 0 1em;
+  padding: 0.6em 0;
+  border-bottom: 1px solid $lighter-gray;
+
+  align-items: start;
+
+  &__year { font-weight: 700; line-height: 1.5; color: $accent; }
+
+  ul { margin: 0; padding-left: 1.1em; font-size: $type-size-6; }
+  li { margin-bottom: 0.15em; }
+}
+
+/* bibtex2html publication lists */
+.bib-list {
+  table { display: block; border: none; font-size: $type-size-6; }
+  tr { border: none; }
+  td { padding: 0.55em 0.4em; border-bottom: 1px solid $lighter-gray; vertical-align: top; }
+  tbody { display: block; }
+  table, td { border-left: none; border-right: none; }
+  .bibtexnumber { color: $gray; white-space: nowrap; }
+  hr { display: none; }
+}
+
+
 /* Homepage */
 .home-hero {
   margin-bottom: 1.5em;

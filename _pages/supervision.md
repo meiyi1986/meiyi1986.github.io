@@ -5,9 +5,18 @@ permalink: /supervision/
 author_profile: true
 ---
 
+<section class="home-stats page-highlights" aria-label="Supervision summary">
+  <div class="home-stat"><span class="home-stat__value">18</span><span class="home-stat__label">PhD graduates</span></div>
+  <div class="home-stat"><span class="home-stat__value">22</span><span class="home-stat__label">current PhD students</span></div>
+  <div class="home-stat"><span class="home-stat__value">8</span><span class="home-stat__label">visiting PhD students hosted</span></div>
+  <div class="home-stat"><span class="home-stat__value">44</span><span class="home-stat__label">Honours &amp; summer research projects</span></div>
+</section>
+
 ## PhD
 
-<ol>
+### Current
+
+<ol class="student-list">
   <li><b>Peiru Li</b> (Victoria University of Wellington, 2026): "Machine learning for grid and energy optimisation" (with Prof Mengjie Zhang)</li>
   <li><b>Boshen Pan</b> (Victoria University of Wellington, 2026): "Machine learning for natural hazard responses" (with Prof Mengjie Zhang and Prof Yaoxin Wu)</li>
   <li><b>Yue Hu</b> (Victoria University of Wellington, 2026): "Machine learning for online inventory control" (with Prof Mengjie Zhang and Prof Nora Xu)</li>
@@ -30,59 +39,78 @@ author_profile: true
   <li><b>Yuan Tian</b> (Victoria University of Wellington, 2023): "Genetic programming hyper-heuristics for project scheduling" (with Prof Mengjie Zhang)</li>
   <li><b>James Hepi</b> (Victoria University of Wellington, 2023): "Incremental learning for image process on mobile device for indigenous plant recognition (with A/Prof Ian Welch and Dr Kevin Shedlock)</li>
   <li><b>Jordan MacLachlan</b> (Victoria University of Wellington, 2021): "Evolutionary Computation for Ambulance Routing" (with Prof Mengjie Zhang and Dr. Fangfang Zhang)</li>
-  <li><i><b>Jern Tat Chin</b> (Victoria University of Wellington, completed in 2026): "Machine Learning in Empirical Asset Pricing" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Machine_Learning_in_Empirical_Asset_Pricing/31403631">[PhD thesis]</a> (with Prof Hai Lin) <span style="color: #FF0000">[Dean's List]</span></i></li>
-  <li><i><b>Zhixing Huang</b> (Victoria University of Wellington, completed in 2024): "Genetic Programming for Dynamic Scheduling" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Advanced_Linear_Genetic_Programming_and_Applications_to_Dynamic_Job_Shop_Scheduling/29976457">[PhD thesis]</a> (with Prof Mengjie Zhang and Dr. Fangfang Zhang)</i></li>
-  <li><i><b>Meng Xu</b> (Victoria University of Wellington, completed in 2024): "Advancing Genetic Programming for Learning Scheduling Heuristics" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Advancing_Genetic_Programming_for_Learning_Scheduling_Heuristics/26073502">[PhD thesis]</a> (with Prof Mengjie Zhang and Dr. Fangfang Zhang)</i></li>
   <!-- <li><b>Taiwo Akindele</b> (Victoria University of Wellington, 2020): "Resource Allocation problem in Cloud" (with A/Prof Hui Ma)</li> -->
-  <li><i><b>Shubhangi Patel</b> (Victoria University of Wellington, completed in 2023): "A New Service Model for Identifying and Improving the Quality of Emergency Department Operations in Tertiary Settings" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/A_New_Service_Model_for_Identifying_and_Improving_the_Quality_of_Emergency_Department_Operations_in_Tertiary_Settings/26802976">[PhD thesis]</a> (with A/Prof Vipul Jain)</i></li>
-  <li><i><b>Shaolin Wang</b> (Victoria University of Wellington, completed in 2023): "Explainable Genetic Programming for Evolving Routing Policies of Uncertain Capacitated Arc Routing Problems" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Explainable_Genetic_Programming_for_Evolving_Routing_Policies_of_Uncertain_Capacitated_Arc_Routing_Problems/24208311">[PhD thesis]</a> (with Prof Mengjie Zhang) [<span style="color: #FF0000">Chinese Government Award for Outstanding Self-financed Students Abroad 2024</span>]</i></li>
-  <li><i><b>Joao Costa</b> (Victoria University of Wellington, completed in 2023): "Hyper-heuristic for Vehicle Routing" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Hyper-Heuristics_for_Automatic_Configuration_of_Local_Search-based_Heuristics_for_the_Large-Scale_Vehicle_Routing_Problem/24188859">[PhD thesis]</a> (with Prof Mengjie Zhang)</i></li>
-  <li><i><b>Amirhossein Mostofi</b> (Victoria University of Wellington, completed in 2021): "Select issues in designing license contracts of strategic alliances in the pharmaceutical supply chain" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Select_issues_in_designing_license_contracts_of_strategic_alliances_in_the_pharmaceutical_supply_chain_/19095077/1">[PhD thesis]</a> (with A/Prof Vipul Jain)</i></li>
-  <li><i><b>Mazhar Anzari Ardeh</b> (Victoria University of Wellington, completed in 2021): "Transfer Optimisation in Genetic Programming for Solving Uncertain Capacitated Arc Routing Problem" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Transfer_Optimisation_in_Genetic_Programming_for_Solving_Uncertain_Capacitated_Arc_Routing_Problem/20311185">[PhD thesis]</a> (with Prof Mengjie Zhang)</i></li>
-  <li><i><b>Mahdi Abdollahi</b> (Victoria University of Wellington, completed in 2021): "Improving Medical Document Classification via Feature Engineering" (with Dr Sharon Gao, Prof Jinyan Li (UTS), and Dr Shameek Ghosh)</i></li>
-  <li><i><b>Fangfang Zhang</b> (Victoria University of Wellington, completed in 2021): "Genetic Programming Hyper-heuristics for Dynamic Flexible Job Shop Scheduling" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Genetic_Programming_Hyper-heuristics_for_Dynamic_Flexible_Job_Shop_Scheduling/16528677">[PhD thesis]</a> (with Prof Mengjie Zhang)</i></li>
-  <li><i><b>Harry He</b> (Victoria University of Wellington, completed in 2020): "Wind Environment Study of High-rise Residential Building by using Multiple Computational Tools" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Wind_Environment_Study_of_High-rise_Residential_Building_by_using_Multiple_Computational_Tools/17148980/1">[PhD thesis]</a> (with Prof Marc Aurel Schnabel)</i></li>
-  <li><i><b>Atiya Masood</b> (Victoria University of Wellington, completed in 2020): "Many-Objective Genetic Programming for Job-Shop Scheduling" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Many-Objective_Genetic_Programming_for_Job-Shop_Scheduling/17151722">[PhD thesis]</a> (with Dr Aaron Chen, and Prof Mengjie Zhang)</i></li>
-  <li><i><b>Boxiong Tan</b> (Victoria University of Wellington, completed in 2020): "An Evolutionary Computation Approach to Resource Allocation in Container-based Clouds" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/An_Evolutionary_Computation_Approach_to_Resource_Allocation_in_Container-based_Clouds/17151155">[PhD thesis]</a> (with Dr Hui Ma)</i></li>
-  <li><i><b>John Park</b> (Victoria University of Wellington, completed in 2019): "Evolving Dispatching Rules for Dynamic Job Shop Scheduling Problems using Genetic Programming" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Evolving_Dispatching_Rules_for_Dynamic_Job_Shop_Scheduling_Problems_using_Genetic_Programming/17136335">[PhD thesis]</a> (with Dr Aaron Chen, Dr Su Nguyen, and Prof Mengjie Zhang)</i></li>
-  <li><i><b>Deepak Karunakaran</b> (Victoria University of Wellington, completed in 2019): "Active Learning Methods for Dynamic Job Shop Scheduling using Genetic Programming under Uncertain Environment" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Active_Learning_Methods_for_Dynamic_Job_Shop_Scheduling_using_Genetic_Programming_under_Uncertain_Environment/17142200">[PhD thesis]</a> (with Dr Aaron Chen, and Prof Mengjie Zhang)</i></li>
-  <li><i><b>Alexandre Sawczuk Da Silva</b> (Victoria University of Wellington, completed in 2019): "Evolutionary Computation for Multifaceted Web Service Composition" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Evolutionary_Computation_for_Multifaceted_Web_Service_Composition/17134892">[PhD thesis]</a> (with Dr Hui Ma, and Prof Mengjie Zhang)</i></li>
-  <li><i><b>Md. Jakirul Islam</b> (RMIT University, Australia, completed in 2018): "Structural Optimization Using Evolutionary Multimodal and Bilevel Optimization Techniques" <a href="http://researchbank.rmit.edu.au/eserv/rmit:162527/Islam.pdf">[PhD thesis]</a> (with Prof Xiaodong Li)</i></li>
-  <li><i><b>Jing Xie</b> (RMIT University, Australia, completed in 2017): "On the Investigation of the Large-Scale
-  Grouping Constrained Storage Location Assignment Problem" <a href="https://researchbank.rmit.edu.au/eserv/rmit:162142/Xie.pdf">[PhD thesis]</a> (with Dr Andy Song, Prof Andreas Ernst, and Prof Xiaodong Li)</i></li>
+</ol>
+
+### Graduated
+
+<ol class="student-list">
+  <li><b>Jern Tat Chin</b> (Victoria University of Wellington, completed in 2026): "Machine Learning in Empirical Asset Pricing" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Machine_Learning_in_Empirical_Asset_Pricing/31403631">[PhD thesis]</a> (with Prof Hai Lin) <span class="badge badge--award">Dean's List</span></li>
+  <li><b>Zhixing Huang</b> (Victoria University of Wellington, completed in 2024): "Genetic Programming for Dynamic Scheduling" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Advanced_Linear_Genetic_Programming_and_Applications_to_Dynamic_Job_Shop_Scheduling/29976457">[PhD thesis]</a> (with Prof Mengjie Zhang and Dr. Fangfang Zhang)</li>
+  <li><b>Meng Xu</b> (Victoria University of Wellington, completed in 2024): "Advancing Genetic Programming for Learning Scheduling Heuristics" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Advancing_Genetic_Programming_for_Learning_Scheduling_Heuristics/26073502">[PhD thesis]</a> (with Prof Mengjie Zhang and Dr. Fangfang Zhang)</li>
+  <li><b>Shubhangi Patel</b> (Victoria University of Wellington, completed in 2023): "A New Service Model for Identifying and Improving the Quality of Emergency Department Operations in Tertiary Settings" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/A_New_Service_Model_for_Identifying_and_Improving_the_Quality_of_Emergency_Department_Operations_in_Tertiary_Settings/26802976">[PhD thesis]</a> (with A/Prof Vipul Jain)</li>
+  <li><b>Shaolin Wang</b> (Victoria University of Wellington, completed in 2023): "Explainable Genetic Programming for Evolving Routing Policies of Uncertain Capacitated Arc Routing Problems" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Explainable_Genetic_Programming_for_Evolving_Routing_Policies_of_Uncertain_Capacitated_Arc_Routing_Problems/24208311">[PhD thesis]</a> (with Prof Mengjie Zhang) <span class="badge badge--award">Chinese Government Award for Outstanding Self-financed Students Abroad 2024</span></li>
+  <li><b>Joao Costa</b> (Victoria University of Wellington, completed in 2023): "Hyper-heuristic for Vehicle Routing" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Hyper-Heuristics_for_Automatic_Configuration_of_Local_Search-based_Heuristics_for_the_Large-Scale_Vehicle_Routing_Problem/24188859">[PhD thesis]</a> (with Prof Mengjie Zhang)</li>
+  <li><b>Amirhossein Mostofi</b> (Victoria University of Wellington, completed in 2021): "Select issues in designing license contracts of strategic alliances in the pharmaceutical supply chain" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Select_issues_in_designing_license_contracts_of_strategic_alliances_in_the_pharmaceutical_supply_chain_/19095077/1">[PhD thesis]</a> (with A/Prof Vipul Jain)</li>
+  <li><b>Mazhar Anzari Ardeh</b> (Victoria University of Wellington, completed in 2021): "Transfer Optimisation in Genetic Programming for Solving Uncertain Capacitated Arc Routing Problem" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Transfer_Optimisation_in_Genetic_Programming_for_Solving_Uncertain_Capacitated_Arc_Routing_Problem/20311185">[PhD thesis]</a> (with Prof Mengjie Zhang)</li>
+  <li><b>Mahdi Abdollahi</b> (Victoria University of Wellington, completed in 2021): "Improving Medical Document Classification via Feature Engineering" (with Dr Sharon Gao, Prof Jinyan Li (UTS), and Dr Shameek Ghosh)</li>
+  <li><b>Fangfang Zhang</b> (Victoria University of Wellington, completed in 2021): "Genetic Programming Hyper-heuristics for Dynamic Flexible Job Shop Scheduling" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Genetic_Programming_Hyper-heuristics_for_Dynamic_Flexible_Job_Shop_Scheduling/16528677">[PhD thesis]</a> (with Prof Mengjie Zhang)</li>
+  <li><b>Harry He</b> (Victoria University of Wellington, completed in 2020): "Wind Environment Study of High-rise Residential Building by using Multiple Computational Tools" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Wind_Environment_Study_of_High-rise_Residential_Building_by_using_Multiple_Computational_Tools/17148980/1">[PhD thesis]</a> (with Prof Marc Aurel Schnabel)</li>
+  <li><b>Atiya Masood</b> (Victoria University of Wellington, completed in 2020): "Many-Objective Genetic Programming for Job-Shop Scheduling" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Many-Objective_Genetic_Programming_for_Job-Shop_Scheduling/17151722">[PhD thesis]</a> (with Dr Aaron Chen, and Prof Mengjie Zhang)</li>
+  <li><b>Boxiong Tan</b> (Victoria University of Wellington, completed in 2020): "An Evolutionary Computation Approach to Resource Allocation in Container-based Clouds" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/An_Evolutionary_Computation_Approach_to_Resource_Allocation_in_Container-based_Clouds/17151155">[PhD thesis]</a> (with Dr Hui Ma)</li>
+  <li><b>John Park</b> (Victoria University of Wellington, completed in 2019): "Evolving Dispatching Rules for Dynamic Job Shop Scheduling Problems using Genetic Programming" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Evolving_Dispatching_Rules_for_Dynamic_Job_Shop_Scheduling_Problems_using_Genetic_Programming/17136335">[PhD thesis]</a> (with Dr Aaron Chen, Dr Su Nguyen, and Prof Mengjie Zhang)</li>
+  <li><b>Deepak Karunakaran</b> (Victoria University of Wellington, completed in 2019): "Active Learning Methods for Dynamic Job Shop Scheduling using Genetic Programming under Uncertain Environment" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Active_Learning_Methods_for_Dynamic_Job_Shop_Scheduling_using_Genetic_Programming_under_Uncertain_Environment/17142200">[PhD thesis]</a> (with Dr Aaron Chen, and Prof Mengjie Zhang)</li>
+  <li><b>Alexandre Sawczuk Da Silva</b> (Victoria University of Wellington, completed in 2019): "Evolutionary Computation for Multifaceted Web Service Composition" <a href="https://openaccess.wgtn.ac.nz/articles/thesis/Evolutionary_Computation_for_Multifaceted_Web_Service_Composition/17134892">[PhD thesis]</a> (with Dr Hui Ma, and Prof Mengjie Zhang)</li>
+  <li><b>Md. Jakirul Islam</b> (RMIT University, Australia, completed in 2018): "Structural Optimization Using Evolutionary Multimodal and Bilevel Optimization Techniques" <a href="http://researchbank.rmit.edu.au/eserv/rmit:162527/Islam.pdf">[PhD thesis]</a> (with Prof Xiaodong Li)</li>
+  <li><b>Jing Xie</b> (RMIT University, Australia, completed in 2017): "On the Investigation of the Large-Scale
+  Grouping Constrained Storage Location Assignment Problem" <a href="https://researchbank.rmit.edu.au/eserv/rmit:162142/Xie.pdf">[PhD thesis]</a> (with Dr Andy Song, Prof Andreas Ernst, and Prof Xiaodong Li)</li>
 </ol>
 
 ## Visiting PhD (act as Primary Supervisor during their visits)
 
-<ol>
+### Current
+
+<ol class="student-list">
   <li><b>Shaojin Geng</b> (Visiting student from Tongji University, 2023-2025): "Multi-task multi-objective job shop scheduling"</li>
   <li><b>Xinxin Xu</b> (Visiting student from Ocean University of China, 2023-2025): "Genetic programming for harbour ship scheduling"</li>
   <li><b>Long Chen</b> (Visiting student from Beijing Jiaotong University, 2023-2024): "Genetic programming for train scheduling"</li>
   <li><b>Zaixing Sun</b> (Visiting student from Harbin Institute of Technology, 2023-2024): "Genetic programming for dynamic workflow scheduling"</li>
   <li><b>Tong Guo</b> (Visiting student from Beihang University, 2023-2024): "Evolutionary computation for airflow management"</li>
-  <li><i><b>Guanqiang Gao</b> (Visiting student from Beijing Institute of Technology, 2019-2020, completed in 2021): "Evolutionary Computation for Robot Pathfinding and Resource Allocation"</i></li>
-  <li><i><b>Binzi Xu</b> (Visiting student from Jiangnan University, 2018-2019): "Intelligent Optimisation Methods for Production Scheduling" <a href="https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CDFD&QueryID=0&CurRec=1&dbname=CDFDTEMP&filename=1020007558.nh&urlid=&yx=&v=MDc0NzRxVHJXTTFGckNVUjdxZll1UnNGeW5sVnIvSlZGMjVIck80R2RUSnA1RWJQSVI4ZVgxTHV4WVM3RGgxVDM=">[PhD thesis (in Chinese)]</a></i></li>
-  <li><i><b>Yuxin Liu</b> (Visiting student from Southwestern University, 2016-2017, completed in 2018): "Bio-inspired Route Optimization and Source Identification" <a href="http://gb.oversea.cnki.net/KCMS/detail/detail.aspx?filename=1018859716.nh&dbcode=CDFD&dbname=CDFDREF">[PhD thesis (in Chinese)]</a></i></li>
+</ol>
+
+### Completed
+
+<ol class="student-list">
+  <li><b>Guanqiang Gao</b> (Visiting student from Beijing Institute of Technology, 2019-2020, completed in 2021): "Evolutionary Computation for Robot Pathfinding and Resource Allocation"</li>
+  <li><b>Binzi Xu</b> (Visiting student from Jiangnan University, 2018-2019): "Intelligent Optimisation Methods for Production Scheduling" <a href="https://www.cnki.net/KCMS/detail/detail.aspx?dbcode=CDFD&QueryID=0&CurRec=1&dbname=CDFDTEMP&filename=1020007558.nh&urlid=&yx=&v=MDc0NzRxVHJXTTFGckNVUjdxZll1UnNGeW5sVnIvSlZGMjVIck80R2RUSnA1RWJQSVI4ZVgxTHV4WVM3RGgxVDM=">[PhD thesis (in Chinese)]</a></li>
+  <li><b>Yuxin Liu</b> (Visiting student from Southwestern University, 2016-2017, completed in 2018): "Bio-inspired Route Optimization and Source Identification" <a href="http://gb.oversea.cnki.net/KCMS/detail/detail.aspx?filename=1018859716.nh&dbcode=CDFD&dbname=CDFDREF">[PhD thesis (in Chinese)]</a></li>
 </ol>
 
 ## Masters
 
-<ol>
+### Current
+
+<ol class="student-list">
   <li><b>Jessie Dong</b> (Victoria University of Wellington, 2024): "Machine Learning for Automatic Essay Marking"</li>
-  <li><i><b>Madhuri Mapari</b> (Victoria University of Wellington, 2023): "Interpretable Reinforcement Learning with Genetic Programming"</i></li>
   <!-- <li><b>Thomson Thomas</b> (Victoria University of Wellington, 2022): "Evolutionary Computation for Cloud Resource Allocation"</li> -->
-  <li><i><b>Fergus Currie</b> (Victoria University of Wellington, 2022): "Multi-criteria decision making for genetics breeding program design" (with Drs. Maren Wellenreuther and Dr Linley Jesson from <a href="https://www.plantandfood.com">Plant and Food Research</a>)</i></li>
-  <li><i><b>Boon Wan Tan</b> (Victoria University of Wellington, 2019): "Neural Network for Combinatorial Optimisation Problems"</i></li>
-  <li><i><b>Shaolin Wang</b> (Victoria University of Wellington, 2018): "Evolutionary Computation for Uncertain Arc Routing" (with Prof Mengjie Zhang)</i></li>
-  <li><i><b>Youhan Xia</b> (University of Melbourne, Australia, graduated in 2017): "Ant Colony System for Itinerary Planning with Restaurants" (with Dr Jeffrey Chan)</i></li>
-  <li><i><b>Boxiong Tan</b> (Victoria University of Wellington, graduated in 2016): "Evolutionary Computation for Service Location Allocation" (with Dr Hui Ma)</i></li>
-  <li><i><b>Haobo Fu</b> (University of Science and Technology of China, graduated in 2010): "Meta-heuristics for Capacitated Arc Routing Problems" (with Prof Ke Tang)</i></li>
+</ol>
+
+### Graduated
+
+<ol class="student-list">
+  <li><b>Madhuri Mapari</b> (Victoria University of Wellington, 2023): "Interpretable Reinforcement Learning with Genetic Programming"</li>
+  <li><b>Fergus Currie</b> (Victoria University of Wellington, 2022): "Multi-criteria decision making for genetics breeding program design" (with Drs. Maren Wellenreuther and Dr Linley Jesson from <a href="https://www.plantandfood.com">Plant and Food Research</a>)</li>
+  <li><b>Boon Wan Tan</b> (Victoria University of Wellington, 2019): "Neural Network for Combinatorial Optimisation Problems"</li>
+  <li><b>Shaolin Wang</b> (Victoria University of Wellington, 2018): "Evolutionary Computation for Uncertain Arc Routing" (with Prof Mengjie Zhang)</li>
+  <li><b>Youhan Xia</b> (University of Melbourne, Australia, graduated in 2017): "Ant Colony System for Itinerary Planning with Restaurants" (with Dr Jeffrey Chan)</li>
+  <li><b>Boxiong Tan</b> (Victoria University of Wellington, graduated in 2016): "Evolutionary Computation for Service Location Allocation" (with Dr Hui Ma)</li>
+  <li><b>Haobo Fu</b> (University of Science and Technology of China, graduated in 2010): "Meta-heuristics for Capacitated Arc Routing Problems" (with Prof Ke Tang)</li>
 </ol>
 
 
 ## Honours Students
 
-<ol>
+<ol class="student-list">
   <li><b>Emily Ford</b> (Victoria University of Wellington, 2025): "Tourist Trip Recommendation by Machine Learning"</li>
   <li><b>Amy King</b> (Victoria University of Wellington, 2025): "Simulating Railway Network Rescheduling" (with Transdev)</li>
   <li><b>Jackie Zhou</b> (Victoria University of Wellington, 2025): "Emergency Medical Dispatch Visualiser"</li>
@@ -91,10 +119,10 @@ author_profile: true
   <li><b>Calvin Li</b> (Victoria University of Wellington, 2024): "Tourist Trip Recommendation by Machine Learning" (with Stuart Marshall)</li>
   <li><b>Suveesthiga Sathiyaseelan</b> (Victoria University of Wellington, 2024): "Genetic Programming for Railway Network Rescheduling" (with Transdev)</li>
   <li><b>Tomin Jessil</b> (Victoria University of Wellington, 2024): "Machine Learning for Fish Breeding Design" (with Plant and Food Research)</li>
-  <li><b>Isaac Young</b> (Victoria University of Wellington, 2023): "Machine Learning for Automated Medical Dispatch" (<span style="color: #FF0000"><b>Dean's List</b></span>)</li>
+  <li><b>Isaac Young</b> (Victoria University of Wellington, 2023): "Machine Learning for Automated Medical Dispatch" <span class="badge badge--award">Dean's List</span></li>
   <li><b>Rose Taylor</b> (Victoria University of Wellington, 2023): "Machine Learning for Fish Growth Prediction" (with Plant and Food Research)</li>
   <li><b>Elliot Ramoo</b> (Victoria University of Wellington, 2023): "Comparative Analysis of Methods for Job Shop Scheduling" (with Dr. Fangfang Zhang)</li>
-  <li><b>Callum Macaskill</b> (Victoria University of Wellington, 2022): "Genetic Programming for Online Delivery Allocation" (<span style="color: #FF0000"><b>Dean's List</b></span>)</li>
+  <li><b>Callum Macaskill</b> (Victoria University of Wellington, 2022): "Genetic Programming for Online Delivery Allocation" <span class="badge badge--award">Dean's List</span></li>
   <li><b>Mohnish Ramanujam</b> (Victoria University of Wellington, 2022): "Genetic Tourism Trip Recommendation"</li>
   <li><b>Ze Chen</b> (Victoria University of Wellington, 2022): "Machine Learning for Fish Growth Prediction" (with Plant and Food Research)</li>
   <li><b>Oliver Badrick</b> (Victoria University of Wellington, 2022): "NLP for Tourist Trip Summarisation"</li>
@@ -112,7 +140,7 @@ author_profile: true
 
 ## Summer Research Scholarship Students
 
-<ol>
+<ol class="student-list">
   <li><b>William Huang</b> (Victoria University of Wellington, 2024): "Genetic Programming for Dynamic Electric Dial-a-Ride"</li>
   <li><b>Joseph Robertshaw</b> (Victoria University of Wellington, 2024): "Genetic Programming for Emergency Medical Dispatching"</li>
   <li><b>Jackie Zhou</b> (Victoria University of Wellington, 2024): "Emergency Medical Dispatch Visualiser"</li>

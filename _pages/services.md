@@ -5,6 +5,13 @@ permalink: /services/
 author_profile: true
 ---
 
+<section class="home-stats page-highlights" aria-label="Highlights">
+  <div class="home-stat"><span class="home-stat__value">7</span><span class="home-stat__label">editor / associate editor roles</span></div>
+  <div class="home-stat"><span class="home-stat__value">3×</span><span class="home-stat__label">Outstanding Associate Editor, IEEE TEVC</span></div>
+  <div class="home-stat"><span class="home-stat__value">Chair</span><span class="home-stat__label">IEEE New Zealand Council</span></div>
+  <div class="home-stat"><span class="home-stat__value">General Chair</span><span class="home-stat__label">AJCAI 2026</span></div>
+</section>
+
 ## Editorship
 
 <ul>
@@ -12,9 +19,9 @@ author_profile: true
 	<li><strong>Associate Editor</strong>, IEEE Computational Intelligence Letters</li>
 	<li><strong>Associate Editor</strong>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4235">IEEE Transactions on Evolutionary Computation</a> (ARC/CORE Tier A*)</li>
 	<ul>
-		<li><span style="color: #FF0000">Outstanding Associate Editor 2024</span> [ <a href="../files/certificate-tevc-oae2024.pdf">certificate</a> ]</li>
-		<li><span style="color: #FF0000">Outstanding Associate Editor 2025</span> [ <a href="../files/certificate-tevc-oae2025.pdf">certificate</a> ]</li>
-		<li><span style="color: #FF0000">Outstanding Associate Editor 2026</span> [ <a href="../files/certificate-tevc-oae2026.pdf">certificate</a> ]</li>
+		<li><span class="badge badge--award">Outstanding Associate Editor 2024</span> [ <a href="../files/certificate-tevc-oae2024.pdf">certificate</a> ]</li>
+		<li><span class="badge badge--award">Outstanding Associate Editor 2025</span> [ <a href="../files/certificate-tevc-oae2025.pdf">certificate</a> ]</li>
+		<li><span class="badge badge--award">Outstanding Associate Editor 2026</span> [ <a href="../files/certificate-tevc-oae2026.pdf">certificate</a> ]</li>
 	</ul>
 	<li><strong>Associate Editor</strong>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9078688">IEEE Transactions on Artificial Intelligence</a></li>
 	<li><strong>Associate Editor</strong>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10207">IEEE Computational Intelligence Magazine</a></li>
@@ -66,9 +73,9 @@ author_profile: true
 
 ## Conference Program Committee Member
 
-<ul>
+<ul class="compact-list">
 	<li>Conference on Neural Information Processing Systems (NeurIPS) 2026</li>
-	<li>International Conference in Machine Learning (ICML) 2026 [<span style="color: #FFD700;">Gold Reviewer</span>]</li>
+	<li>International Conference in Machine Learning (ICML) 2026 <span class="badge badge--award">Gold Reviewer</span></li>
 	<li>International Conference in Learning Representation (ICLR) 2025</li>
 	<li>European Conference on Genetic Programming (EuroGP) 2026</li>
 	<li>European Conference on Evolutionary Computation in Combinatorial Optimisation (EvoCOP) 2026</li>
@@ -105,14 +112,18 @@ author_profile: true
 
 ## Journal Reviewer
 
-<ol>
+Reviewer for 67 international journals, including <i>Nature Communications</i>, <i>IEEE Transactions on Evolutionary Computation</i>, <i>ACM Computing Surveys</i> and <i>European Journal of Operational Research</i>.
+
+<details class="more">
+<summary>Show all 67 journals</summary>
+<ol class="compact-list">
 	<li><a href="https://www.nature.com/ncomms/">Nature Communications</a>, Springer Nature</li>
 	<li><a href="http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4235">IEEE Transactions on Evolutionary Computation</a>, IEEE <strong>(ARC/CORE Tier A*, Q1)</strong></li>
 	<li><a href="https://dl.acm.org/journal/csur">ACM Computing Surveys</a>, ACM <strong>(ARC/CORE Tier A*, Q1)</strong></li>
 	<li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=71">IEEE Transactions on Parallel and Distributed Systems</a>, IEEE <strong>(ARC/CORE Tier A*, Q1)</strong></li>
 	<li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4629386">IEEE Transactions on Services Computing</a>, IEEE <strong>(ARC/CORE Tier A*, Q1)</strong></li>
 	<li><a href="http://www.mitpressjournals.org/loi/evco">Evolutionary Computation Journal</a>, MIT Press <strong>(ARC/CORE Tier A, Q1)</strong></li>
-	<li><a href="http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036">IEEE Transactions on Cybernetics</a>, IEEE <strong>(ARC/CORE Tier A, Q1)</strong> (<i>Outstanding Reviewer 2018</i>)</li>
+	<li><a href="http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221036">IEEE Transactions on Cybernetics</a>, IEEE <strong>(ARC/CORE Tier A, Q1)</strong> <span class="badge badge--award">Outstanding Reviewer 2018</span></li>
 	<li><a href="http://www.journals.elsevier.com/european-journal-of-operational-research/">European Journal of Operational Research</a>, Elsevier <strong>(ARC/CORE Tier A, Q1)</strong></li>
 	<li><a href="https://www.journals.elsevier.com/future-generation-computer-systems">Future Generation Computer Systems</a>, Elsevier <strong>(ARC/CORE Tier A, Q1)</strong></li>
 	<li><a href="http://www.journals.elsevier.com/information-sciences/">Information Sciences</a>, Elsevier <strong>(ARC/CORE Tier A, Q1)</strong></li>
@@ -141,7 +152,7 @@ author_profile: true
 	<li><a href="https://www.journals.elsevier.com/computers-and-industrial-engineering">Computers and Industrial Engineering</a>, Elsevier <strong>(Q1)</strong></li>
 	<li><a href="https://www.journals.elsevier.com/pervasive-and-mobile-computing">Pervasive and Mobile Computing</a>, Elsevier <strong>(Q1)</strong></li>
 	<li><a href="https://academic.oup.com/jcde">Journal of Computational Design and Engineering</a>, Oxford University Press <strong>(Q1)</strong></li>
-	<li><a href="http://www.journals.elsevier.com/applied-soft-computing/">Applied Soft Computing</a>, Elsevier <strong>(Q1)</strong> (<i>Outstanding Reviewer 2015, 2017</i>)</li>
+	<li><a href="http://www.journals.elsevier.com/applied-soft-computing/">Applied Soft Computing</a>, Elsevier <strong>(Q1)</strong> <span class="badge badge--award">Outstanding Reviewer 2015, 2017</span></li>
 	<li><a href="http://www.journals.elsevier.com/engineering-applications-of-artificial-intelligence/">Engineering Applications of Artificial Intelligence</a>, Elsevier <strong>(Q1)</strong></li>
 	<li><a href="https://www.journals.elsevier.com/expert-systems-with-applications">Expert Systems with Applications</a>, Elsevier <strong>(Q1)</strong></li>
 	<li><a href="https://www.journals.elsevier.com/knowledge-based-systems">Knowledge-based Systems</a>, Elsevier <strong>(Q1)</strong></li>
@@ -174,6 +185,7 @@ author_profile: true
 	<li><a href="http://home.frontiersin.org/">Frontiers in Computer Science</a>, Frontiers</li>
 	<li><a href="http://journal.hep.com.cn/fem/">Frontier of Engineering Management</a>, Frontiers</li>
 </ol>
+</details>
 
 ## Membership
 
@@ -186,8 +198,8 @@ author_profile: true
 	<li><strong>Chair</strong> of <a href="https://cis.taskforce.ieee.org/esco/">IEEE Taskforce on Evolutionary Scheduling and Combinatorial Optimisation</a>, 2021-2025</li>
 	<li><strong>Chair</strong> of <a href="https://r10.ieee.org/nzc/">IEEE New Zealand Central Section</a>, 2021-2024</li>
 		<ul>
-			<li>Outstanding Member Retention 2021 [ <a href="../files/certificate-nzcs2021.pdf">certificate</a> ]</li>
-			<li>Outstanding Member Retention 2022 [ <a href="../files/certificate-nzcs2022.pdf">certificate</a> ]</li>
+			<li><span class="badge badge--award">Outstanding Member Retention 2021</span> [ <a href="../files/certificate-nzcs2021.pdf">certificate</a> ]</li>
+			<li><span class="badge badge--award">Outstanding Member Retention 2022</span> [ <a href="../files/certificate-nzcs2022.pdf">certificate</a> ]</li>
 		</ul>
 	<li><strong>Vice-chair</strong> of <a href="http://cis.ieee.org/emergent-technologies-tc.html/">IEEE CIS Emergent Technologies Technical Committee</a>, 2017-2018</li>
 	<li><strong>Member</strong> of <a href="https://cis.ieee.org/committees/diversity-inclusion">IEEE CIS Diversity and Inclusion Subcommittee</a>, 2025</li>
