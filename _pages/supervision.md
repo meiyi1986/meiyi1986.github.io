@@ -9,7 +9,7 @@ author_profile: true
   <div class="home-stat"><span class="home-stat__value">18</span><span class="home-stat__label">PhD graduates</span></div>
   <div class="home-stat"><span class="home-stat__value">22</span><span class="home-stat__label">current PhD students</span></div>
   <div class="home-stat"><span class="home-stat__value">8</span><span class="home-stat__label">visiting PhD students hosted</span></div>
-  <div class="home-stat"><span class="home-stat__value">44</span><span class="home-stat__label">Honours &amp; summer research projects</span></div>
+  <div class="home-stat"><span class="home-stat__value">47</span><span class="home-stat__label">Honours &amp; summer research projects</span></div>
 </section>
 
 ## PhD
@@ -91,13 +91,15 @@ author_profile: true
 ### Current
 
 <ol class="student-list">
-  <li><b>Jessie Dong</b> (Victoria University of Wellington, 2024): "Machine Learning for Automatic Essay Marking"</li>
+  
   <!-- <li><b>Thomson Thomas</b> (Victoria University of Wellington, 2022): "Evolutionary Computation for Cloud Resource Allocation"</li> -->
 </ol>
 
 ### Graduated
 
 <ol class="student-list">
+  <li><b>Suhasini Cherukuri</b> (Victoria University of Wellington, 2026): "Machine Learning for Multi-Objective Online Ambulance Dispatch"</li>
+  <li><b>Jessie Dong</b> (Victoria University of Wellington, 2024): "Machine Learning for Automatic Essay Marking"</li>
   <li><b>Madhuri Mapari</b> (Victoria University of Wellington, 2023): "Interpretable Reinforcement Learning with Genetic Programming"</li>
   <li><b>Fergus Currie</b> (Victoria University of Wellington, 2022): "Multi-criteria decision making for genetics breeding program design" (with Drs. Maren Wellenreuther and Dr Linley Jesson from <a href="https://www.plantandfood.com">Plant and Food Research</a>)</li>
   <li><b>Boon Wan Tan</b> (Victoria University of Wellington, 2019): "Neural Network for Combinatorial Optimisation Problems"</li>
@@ -111,6 +113,9 @@ author_profile: true
 ## Honours Students
 
 <ol class="student-list">
+  <li><b>Elly Bolter</b> (Victoria University of Wellington, 2026): "LLM for Tourist Trip Recommendation"</li>
+  <li><b>Jaison Jaymar</b> (Victoria University of Wellington, 2026): "Enhancing Interface for Tourist Trip Recommendation"</li>
+  <li><b>Krithika Ambiti</b> (Victoria University of Wellington, 2026): "Visualising Railway Network Monitoring with Transdev"</li>
   <li><b>Emily Ford</b> (Victoria University of Wellington, 2025): "Tourist Trip Recommendation by Machine Learning"</li>
   <li><b>Amy King</b> (Victoria University of Wellington, 2025): "Simulating Railway Network Rescheduling" (with Transdev)</li>
   <li><b>Jackie Zhou</b> (Victoria University of Wellington, 2025): "Emergency Medical Dispatch Visualiser"</li>
