@@ -11,9 +11,15 @@ LISTS = {
     "publication-chapter": "Book Chapters",
 }
 
-NAV = " · ".join(
-    f'<a href="{name}.html">{title}</a>' for name, title in LISTS.items()
-)
+
+
+def nav(current):
+    links = ['<a href="/publications/"><i class="fas fa-arrow-left" aria-hidden="true"></i> All publications</a>']
+    for name, title in LISTS.items():
+        attr = ' class="is-current" aria-current="page"' if name == current else ""
+        links.append(f'<a href="{name}.html"{attr}>{title}</a>')
+    return '<nav class="pub-jump" aria-label="Publication lists">\n  ' + "\n  ".join(links) + "\n</nav>"
+
 
 here = Path(__file__).resolve().parent
 for name, title in LISTS.items():
@@ -40,7 +46,7 @@ share: false
 comments: false
 ---
 
-<nav class="pub-jump"><a href="/publications/">← All publications</a> · {NAV}</nav>
+{nav(name)}
 
 <p>{count} items. If you need the PDF of any paper, please <a href="mailto:yi.mei@ecs.vuw.ac.nz">contact me</a>.</p>
 

@@ -7,12 +7,12 @@ author_profile: true
 
 My [Google Scholar profile](https://scholar.google.com/citations?user=vTC_7_wAAAAJ) shows <b>12,000+</b> citations and an h-index of <b>56</b>.
 
-<nav class="pub-jump">
-  <a href="#selected">Selected</a> ·
-  <a href="publication-book.html">Books</a> ·
-  <a href="publication-journal.html">Journal articles</a> ·
-  <a href="publication-conf.html">Conference papers</a> ·
-  <a href="publication-chapter.html">Book chapters</a>
+<nav class="pub-jump" aria-label="Publication lists">
+  <a href="#selected"><i class="fas fa-star" aria-hidden="true"></i> Selected</a>
+  <a href="publication-book.html"><i class="fas fa-book" aria-hidden="true"></i> Books</a>
+  <a href="publication-journal.html"><i class="fas fa-newspaper" aria-hidden="true"></i> Journal articles</a>
+  <a href="publication-conf.html"><i class="fas fa-users" aria-hidden="true"></i> Conference papers</a>
+  <a href="publication-chapter.html"><i class="fas fa-bookmark" aria-hidden="true"></i> Book chapters</a>
 </nav>
 
 <a name="selected"></a>
