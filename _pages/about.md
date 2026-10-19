@@ -42,10 +42,10 @@ redirect_from:
 <!-- ===================== IMPACT STATS ===================== -->
 <!-- PLACEHOLDER: update these numbers periodically (citations/h-index from Google Scholar) -->
 <section class="home-stats" aria-label="Research impact">
-  <div class="home-stat"><span class="home-stat__value">10,000+</span><span class="home-stat__label">Google Scholar citations</span></div>
-  <div class="home-stat"><span class="home-stat__value">52</span><span class="home-stat__label">h-index</span></div>
+  <div class="home-stat"><span class="home-stat__value">12,000+</span><span class="home-stat__label">Google Scholar citations</span></div>
+  <div class="home-stat"><span class="home-stat__value">56</span><span class="home-stat__label">h-index</span></div>
   <div class="home-stat"><span class="home-stat__value">7</span><span class="home-stat__label">best / outstanding paper awards</span></div>
-  <div class="home-stat"><span class="home-stat__value">Top 2%</span><span class="home-stat__label">Stanford/Elsevier scientist list, since 2021</span></div>
+  <div class="home-stat"><span class="home-stat__value">Top 2%</span><span class="home-stat__label">World scientist list, since 2021</span></div>
 </section>
 
 <!-- ===================== RESEARCH THEMES ===================== -->
