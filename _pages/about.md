@@ -28,15 +28,6 @@ redirect_from:
     Evolutionary Computation and Machine Learning Research Group (<a href="https://ecs.wgtn.ac.nz/Groups/ECRG/WebHome">ECRG</a>)<br>
     IEEE CIS Taskforce on Evolutionary Scheduling and Combinatorial Optimisation (<a href="https://cis.taskforce.ieee.org/esco/">TESCO</a>)
   </p>
-
-  <p class="home-hero__actions">
-    <a class="btn btn--info" href="https://scholar.google.com/citations?user=vTC_7_wAAAAJ"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>
-    <a class="btn btn--inverse" href="/publications/"><i class="fas fa-book" aria-hidden="true"></i> Publications</a>
-    <!-- PLACEHOLDER: upload your CV to /files/cv-yi-mei.pdf, then uncomment the next line -->
-    <!-- <a class="btn btn--inverse" href="/files/cv-yi-mei.pdf"><i class="fas fa-file-alt" aria-hidden="true"></i> CV</a> -->
-    <a class="btn btn--inverse" href="mailto:yi.mei@ecs.vuw.ac.nz"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a>
-    <a class="btn btn--inverse" href="#join"><i class="fas fa-user-graduate" aria-hidden="true"></i> Join my group</a>
-  </p>
 </section>
 
 <!-- ===================== IMPACT STATS ===================== -->
@@ -44,7 +35,7 @@ redirect_from:
 <section class="home-stats" aria-label="Research impact">
   <div class="home-stat"><span class="home-stat__value">12,000+</span><span class="home-stat__label">Google Scholar citations</span></div>
   <div class="home-stat"><span class="home-stat__value">56</span><span class="home-stat__label">h-index</span></div>
-  <div class="home-stat"><span class="home-stat__value">7</span><span class="home-stat__label">best / outstanding paper awards</span></div>
+  <div class="home-stat"><span class="home-stat__value">8</span><span class="home-stat__label">best / outstanding paper awards</span></div>
   <div class="home-stat"><span class="home-stat__value">Top 2%</span><span class="home-stat__label">World scientist list, since 2021</span></div>
 </section>
 
