@@ -65,11 +65,11 @@ redirect_from:
 <!-- ===================== NEWS ===================== -->
 <h2 class="home-section-title">News</h2>
 <ul class="news-list">
+<li><span class="news-date">2026</span> <span class="news-tag">Award</span> Meng Xu's paper "<a href="https://doi.org/10.1109/MCI.2024.3363970">Genetic Programming and Reinforcement Learning on Learning Heuristics for Dynamic Scheduling: A Preliminary Comparison</a>" won the <b>Outstanding Paper Award</b> of <i>IEEE Computational Intelligence Magazine</i>.</li>
 <li><span class="news-date">2026</span> <span class="news-tag">Award</span> Saining Liu's paper "<a href="https://link.springer.com/chapter/10.1007/978-3-032-23604-3_7">Adaptive Curriculum Learning in Genetic Programming–Guided Local Search for Large-Scale Vehicle Routing Problems</a>" won the <b>Best Student Paper Award</b> at <i><a href="https://www.evostar.org/2026/">EvoStar 2026</a></i>.</li>
 <li><span class="news-date">2026</span> <span class="news-tag">Recognition</span> Recognised as an <b>Outstanding Associate Editor</b> of <i>IEEE Transactions on Evolutionary Computation</i> for the third consecutive year (2024–2026).</li>
 <li><span class="news-date">2025</span> <span class="news-tag">Award</span> Dedy Hendro's paper "<a href="https://ieeexplore.ieee.org/document/11302604">An Investigation of Feature-Grouping for Robust SHAP Explanations in IoT Intrusion Detection</a>" won the <b>Best Student Paper Award</b> at the <i>IEEE International Telecommunication Networks and Applications Conference (ITNAC) 2025</i>.</li>
 <li><span class="news-date">2025</span> <span class="news-tag">Award</span> Honoured to receive the Victoria University of Wellington <b>Ki te Pae Research Excellence Award</b>.</li>
-<li><span class="news-date">2024</span> <span class="news-tag">Award</span> <a href="https://ecs.wgtn.ac.nz/Main/GradXiaochengLiao">Xiaocheng Liao</a>'s paper "<a href="https://dl.acm.org/doi/10.1145/3638529.3654037">Learning Traffic Signal Control via Genetic Programming</a>" won the GP track <b>Best Paper Award</b> at <i><a href="https://gecco-2024.sigevo.org/">ACM GECCO 2024</a></i>.</li>
 </ul>
 <p class="home-more"><a href="/grantsawards/">All grants &amp; awards →</a></p>
 
