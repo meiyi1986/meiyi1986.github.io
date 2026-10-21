@@ -15,6 +15,14 @@ author_profile: true
 ## Courses
 
 <div class="teaching-year">
+  <span class="teaching-year__year">2026</span>
+  <ul>
+    <li><a href="https://www.wgtn.ac.nz/courses/comp/361/2026?crn=26060">Design and Analysis of Algorithms (COMP361)</a> <span class="badge">Course Coordinator</span></li>
+    <li><a href="https://www.wgtn.ac.nz/courses/aiml/320/2026?crn=37114">Artificial Intelligence (AIML320/420)</a></li>
+  </ul>
+</div>
+
+<div class="teaching-year">
   <span class="teaching-year__year">2024</span>
   <ul>
     <li><a href="https://www.wgtn.ac.nz/courses/AIML/232/2024/offering?crn=35050">Techniques in Artificial Intelligence (AIML232)</a> <span class="badge">Course Coordinator</span></li>
