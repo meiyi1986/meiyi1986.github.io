@@ -3,11 +3,21 @@
 Research Themes section of the homepage from the BibTeX files.
 
 Run from the repository root:  python3 _scripts/research_pages.py
+(the deploy workflow runs it, after update_stats.py, before every build).
 Edit the THEMES content below and re-run; hand edits to the generated
 pages are overwritten.
+
+Which papers are highlighted is decided automatically (see "highlight
+rules" below): each contribution area lists the papers whose titles match
+its pattern and that have a paper award (from the labels in
+_publications/bib2html.sh), are highly cited (OpenAlex, via
+_data/stats.json), or appeared in a top venue (TOP_VENUE). Adding a paper
+to the BibTeX files, adding its award label to bib2html.sh, or a paper
+passing the citation threshold is enough to make it appear.
 """
 import collections
 import html
+import json
 import re
 import sys
 from pathlib import Path
@@ -48,11 +58,11 @@ def clean(s):
     return re.sub(r"[{}]", "", s).replace("\\alpha", "α").replace("--", "–")
 
 
-def item(kind, key, badge=None, note=None):
+def item(kind, key, badge=None, note=None, raw_badge=False):
     r = RECS[(kind, key)]
     href = f"https://doi.org/{r['doi']}" if r["doi"] else f"/publications/{r['page']}#{key}"
     venue = re.sub(r"^Proceedings of (the )?", "", clean(r["venue"]))
-    b = f' <span class="badge badge--award">{badge}</span>' if badge else ""
+    b = (f" {badge}" if raw_badge else f' <span class="badge badge--award">{badge}</span>') if badge else ""
     n = f' <span class="contrib-list__note">{note}</span>' if note else ""
     return (f'  <li><a class="contrib-list__title" href="{href}">{html.escape(clean(r["title"]))}</a>'
             f'<span class="contrib-list__venue"><i>{html.escape(venue)}</i>, {r["year"]} · '
@@ -76,6 +86,100 @@ def classify(pattern, exclude=None):
            and not (exclude and re.search(exclude, r["title"], re.I))]
     cnt = collections.Counter((r["year"], "C" if r["kind"] == "C" else "J") for r in out)
     return out, cnt
+
+
+# ---------------------------------------------------------------- highlight rules
+# A paper is highlighted in a contribution area when its title matches the
+# area and it (1) has a paper award, (2) is pinned, (3) is highly cited, or
+# (4) appeared in a top venue. Awards are read from the labels added in
+# _publications/bib2html.sh; citation counts come from _data/stats.json
+# (filled from OpenAlex by _scripts/update_stats.py).
+HIGHLY_CITED = 100     # OpenAlex citations
+LIMIT = 8              # papers per area (awards and pins are always shown)
+MINIMUM = 3            # top up with the most recent matches if fewer qualify
+TOP_VENUE = re.compile(
+    r"IEEE Transactions on (Evolutionary Computation|Cybernetics|Pattern Analysis|Neural Networks and Learning"
+    r"|Artificial Intelligence|Services Computing|Cloud Computing|Intelligent Transportation|Mobile Computing"
+    r"|Automation Science|Systems, Man)|European Journal of Operational Research|ACM Transactions on Mathematical Software"
+    r"|^Evolutionary Computation$|Computational Intelligence Magazine|Artificial Intelligence Review"
+    r"|\((ICLR|IJCAI|AAAI|NeurIPS|ICML|EMNLP|GECCO|PPSN)\)$", re.I)
+
+AWARDS = collections.defaultdict(list)
+for f, key, label in re.findall(r's\+\\\[&nbsp;<a href="publication-(journal|conf)_bib\.html#([^"]+)"\+ <b style="color:red;">\((.*?)\)</b>',
+                                (PUB / "bib2html.sh").read_text(encoding="utf-8")):
+    AWARDS[("J" if f == "journal" else "C", key)].append(label)
+
+try:
+    CITES = json.loads((ROOT / "_data" / "stats.json").read_text(encoding="utf-8")).get("citations_raw", {})
+except (OSError, ValueError):
+    CITES = {}
+
+
+def cites(r):
+    return CITES.get(r["doi"].lower(), 0) if r["doi"] else 0
+
+
+def won(r):
+    return any("Award" in a and "Runner-Up" not in a for a in AWARDS.get((r["kind"], r["key"]), []))
+
+
+def plus(n):
+    return f"{n // 1000 * 1000:,}+" if n >= 1000 else (f"{n // 10 * 10}+" if n >= 100 else str(n))
+
+
+def venue_abbr(r):
+    m = re.search(r"\(([A-Za-z]+)\)", r["venue"])
+    if m:
+        return m.group(1)
+    v = clean(r["venue"])
+    return {"IEEE Transactions on Evolutionary Computation": "IEEE TEVC",
+            "IEEE Computational Intelligence Magazine": "IEEE CIM"}.get(v, "")
+
+
+def highlight(r):
+    badges = []
+    for a in sorted(AWARDS.get((r["kind"], r["key"]), []), key=lambda a: "Award" not in a or "Runner-Up" in a):
+        cls = "badge--award" if "Award" in a and "Runner-Up" not in a else "badge--honour"
+        ab = venue_abbr(r)
+        label = a if (not ab or ab.split()[-1] in a) else f"{a}, {ab}"
+        badges.append(f'<span class="badge {cls}">{label} {r["year"] if ab and ab.split()[-1] not in a else ""}</span>'.replace(" </span>", "</span>"))
+    n = cites(r)
+    if n >= HIGHLY_CITED:
+        badges.append(f'<span class="badge">{plus(n)} citations</span>')
+    note = {"B": "Book", "Ch": "Book chapter"}.get(r["kind"]) or ("Survey" if re.search(r"\bsurvey\b", r["title"], re.I) else None)
+    return badges, note
+
+
+def auto(match, exclude=None, pins=(), require=None):
+    cands = [r for r in ALL if re.search(match, clean(r["title"]), re.I)
+             and not (exclude and re.search(exclude, clean(r["title"]), re.I))
+             and not (require and not re.search(require, clean(r["title"]), re.I))]
+    chosen, seen = [], set()
+
+    def add(rs, cap=None):
+        for r in rs:
+            if cap is not None and len(chosen) >= cap:
+                return
+            k = (r["kind"], r["key"])
+            if k not in seen:
+                seen.add(k)
+                chosen.append(r)
+    recent = lambda rs: sorted(rs, key=lambda r: r["year"], reverse=True)
+    add(recent([r for r in cands if (r["kind"], r["key"]) in AWARDS]))
+    add([RECS[p] for p in pins])
+    add(sorted([r for r in cands if cites(r) >= HIGHLY_CITED], key=cites, reverse=True), LIMIT)
+    add(recent([r for r in cands if TOP_VENUE.search(clean(r["venue"])) and "Companion" not in r["venue"]]), LIMIT)
+    add(recent(cands), max(MINIMUM, 0) if len(chosen) < MINIMUM else 0)
+    items = []
+    for r in chosen:
+        badges, note = highlight(r)
+        items.append(item(r["kind"], r["key"], badge=" ".join(badges) or None, note=note, raw_badge=True))
+    return clist(*items), chosen
+
+
+def S(name, body, match, exclude=None, pins=(), require=None):
+    lst, chosen = auto(match, exclude, pins, require)
+    return (name, body, lst, chosen)
 
 
 # ---------------------------------------------------------------- figures
@@ -357,6 +461,8 @@ def mini_transfer():
 
 
 # ---------------------------------------------------------------- themes
+GPX = r"genetic programming|\bGP\b|GPHH|hyper-?heuristic"
+
 THEMES = []
 
 
@@ -374,8 +480,7 @@ theme(
     card_intro="Designing evolutionary and memetic algorithms that find high-quality solutions to hard routing, scheduling and allocation problems — and scaling them to very large instances by decomposition.",
     card_contrib="MAENS and decomposition-based memetic algorithms for arc routing; differential grouping and cooperative co-evolution for large-scale optimisation (IEEE TEVC Outstanding Paper Award).",
     lead="Many of society's logistics problems — collecting waste, gritting roads, delivering parcels, allocating cloud resources — are <b>combinatorial optimisation</b> problems: the number of possible solutions explodes with problem size. I design <b>evolutionary and memetic algorithms</b> that find near-optimal solutions quickly, and <b>decomposition</b> methods that let them scale to problems with thousands of decisions.",
-    stats=[('{{ site.data.stats.citations["10.1109/tevc.2013.2281543"] }}', "citations of differential grouping (OpenAlex)"), ("TEVC", "Outstanding Paper Award 2017"),
-           ("Runner-up", "Best Paper, IEEE ICWS 2018")],
+    stats=[('{{ site.data.stats.citations["10.1109/tevc.2013.2281543"] }}', "citations of differential grouping (OpenAlex)")],
     intro=lambda: f"""
 <h3>The problems</h3>
 <p>In the <b>capacitated arc routing problem (CARP)</b>, a fleet of vehicles with limited capacity must serve a set of streets — for example to collect waste — at minimum total cost. Related problems include vehicle routing with electric vehicles or drones, team orienteering, job shop scheduling and service allocation. They are NP-hard, so exact methods quickly become impractical.</p>
@@ -385,24 +490,22 @@ theme(
 {fig(fig_memetic(), '<b>Figure 2.</b> A memetic algorithm. Crossover explores new combinations of routes; local search, such as the large-step Merge-Split operator in MAENS, refines each offspring.')}
 """,
     sections=lambda: [
-        ("Memetic algorithms for arc routing",
-         "We proposed MAENS, whose Merge-Split operator explores far beyond traditional local moves and became a widely used benchmark, and extended memetic search to multi-objective, periodic and uncertain arc routing.",
-         clist(J("tang2009memetic"), J("mei2009global"), J("mei2011decomposition"), J("mei2011memetic"),
-               J("zhang2017memetic"), C("mei2010capacitated"))),
-        ("Large-scale optimisation by decomposition",
-         f"""<p>Very large problems are solved by splitting them into smaller interacting sub-problems. Our <b>differential grouping</b> detects variable interactions automatically, and <b>route distance grouping</b> and route clustering decompose large arc routing problems.</p>
+        S("Memetic algorithms for arc routing",
+          "We proposed MAENS, whose Merge-Split operator explores far beyond traditional local moves and became a widely used benchmark, and extended memetic search to multi-objective, periodic and uncertain arc routing.",
+          match=r"arc routing", exclude=GPX + r"|large[- ]scale|neural|learn|explain|counterfactual|smart city"),
+        S("Large-scale optimisation by decomposition",
+          f"""<p>Very large problems are solved by splitting them into smaller interacting sub-problems. Our <b>differential grouping</b> detects variable interactions automatically, and <b>route distance grouping</b> and route clustering decompose large arc routing problems.</p>
 {fig(fig_cc(), '<b>Figure 3.</b> Cooperative co-evolution. Variables are grouped by their interactions; each group is optimised separately and the pieces are combined through a shared context solution.')}""",
-         clist(J("omidvar2014cooperative", badge="TEVC Outstanding Paper Award"), J("omidvar2017dg2"),
-               J("mei2016competitive"), J("mei2014cooperative"), J("zhang2020route"), J("zhang2023rocash2"),
-               J("jia2020contribution"))),
-        ("Vehicle routing and emerging logistics",
-         "We design evolutionary algorithms for new logistics settings such as electric vehicles with charging, collaborative truck–drone delivery, multi-depot routing and orienteering.",
-         clist(J("jia2021bi"), J("jia2022confidence"), J("zhai2024collaborative"), J("zhai2026collaborative"),
-               J("zhai2026coevolution"), J("zhang2026effective"), J("mei2016efficient"))),
-        ("Multi-objective and real-world optimisation",
-         "Real decisions involve trade-offs. We develop multi-objective evolutionary algorithms for web services and cloud, air traffic flow management, airport ground movement, project scheduling and water networks.",
-         clist(J("tan2018evolutionary"), C("da2018hybrid", badge="Best Paper Runner-Up, ICWS 2018"),
-               J("guo2023knee"), J("guo2023cooperative"), J("yang2026qlearning"), J("tian2021multi"), J("jia2021two"))),
+          match=r"large[- ]scale|differential grouping|decompos|divide-and-conquer|route clustering|co-?evolution",
+          exclude=GPX + r"|neural architecture|neural|multi-?objective air|air traffic"),
+        S("Vehicle routing and emerging logistics",
+          "We design evolutionary algorithms for new logistics settings such as electric vehicles with charging, collaborative truck–drone delivery, multi-depot routing and orienteering.",
+          match=r"vehicle routing|drone|orienteering|thief|dynamic aggregation|storage location",
+          exclude=GPX + r"|neural|learn|attention|operator selection|initialisation heuristic|guided local search|parameter sharing|generali"),
+        S("Multi-objective and real-world optimisation",
+          "Real decisions involve trade-offs. We develop multi-objective evolutionary algorithms for web services and cloud, air traffic flow management, airport ground movement, project scheduling and water networks.",
+          match=r"multi-?objective|many-?objective|web service|cloud|air traffic|airport|airspace|water distribution|project scheduling|aircraft|energy resource",
+          exclude=GPX + r"|alignment|large language|neural|vehicle routing|arc routing|drone"),
     ])
 
 theme(
@@ -415,8 +518,7 @@ theme(
     card_intro="Evolving compact, interpretable decision rules with genetic programming that react instantly to dynamic events in factories, vehicle fleets, cloud data centres and traffic networks.",
     card_contrib="GP hyper-heuristics for dynamic scheduling and routing; the first book on the topic; EuroGP and GECCO Best Paper Awards; HUMIES Silver Award.",
     lead="Real-world systems change constantly: jobs arrive, machines break down, demands and travel times are uncertain. Re-optimising after every change is too slow. My research uses <b>genetic programming (GP)</b> to automatically learn <b>decision rules</b> that make high-quality decisions <b>in real time</b> — in microseconds, with formulas people can read.",
-    stats=[("3", "EuroGP &amp; GECCO Best Paper Awards"), ("1st", "book on hyper-heuristics for production scheduling"),
-           ("Humies", "Silver Award 2023")],
+    stats=[("1st", "book on hyper-heuristics for production scheduling")],
     intro=lambda: f"""
 <h3>Decisions that cannot wait</h3>
 <p>In a dynamic job shop, every time a machine becomes idle it must choose which waiting job to process next; in uncertain arc routing, a vehicle must choose its next street when it finishes a task. These decisions must be made immediately, using only the current state.</p>
@@ -436,31 +538,27 @@ theme(
 {fig(fig_gphh(), '<b>Figure 3.</b> A GP hyper-heuristic learns the rule offline in simulation; after a number of generations the best rule is deployed online.')}
 """,
     sections=lambda: [
-        ("Scheduling heuristics for dynamic job shops",
-         "Our core line of work makes GP hyper-heuristics effective for dynamic (flexible) job shop scheduling: evolving routing and sequencing rules together, selecting the most useful features, and combining rules into ensembles. It is summarised in our Springer book and surveys.",
-         clist(item("B", "zhang2021", note="Book"), J("nguyen2017genetic", note="Survey"), J("mei2017efficient"),
-               J("zhang2020evolving"), J("xu2020genetic"), J("zhang2021correlation"), J("xu2023genetic2"),
-               J("xu2023genetic"), J("zhang2023survey", note="Survey"))),
-        ("Routing policies under uncertainty",
-         "For arc and vehicle routing with uncertain demands and costs, we evolve routing policies that let each vehicle decide its next task on the fly, including vehicle collaboration, niching and multi-objective trade-offs.",
-         clist(C("mei2018genetic1"), J("maclachlan2019genetic"), J("liu2019predictive"), J("wang2021genetic"),
-               J("wang2022multi"))),
-        ("New program representations",
-         f"""<p>We introduced linear and grammar-guided linear GP to scheduling, enabling rules with reusable sub-expressions and flow-control logic.</p>
+        S("Scheduling heuristics for dynamic job shops",
+          "Our core line of work makes GP hyper-heuristics effective for dynamic (flexible) job shop scheduling: evolving routing and sequencing rules together, selecting the most useful features, and combining rules into ensembles. It is summarised in our Springer book and surveys.",
+          match=r"job shop|dispatching rule|production scheduling|scheduling heuristic", require=GPX,
+          exclude=r"multi-?task|expla|structural complexit|interpretab|linear genetic|grammar|surrogate|reinforcement|simplif|memetic|survey on genetic programming and machine",
+          pins=[("B", "zhang2021"), ("J", "nguyen2017genetic"), ("J", "zhang2023survey")]),
+        S("Routing policies under uncertainty",
+          "For arc and vehicle routing with uncertain demands and costs, we evolve routing policies that let each vehicle decide its next task on the fly, including vehicle collaboration, niching and multi-objective trade-offs.",
+          match=r"(arc routing|vehicle routing|orienteering|routing polic)", require=GPX,
+          exclude=r"transfer|multi-?task|expla|counterfactual|interpretab|memetic|ant colony|neural|guided local search|initialisation|penalisation|curriculum|cluster-based|adaptive search space|evolutionary hyper-heuristic approach to the large"),
+        S("New program representations",
+          f"""<p>We introduced linear and grammar-guided linear GP to scheduling, enabling rules with reusable sub-expressions and flow-control logic.</p>
 {fig(fig_rep(), '<b>Figure 4.</b> The same rule in tree-based GP and in linear GP, where registers store intermediate results for reuse.')}""",
-         clist(C("huang2022investigation", badge="Best Paper Award, EuroGP 2022"),
-               C("huang2023grammar", badge="Best Paper Award, GECCO 2023"),
-               J("huang2023bridging"), J("huang2024toward"), J("huang2025cross"))),
-        ("Learning faster with surrogates",
-         "Evaluating a rule needs many simulations. Our surrogate models and multi-fidelity evaluation estimate rule quality cheaply, cutting training time substantially.",
-         clist(C("zhang2018surrogate"), J("zhang2021collaborative"), J("zhang2022instance"), C("chen2024neural"),
-               J("guo2024genetic"))),
-        ("Real-time decisions beyond the factory",
-         """<p>The same approach powers real-time decisions in many domains.</p>
+          match=r"linear genetic programming|grammar|cross-representation|new representation|graph-based linear|multi-tree representation", require=GPX),
+        S("Learning faster with surrogates",
+          "Evaluating a rule needs many simulations. Our surrogate models and multi-fidelity evaluation estimate rule quality cheaply, cutting training time substantially.",
+          match=r"(surrogate|fidelity)", exclude=r"multi-?task|transfer", require=GPX),
+        S("Real-time decisions beyond the factory",
+          """<p>The same approach powers real-time decisions in many domains.</p>
 <div class="theme-apps"><span class="badge">Traffic signal control</span><span class="badge">Cloud &amp; fog workflow scheduling</span><span class="badge">Air traffic flow management</span><span class="badge">Yard crane scheduling</span><span class="badge">Emergency medical dispatch</span><span class="badge">Multi-agent path planning</span></div>""",
-         clist(C("liao2024learning", badge="Best Paper Award, GECCO 2024"), J("liao2025gplight+"),
-               C("maclachlan2023learning", badge="HUMIES Silver Award 2023"), J("xu2023genetic1"),
-               J("sun2024cooperative"), J("guo2026multitree"), J("jin2026semantic"), J("liao2024learning"))),
+          match=r"(traffic|cloud|fog|workflow|yard crane|tugboat|dial-a-ride|emergency medical|ambulance|path planning|container|aggregation|project scheduling|appointment)", require=GPX,
+          exclude=r"multi-?task|expla|interpretab|surrogate"),
     ],
     see_also="Multitask learning, explainability and links with reinforcement learning in GP are covered under the other themes below.")
 
@@ -474,8 +572,7 @@ theme(
     card_intro="Using machine learning to make optimisers smarter — learning which operator to apply, where to search, and even how to design the algorithm itself.",
     card_contrib="Adaptive operator selection; learned and neural neighbourhood search for routing; GP-designed algorithm components; IEEE CIM Outstanding Paper Award; EvoStar 2026 Best Student Paper.",
     lead="Designing a good optimisation algorithm usually takes experts years of trial and error, and the result rarely transfers to new problems. My research uses <b>machine learning</b> to automate this: learning <b>which search operator to apply</b>, <b>where to search</b>, <b>how to start</b>, and ultimately <b>generating whole algorithms</b> automatically.",
-    stats=[("TPAMI", "learning-aided neighbourhood search, 2025"), ("CIM", "Outstanding Paper Award 2026"),
-           ("EvoStar", "Best Student Paper Award 2026")],
+    stats=[("TPAMI", "learning-aided neighbourhood search, 2025")],
     intro=lambda: f"""
 <h3>Learning inside the optimiser</h3>
 <p>Every metaheuristic is built from components — how to initialise, which operator to apply, which neighbourhood to search, when to accept a move. Each is a decision that machine learning can make better than a fixed hand-designed choice, by learning from experience on many problem instances.</p>
@@ -484,24 +581,21 @@ theme(
 <p><b>Deep and reinforcement learning</b> learn flexible policies from data, while <b>genetic programming</b> learns compact, interpretable components. We study both and how they combine.</p>
 """,
     sections=lambda: [
-        ("Adaptive operator selection",
-         f"""<p>Which operator works best changes during the search and across instances. We learn operator selectors from both offline and online experience, and surveyed the field.</p>
+        S("Adaptive operator selection",
+          f"""<p>Which operator works best changes during the search and across instances. We learn operator selectors from both offline and online experience, and surveyed the field.</p>
 {fig(fig_aos(), '<b>Figure 2.</b> Adaptive operator selection: a selector chooses the next operator from features of the search state and is updated by the improvement it produces.')}""",
-         clist(C("pei2024learning", badge="Best Paper Nomination, GECCO 2024"), C("pei2023local"),
-               C("pei2022investigation"), J("pei2025adaptive", note="Survey"), J("consoli2016dynamic"))),
-        ("Learning-guided and neural search for routing",
-         "We combine neural networks with neighbourhood search and design neural solvers that generalise better across problem sizes and variants.",
-         clist(J("guo2025learning"), J("guo2025emergency"), C("chen2025learning"), C("chen2026mode"),
-               J("jia2025neural"), J("wang2025distance"), C("lin2026machine"))),
-        ("Automated design of algorithm components",
-         "GP and learning can design the components of other algorithms: initialisation heuristics, guided local search penalties, and ant colony state transition rules.",
-         clist(C("costa2023learning"), C("costa2021learning2"), C("liu2024gpgls"),
-               C("liu2026adaptive", badge="Best Student Paper Award, EvoStar 2026"), J("lin2025automated"),
-               J("nguyen2019hybrid"))),
-        ("Combining evolutionary computation and reinforcement learning",
-         "We compare and hybridise GP and deep reinforcement learning for sequential decisions, and embed reinforcement learning inside evolutionary search.",
-         clist(J("xu2023genetic3", badge="Outstanding Paper Award, IEEE CIM 2026"), J("xu2024learn", note="Survey"),
-               J("xu2024niching"), J("yang2025dynamic"), J("jia2026self"), C("chen2026dyro"))),
+          match=r"operator selection|selection of evolutionary operators"),
+        S("Learning-guided and neural search for routing",
+          "We combine neural networks with neighbourhood search and design neural solvers that generalise better across problem sizes and variants.",
+          match=r"neural|attention|learning-aided|graph sparsification|manifold operator|adaptive neighborhood search",
+          exclude=r"genetic programming|architecture search|surrogate based on binary"),
+        S("Automated design of algorithm components",
+          "GP and learning can design the components of other algorithms: initialisation heuristics, guided local search penalties, and ant colony state transition rules.",
+          match=r"initialisation heuristic|penalisation criterion|guided local search|state transition rules|optimizer generation|automated design of dispatching|hyper-heuristic approach to the large|search space through evolutionary hyper|cluster-based hyper"),
+        S("Combining evolutionary computation and reinforcement learning",
+          "We compare and hybridise GP and deep reinforcement learning for sequential decisions, and embed reinforcement learning inside evolutionary search.",
+          match=r"reinforcement|q-learning|mcts|learn to optimise",
+          exclude=r"interpretable reinforcement|neat"),
     ])
 
 theme(
@@ -514,34 +608,32 @@ theme(
     card_intro="Making AI decisions understandable — by evolving models that are interpretable by design, and by explaining the decisions of black-box models.",
     card_contrib="Survey on explainable AI by GP; local and counterfactual explanations for evolved policies; interpretability-aware GP; GECCO 2022 Best Paper Award; ITNAC 2025 Best Student Paper.",
     lead="AI is increasingly trusted with consequential decisions, from scheduling hospital resources to detecting cyber attacks. People need to <b>understand</b> and <b>trust</b> those decisions. My research makes AI explainable in two ways: building models that are <b>interpretable by design</b>, and <b>explaining</b> the decisions of complex models after training.",
-    stats=[('{{ site.data.stats.citations["10.1109/tevc.2022.3225509"] }}', "citations of our XAI-by-GP survey (OpenAlex)"), ("GECCO", "Best Paper Award 2022"),
-           ("ITNAC", "Best Student Paper Award 2025")],
+    stats=[('{{ site.data.stats.citations["10.1109/tevc.2022.3225509"] }}', "citations of our XAI-by-GP survey (OpenAlex)")],
     intro=lambda: f"""
 <h3>Two routes to explainability</h3>
 <p>A black-box model, such as a deep neural network, can be explained <i>post hoc</i> — which features mattered, or what would have to change to get a different outcome. Alternatively, the model can be <i>interpretable by design</i>: a short formula evolved by genetic programming can be read directly.</p>
 {fig(fig_xai_paths(), '<b>Figure 1.</b> Post-hoc explanation versus interpretable-by-design models. Our work spans both.')}
 """,
     sections=lambda: [
-        ("Genetic programming for explainable AI",
-         "We surveyed how GP contributes to explainable AI, both by evolving interpretable models and by producing explanations for black-box models, and use GP to build interpretable local explanations.",
-         clist(J("mei2022explainable", note="Survey"), C("andersen2024interpretable"))),
-        ("Explaining evolved decision policies",
-         "Even evolved rules can grow large. We explain them by ranking the features that drive each decision and by generating counterfactual what-if scenarios.",
-         clist(C("wang2022local", badge="Best Paper Award, GECCO 2022"), J("wang2023explaining"),
-               C("wang2024preliminary"), C("wang2025diverse"))),
-        ("Counterfactual explanations",
-         f"""<p>A counterfactual tells a user the smallest change that would alter a decision. We evolve sets of <b>diverse</b> counterfactuals so users see several plausible alternatives.</p>
+        S("Genetic programming for explainable AI",
+          "We surveyed how GP contributes to explainable AI, both by evolving interpretable models and by producing explanations for black-box models, and use GP to build interpretable local explanations.",
+          match=r"explainable artificial intelligence|interpretable local explanations"),
+        S("Explaining evolved decision policies",
+          "Even evolved rules can grow large. We explain them by ranking the features that drive each decision and by generating counterfactual what-if scenarios.",
+          match=r"(explain|explanation|counterfactual).*(genetic programming|evolved|arc routing)|(genetic programming|evolved).*(explain|explanation|counterfactual)",
+          exclude=r"survey|interpretable local"),
+        S("Counterfactual explanations",
+          f"""<p>A counterfactual tells a user the smallest change that would alter a decision. We evolve sets of <b>diverse</b> counterfactuals so users see several plausible alternatives.</p>
 {fig(fig_cf(), '<b>Figure 2.</b> Diverse counterfactual explanations: several minimal changes to the input, each of which crosses the decision boundary.')}""",
-         clist(C("andersen2022evolving"), C("andersen2023producing"))),
-        ("Interpretable-by-design heuristics",
-         f"""<p>We keep evolved rules small, simple and physically meaningful by enforcing dimensional consistency, simplifying expressions, and optimising interpretability as an explicit objective.</p>
+          match=r"counterfactual", exclude=r"genetic programming|arc routing"),
+        S("Interpretable-by-design heuristics",
+          f"""<p>We keep evolved rules small, simple and physically meaningful by enforcing dimensional consistency, simplifying expressions, and optimising interpretability as an explicit objective.</p>
 {fig(fig_tradeoff(), '<b>Figure 3.</b> Schematic interpretability–performance trade-off. Multi-objective GP finds a front of rules; rules near the knee are both small and accurate.')}""",
-         clist(C("mei2017constrained"), C("panda2022simplifying"), C("zhang2023interpretability"),
-               C("pang2024multi"), J("pang2026balancing"), J("zhang2026genetic"))),
-        ("Explainable machine learning in applications",
-         "We make machine learning explainable in security and healthcare, for example robust SHAP explanations for intrusion detection.",
-         clist(C("hendro2025investigation", badge="Best Student Paper Award, ITNAC 2025"), C("hendro2026enhancing"),
-               C("abdollahi2018uncovering"))),
+          match=r"interpretab|simplif|dimensionally aware|structural complexit|dimension repair",
+          exclude=r"explanations through|reinforcement"),
+        S("Explainable machine learning in applications",
+          "We make machine learning explainable in security and healthcare, for example robust SHAP explanations for intrusion detection.",
+          match=r"(?-i:SHAP)|intrusion|discriminative knowledge-guided medical"),
     ])
 
 theme(
@@ -554,32 +646,28 @@ theme(
     card_intro="Reusing knowledge across related problems so that learning is faster and generalises better — from one task to another, across tasks at once, and over a lifetime of tasks.",
     card_contrib="Knowledge-transfer and multitask GP; lifelong learning for optimiser generation and neural routing solvers (IJCAI 2025, ICLR 2026); EuroGP 2022 Best Paper Award.",
     lead="Problems rarely come alone. A factory faces many related scheduling scenarios; a logistics company solves new variants of routing every day. Instead of learning each from scratch, my research <b>reuses knowledge</b> — through <b>transfer</b> learning, <b>multitask</b> learning and <b>lifelong</b> learning — so that solvers learn faster and generalise further.",
-    stats=[("ICLR", "2026 — lifelong learning for routing"), ("IJCAI", "2025 — lifelong optimiser generation"),
-           ("EuroGP", "Best Paper Award 2022")],
+    stats=[("ICLR", "2026 — lifelong learning for routing")],
     intro=lambda: f"""
 <h3>Three ways to reuse knowledge</h3>
 <p><b>Transfer learning</b> reuses what was learned on a source task to speed up a target task. <b>Multitask learning</b> solves several related tasks together so they help each other. <b>Lifelong learning</b> faces a stream of tasks and must keep improving without forgetting earlier ones.</p>
 {fig(fig_paradigms(), '<b>Figure 1.</b> Transfer, multitask and lifelong learning.')}
 """,
     sections=lambda: [
-        ("Knowledge transfer in genetic programming",
-         "We transfer useful sub-trees, individuals and search distributions between GP runs on related routing problems, and studied how reusable evolved rules are.",
-         clist(item("Ch", "mei2021knowledge", note="Book chapter"), C("mei2016comprehensive"), C("ardeh2019genetic"),
-               C("ardeh2020parametric"), J("ardeh2021genetic"), J("ardeh2022knowledge"))),
-        ("Evolutionary multitask learning",
-         f"""<p>Multitask GP learns heuristics for several scenarios simultaneously, deciding which tasks are related and what to share.</p>
+        S("Knowledge transfer in genetic programming",
+          "We transfer useful sub-trees, individuals and search distributions between GP runs on related routing problems, and studied how reusable evolved rules are.",
+          match=r"(transfer|reusab)", exclude=r"multi-?task|transfer function|neighborhood structure|NEAT|^(?!.*(genetic programming|GP|hyper-heuristic)).*$",
+          pins=[("Ch", "mei2021knowledge")]),
+        S("Evolutionary multitask learning",
+          f"""<p>Multitask GP learns heuristics for several scenarios simultaneously, deciding which tasks are related and what to share.</p>
 {fig(fig_multitask(), '<b>Figure 2.</b> Multitask GP shares promising individuals and building blocks between tasks, and uses surrogates to save evaluations.')}""",
-         clist(C("park2018evolutionary"), C("zhang2020evolutionary"), J("zhang2020surrogate"), J("zhang2021multitask"),
-               J("zhang2022task"), J("zhang2022multitask"), C("huang2022investigation", badge="Best Paper Award, EuroGP 2022"),
-               J("huang2023multitask"), C("ardeh2021novel"))),
-        ("Lifelong learning for optimisation",
-         f"""<p>When new problem variants keep arriving, a learner must adapt without forgetting. We consolidate past behaviour to keep performance on earlier tasks while learning new ones.</p>
+          match=r"multi-?task|multitasking", exclude=r"fuzzy"),
+        S("Lifelong learning for optimisation",
+          f"""<p>When new problem variants keep arriving, a learner must adapt without forgetting. We consolidate past behaviour to keep performance on earlier tasks while learning new ones.</p>
 {fig(fig_lifelong(), '<b>Figure 3.</b> Lifelong learning for optimisation: a learner faces a stream of routing variants and consolidates its past behaviour to avoid forgetting.')}""",
-         clist(C("pei2026lifelong", note="ICLR 2026"), C("pei2025libog", note="IJCAI 2025"), C("pei2024learning"))),
-        ("Generalising across problems",
-         "We improve how learned solvers and heuristics generalise to new sizes, variants and objectives, with parameter sharing, attention reshaping and curriculum learning.",
-         clist(J("wang2025soft"), J("wang2025distance"), C("liu2025curriculum"), C("qiao2026enhancing"),
-               C("hardwick2017evolving"))),
+          match=r"lifelong|offline and online experiences"),
+        S("Generalising across problems",
+          "We improve how learned solvers and heuristics generalise to new sizes, variants and objectives, with parameter sharing, attention reshaping and curriculum learning.",
+          match=r"generali[sz]|cross-problem|curriculum|transferable"),
     ])
 
 
@@ -601,13 +689,23 @@ def render(t):
     years = [str(y) for y in range(min(int(r["year"]) for r in papers), LAST_YEAR + 1)]
     n = len(papers)
     nlabel = f"{(n // 10) * 10}+" if n >= 20 else str(n)
-    stats = [stat(nlabel, "papers in this theme")] + [stat(v, l) for v, l in t["stats"]]
+    sections = t["sections"]()
+    featured = {(r["kind"], r["key"]): r for *_, chosen in sections for r in chosen}
+    pool = {**{(r["kind"], r["key"]): r for r in papers}, **featured}.values()
+    n_awards = sum(1 for r in pool if won(r))
+    n_cited = sum(1 for r in pool if cites(r) >= HIGHLY_CITED)
+    stats = [stat(nlabel, "papers in this theme")]
+    if n_awards:
+        stats.append(stat(n_awards, "award-winning papers"))
+    if n_cited:
+        stats.append(stat(n_cited, f"papers with {HIGHLY_CITED}+ citations (OpenAlex)"))
+    stats += [stat(v, l) for v, l in t["stats"]][:4 - len(stats)]
     secs = []
-    for i, (name, body, lst) in enumerate(t["sections"](), 1):
+    for i, (name, body, lst, _) in enumerate(sections, 1):
         body = body if body.lstrip().startswith("<") else f"<p>{body}</p>"
         secs.append(f'<h3 class="theme-sub"><span class="theme-sub__num">{i}</span> {name}</h3>\n{body}\n{lst}')
     see = f'<p class="contrib-list__extra">{t["see_also"]}</p>\n' if t.get("see_also") else ""
-    nfig = len(re.findall(r"<b>Figure \d+\.", t["intro"]() + "".join(s[1] for s in t["sections"]())))
+    nfig = len(re.findall(r"<b>Figure \d+\.", t["intro"]() + "".join(s[1] for s in sections)))
     chart = fig(bar_chart(cnt, years),
                 f'<b>Figure {nfig + 1}.</b> My papers in this theme per year ({n} in total), identified by title keywords in my '
                 f'<a href="/publications/">publication lists</a>; papers can belong to more than one theme. The {LAST_YEAR} count covers papers published so far this year.')
@@ -639,7 +737,7 @@ author_profile: true
 
 <a name="contributions"></a>
 <h2>My Contributions</h2>
-<p>With my students and collaborators, I have made the following contributions. Click a title to read the paper, or <i>list entry</i> to see it in my publication list.</p>
+<p>With my students and collaborators, I have made the following contributions. The papers shown are selected automatically: award-winning papers, papers with {HIGHLY_CITED}+ citations, and papers in top venues. Click a title to read the paper, or <i>list entry</i> to see it in my publication list.</p>
 
 {chr(10).join(secs)}
 

@@ -11,9 +11,9 @@ author_profile: true
 
 <section class="home-stats page-highlights" aria-label="Highlights">
   <div class="home-stat"><span class="home-stat__value">18</span><span class="home-stat__label">papers in this theme</span></div>
+  <div class="home-stat"><span class="home-stat__value">2</span><span class="home-stat__label">award-winning papers</span></div>
+  <div class="home-stat"><span class="home-stat__value">1</span><span class="home-stat__label">papers with 100+ citations (OpenAlex)</span></div>
   <div class="home-stat"><span class="home-stat__value">{{ site.data.stats.citations["10.1109/tevc.2022.3225509"] }}</span><span class="home-stat__label">citations of our XAI-by-GP survey (OpenAlex)</span></div>
-  <div class="home-stat"><span class="home-stat__value">GECCO</span><span class="home-stat__label">Best Paper Award 2022</span></div>
-  <div class="home-stat"><span class="home-stat__value">ITNAC</span><span class="home-stat__label">Best Student Paper Award 2025</span></div>
 </section>
 
 <nav class="pub-jump" aria-label="On this page">
@@ -33,20 +33,19 @@ author_profile: true
 
 <a name="contributions"></a>
 <h2>My Contributions</h2>
-<p>With my students and collaborators, I have made the following contributions. Click a title to read the paper, or <i>list entry</i> to see it in my publication list.</p>
+<p>With my students and collaborators, I have made the following contributions. The papers shown are selected automatically: award-winning papers, papers with 100+ citations, and papers in top venues. Click a title to read the paper, or <i>list entry</i> to see it in my publication list.</p>
 
 <h3 class="theme-sub"><span class="theme-sub__num">1</span> Genetic programming for explainable AI</h3>
 <p>We surveyed how GP contributes to explainable AI, both by evolving interpretable models and by producing explanations for black-box models, and use GP to build interpretable local explanations.</p>
 <ul class="contrib-list">
-  <li><a class="contrib-list__title" href="https://doi.org/10.1109/TEVC.2022.3225509">Explainable Artificial Intelligence by Genetic Programming: A Survey</a><span class="contrib-list__venue"><i>IEEE Transactions on Evolutionary Computation</i>, 2023 · <a href="/publications/publication-journal.html#mei2022explainable">list entry</a></span> <span class="contrib-list__note">Survey</span></li>
+  <li><a class="contrib-list__title" href="https://doi.org/10.1109/TEVC.2022.3225509">Explainable Artificial Intelligence by Genetic Programming: A Survey</a><span class="contrib-list__venue"><i>IEEE Transactions on Evolutionary Computation</i>, 2023 · <a href="/publications/publication-journal.html#mei2022explainable">list entry</a></span> <span class="badge">160+ citations</span> <span class="contrib-list__note">Survey</span></li>
   <li><a class="contrib-list__title" href="https://doi.org/10.1145/3638530.3654370">Interpretable Local Explanations Through Genetic Programming</a><span class="contrib-list__venue"><i>ACM Genetic and Evolutionary Computation Conference (GECCO) Companion</i>, 2024 · <a href="/publications/publication-conf.html#andersen2024interpretable">list entry</a></span></li>
 </ul>
 <h3 class="theme-sub"><span class="theme-sub__num">2</span> Explaining evolved decision policies</h3>
 <p>Even evolved rules can grow large. We explain them by ranking the features that drive each decision and by generating counterfactual what-if scenarios.</p>
 <ul class="contrib-list">
-  <li><a class="contrib-list__title" href="https://doi.org/10.1145/3512290.3528723">Local Ranking Explanation for Genetic Programming Evolved Routing Policies for Uncertain Capacitated Arc Routing Problems</a><span class="contrib-list__venue"><i>ACM Genetic and Evolutionary Computation Conference (GECCO)</i>, 2022 · <a href="/publications/publication-conf.html#wang2022local">list entry</a></span> <span class="badge badge--award">Best Paper Award, GECCO 2022</span></li>
+  <li><a class="contrib-list__title" href="https://doi.org/10.1145/3512290.3528723">Local Ranking Explanation for Genetic Programming Evolved Routing Policies for Uncertain Capacitated Arc Routing Problems</a><span class="contrib-list__venue"><i>ACM Genetic and Evolutionary Computation Conference (GECCO)</i>, 2022 · <a href="/publications/publication-conf.html#wang2022local">list entry</a></span> <span class="badge badge--award">ECOM Track Best Paper Award, GECCO 2022</span></li>
   <li><a class="contrib-list__title" href="https://doi.org/10.1109/TEVC.2023.3238741">Explaining Genetic Programming-Evolved Routing Policies for Uncertain Capacitated Arc Routing Problems</a><span class="contrib-list__venue"><i>IEEE Transactions on Evolutionary Computation</i>, 2024 · <a href="/publications/publication-journal.html#wang2023explaining">list entry</a></span></li>
-  <li><a class="contrib-list__title" href="https://doi.org/10.1145/3638530.3654192">A Preliminary Counterfactual Explanation Method for Genetic Programming-Evolved Rules: A Case Study on Uncertain Capacitated Arc Routing Problem</a><span class="contrib-list__venue"><i>ACM Genetic and Evolutionary Computation Conference (GECCO) Companion</i>, 2024 · <a href="/publications/publication-conf.html#wang2024preliminary">list entry</a></span></li>
   <li><a class="contrib-list__title" href="https://doi.org/10.1109/CEC65147.2025.11043113">Diverse Counterfactual Explanations by Differential Evolution with Ablation Strategies for Uncertain Capacitated Arc Routing Problem</a><span class="contrib-list__venue"><i>IEEE Congress on Evolutionary Computation (CEC)</i>, 2025 · <a href="/publications/publication-conf.html#wang2025diverse">list entry</a></span></li>
 </ul>
 <h3 class="theme-sub"><span class="theme-sub__num">3</span> Counterfactual explanations</h3>
@@ -56,8 +55,8 @@ author_profile: true
 <figcaption><b>Figure 2.</b> Diverse counterfactual explanations: several minimal changes to the input, each of which crosses the decision boundary.</figcaption>
 </figure>
 <ul class="contrib-list">
-  <li><a class="contrib-list__title" href="https://doi.org/10.1109/CEC55065.2022.9870283">Evolving Counterfactual Explanations with Particle Swarm Optimization and Differential Evolution</a><span class="contrib-list__venue"><i>IEEE Congress on Evolutionary Computation (CEC)</i>, 2022 · <a href="/publications/publication-conf.html#andersen2022evolving">list entry</a></span></li>
   <li><a class="contrib-list__title" href="https://doi.org/10.1145/3583131.3590444">Producing Diverse Rashomon Sets of Counterfactual Explanations with Niching Particle Swarm Optimization Algorithms</a><span class="contrib-list__venue"><i>ACM Genetic and Evolutionary Computation Conference (GECCO)</i>, 2023 · <a href="/publications/publication-conf.html#andersen2023producing">list entry</a></span></li>
+  <li><a class="contrib-list__title" href="https://doi.org/10.1109/CEC55065.2022.9870283">Evolving Counterfactual Explanations with Particle Swarm Optimization and Differential Evolution</a><span class="contrib-list__venue"><i>IEEE Congress on Evolutionary Computation (CEC)</i>, 2022 · <a href="/publications/publication-conf.html#andersen2022evolving">list entry</a></span></li>
 </ul>
 <h3 class="theme-sub"><span class="theme-sub__num">4</span> Interpretable-by-design heuristics</h3>
 <p>We keep evolved rules small, simple and physically meaningful by enforcing dimensional consistency, simplifying expressions, and optimising interpretability as an explicit objective.</p>
@@ -66,19 +65,16 @@ author_profile: true
 <figcaption><b>Figure 3.</b> Schematic interpretability–performance trade-off. Multi-objective GP finds a front of rules; rules near the knee are both small and accurate.</figcaption>
 </figure>
 <ul class="contrib-list">
-  <li><a class="contrib-list__title" href="https://doi.org/10.1007/978-3-319-68759-9_36">Constrained Dimensionally Aware Genetic Programming for Evolving Interpretable Dispatching Rules in Dynamic Job Shop Scheduling</a><span class="contrib-list__venue"><i>Asia-Pacific Conference on Simulated Evolution and Learning (SEAL)</i>, 2017 · <a href="/publications/publication-conf.html#mei2017constrained">list entry</a></span></li>
-  <li><a class="contrib-list__title" href="https://doi.org/10.1007/978-3-031-04148-8_7">Simplifying Dispatching Rules in Genetic Programming for Dynamic Job Shop Scheduling</a><span class="contrib-list__venue"><i>European Conference on Evolutionary Computation in Combinatorial Optimisation (EvoCOP)</i>, 2022 · <a href="/publications/publication-conf.html#panda2022simplifying">list entry</a></span></li>
-  <li><a class="contrib-list__title" href="https://doi.org/10.1109/CEC53210.2023.10253970">Interpretability-Aware Multi-Objective Genetic Programming for Scheduling Heuristics Learning in Dynamic Flexible Job Shop Scheduling</a><span class="contrib-list__venue"><i>IEEE Congress on Evolutionary Computation (CEC)</i>, 2023 · <a href="/publications/publication-conf.html#zhang2023interpretability">list entry</a></span></li>
-  <li><a class="contrib-list__title" href="https://doi.org/10.1109/CEC60901.2024.10612158">Multi-Objective Genetic-Programming Hyper-Heuristic for Evolving Interpretable Flexible Job Shop Scheduling Rules</a><span class="contrib-list__venue"><i>IEEE Congress on Evolutionary Computation (CEC)</i>, 2024 · <a href="/publications/publication-conf.html#pang2024multi">list entry</a></span></li>
   <li><a class="contrib-list__title" href="https://doi.org/10.1109/TEVC.2026.3710449">Balancing Effectiveness and Structural Complexities in Scheduling Heuristics via Multi/Many-objective Multiform Genetic Programming</a><span class="contrib-list__venue"><i>IEEE Transactions on Evolutionary Computation</i>, 2026 · <a href="/publications/publication-journal.html#pang2026balancing">list entry</a></span></li>
   <li><a class="contrib-list__title" href="https://doi.org/10.1109/TEVC.2026.3660890">Genetic Programming with Model Driven Dimension Repair for Learning Interpretable Appointment Rules</a><span class="contrib-list__venue"><i>IEEE Transactions on Evolutionary Computation</i>, 2026 · <a href="/publications/publication-journal.html#zhang2026genetic">list entry</a></span></li>
+  <li><a class="contrib-list__title" href="https://doi.org/10.1109/CEC60901.2024.10612158">Multi-Objective Genetic-Programming Hyper-Heuristic for Evolving Interpretable Flexible Job Shop Scheduling Rules</a><span class="contrib-list__venue"><i>IEEE Congress on Evolutionary Computation (CEC)</i>, 2024 · <a href="/publications/publication-conf.html#pang2024multi">list entry</a></span></li>
 </ul>
 <h3 class="theme-sub"><span class="theme-sub__num">5</span> Explainable machine learning in applications</h3>
 <p>We make machine learning explainable in security and healthcare, for example robust SHAP explanations for intrusion detection.</p>
 <ul class="contrib-list">
   <li><a class="contrib-list__title" href="https://doi.org/10.1109/ITNAC66378.2025.11302604">An Investigation of Feature-Grouping for Robust SHAP Explanations in IoT Intrusion Detection</a><span class="contrib-list__venue"><i>IEEE International Telecommunication Networks and Applications Conference (ITNAC)</i>, 2025 · <a href="/publications/publication-conf.html#hendro2025investigation">list entry</a></span> <span class="badge badge--award">Best Student Paper Award, ITNAC 2025</span></li>
   <li><a class="contrib-list__title" href="/publications/publication-conf.html#hendro2026enhancing">Enhancing Explainability for Intrusion Detection Through SHAP and Large Language Model</a><span class="contrib-list__venue"><i>IEEE TENCON</i>, 2026 · <a href="/publications/publication-conf.html#hendro2026enhancing">list entry</a></span></li>
-  <li><a class="contrib-list__title" href="https://doi.org/10.1007/978-3-030-03991-2_11">Uncovering Discriminative Knowledge-Guided Medical Concepts for Classifying Coronary Artery Disease Notes</a><span class="contrib-list__venue"><i>Australasian Joint Conference on Artificial Intelligence (AI)</i>, 2018 · <a href="/publications/publication-conf.html#abdollahi2018uncovering">list entry</a></span></li>
+  <li><a class="contrib-list__title" href="https://doi.org/10.1007/978-3-030-29894-4_37">Stratifying risk of coronary artery disease using discriminative knowledge-guided medical concept pairings from clinical notes</a><span class="contrib-list__venue"><i>Pacific-Rim International Conference on Artificial Intelligence (PRICAI)</i>, 2019 · <a href="/publications/publication-conf.html#abdollahi2019stratifying">list entry</a></span></li>
 </ul>
 
 <a name="output"></a>

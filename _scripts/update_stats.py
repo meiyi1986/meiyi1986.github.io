@@ -8,10 +8,9 @@ Sources:
   _pages/supervision.md    student counts
   _pages/teaching.md       courses taught and coordinated
   _publications/*.bib      publication counts
-  OpenAlex API             citation counts for highlighted papers (DOIs below
-                           and every DOI linked from a pub-feature card on the
-                           Publications page); previous values are kept if the
-                           API cannot be reached.
+  OpenAlex API             citation counts for every DOI in the BibTeX files;
+                           previous values are kept if the API cannot be
+                           reached.
 
 Run from the repository root:  python3 _scripts/update_stats.py
 The deploy workflow runs it before every build.
@@ -19,6 +18,7 @@ The deploy workflow runs it before every build.
 import datetime
 import json
 import re
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
@@ -147,21 +147,35 @@ def publications():
 
 
 # ---------------------------------------------------------------- citations
-def citations(previous):
+def all_dois():
     dois = set(d.lower() for d in EXTRA_DOIS)
     dois.update(d.lower() for d in re.findall(r'pub-feature__title"><a href="https://doi.org/([^"]+)"', read("publications.md")))
-    out, raw = dict(previous.get("citations", {})), dict(previous.get("citations_raw", {}))
-    fetched = 0
-    for doi in sorted(dois):
-        url = f"https://api.openalex.org/works/doi:{doi}?select=cited_by_count"
+    for f in (ROOT / "_publications").glob("*.bib"):
+        dois.update(d.strip().lower() for d in re.findall(r"\bdoi\s*=\s*\{([^}]+)\}", f.read_text(encoding="utf-8")) if d.strip())
+    return sorted(d for d in dois if re.fullmatch(r"10\.\d{4,9}/[^\s|,]+", d))
+
+
+def fetch(batch):
+    url = ("https://api.openalex.org/works?per-page=50&select=doi,cited_by_count&filter=doi:"
+           + urllib.parse.quote("|".join(batch), safe="/|:"))
+    req = urllib.request.Request(url, headers={"User-Agent": "meiyi1986.github.io stats"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return {w["doi"].lower().replace("https://doi.org/", ""): int(w["cited_by_count"])
+                for w in json.load(r)["results"] if w.get("doi")}
+
+
+def citations(previous):
+    """OpenAlex citation counts for every DOI in the BibTeX files (50 per request)."""
+    raw = dict(previous.get("citations_raw", {}))
+    dois, fetched = all_dois(), 0
+    for i in range(0, len(dois), 50):
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "meiyi1986.github.io stats"}), timeout=20) as r:
-                n = int(json.load(r)["cited_by_count"])
-            raw[doi], out[doi] = n, plus(n)
-            fetched += 1
-        except Exception as e:  # keep the previous value
-            print(f"  citations: could not fetch {doi}: {e}")
-    return out, raw, fetched
+            got = fetch(dois[i:i + 50])
+            raw.update(got)
+            fetched += len(got)
+        except Exception as e:  # keep the previous values
+            print(f"  citations: batch {i // 50 + 1} failed: {e}")
+    return {d: plus(n) for d, n in raw.items()}, raw, fetched
 
 
 def main():
@@ -175,7 +189,7 @@ def main():
     for k, v in stats.items():
         if k not in ("citations", "citations_raw"):
             print(k, v)
-    print(f"citations: {fetched}/{len(stats['citations'])} fetched")
+    print(f"citations: {fetched} fetched, {len(stats['citations'])} known")
 
 
 if __name__ == "__main__":
