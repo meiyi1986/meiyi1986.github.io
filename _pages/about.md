@@ -45,8 +45,9 @@ redirect_from:
 <!-- PLACEHOLDER: theme descriptions are drafts — edit to match how you describe your work -->
 <div class="home-themes">
   <div class="home-theme">
-    <h3><i class="fas fa-dna" aria-hidden="true"></i> Genetic Programming &amp; Automated Algorithm Design</h3>
+    <h3><a href="/research/genetic-programming/"><i class="fas fa-dna" aria-hidden="true"></i> Genetic Programming &amp; Automated Algorithm Design</a></h3>
     <p>Evolving heuristics and meta-heuristics that automatically make optimisation and decisions.</p>
+    <a class="home-theme__more" href="/research/genetic-programming/">Explore this theme →</a>
   </div>
   <div class="home-theme">
     <h3><i class="fas fa-brain" aria-hidden="true"></i> Machine Learning for Optimisation</h3>
