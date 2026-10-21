@@ -1,0 +1,12 @@
+# Figures that come from outside this repository and must be updated by hand.
+# Everything else on the site (award counts, funding totals, student and
+# course counts, paper counts, OpenAlex citation counts) is computed by
+# _scripts/update_stats.py into _data/stats.json on every deploy.
+
+# From https://scholar.google.com/citations?user=vTC_7_wAAAAJ (Google Scholar
+# cannot be queried automatically)
+scholar_citations: "12,000+"
+h_index: 56
+
+# Stanford University / Elsevier World's Top 2% Scientists list
+top2_since: 2021

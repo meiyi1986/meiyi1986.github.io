@@ -7,10 +7,10 @@ author_profile: true
 
 
 <section class="home-stats page-highlights" aria-label="Highlights">
-  <div class="home-stat"><span class="home-stat__value">$1.5M+</span><span class="home-stat__label">research funding as PI (NZD)</span></div>
-  <div class="home-stat"><span class="home-stat__value">$13M</span><span class="home-stat__label">MBIE SSIF programme, Theme Leader</span></div>
-  <div class="home-stat"><span class="home-stat__value">8</span><span class="home-stat__label">best / outstanding paper awards</span></div>
-  <div class="home-stat"><span class="home-stat__value">2</span><span class="home-stat__label">VUW research excellence awards</span></div>
+  <div class="home-stat"><span class="home-stat__value">{{ site.data.stats.grantsawards.pi_funding }}</span><span class="home-stat__label">research funding as PI (NZD)</span></div>
+  <div class="home-stat"><span class="home-stat__value">{{ site.data.stats.grantsawards.theme_leader_funding }}</span><span class="home-stat__label">MBIE SSIF programme, Theme Leader</span></div>
+  <div class="home-stat"><span class="home-stat__value">{{ site.data.stats.grantsawards.paper_awards }}</span><span class="home-stat__label">best / outstanding paper awards</span></div>
+  <div class="home-stat"><span class="home-stat__value">{{ site.data.stats.grantsawards.research_excellence_awards }}</span><span class="home-stat__label">VUW research excellence awards</span></div>
 </section>
 
 ## Grants

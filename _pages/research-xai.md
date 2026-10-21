@@ -11,7 +11,7 @@ author_profile: true
 
 <section class="home-stats page-highlights" aria-label="Highlights">
   <div class="home-stat"><span class="home-stat__value">18</span><span class="home-stat__label">papers in this theme</span></div>
-  <div class="home-stat"><span class="home-stat__value">160+</span><span class="home-stat__label">citations of our XAI-by-GP survey (OpenAlex)</span></div>
+  <div class="home-stat"><span class="home-stat__value">{{ site.data.stats.citations["10.1109/tevc.2022.3225509"] }}</span><span class="home-stat__label">citations of our XAI-by-GP survey (OpenAlex)</span></div>
   <div class="home-stat"><span class="home-stat__value">GECCO</span><span class="home-stat__label">Best Paper Award 2022</span></div>
   <div class="home-stat"><span class="home-stat__value">ITNAC</span><span class="home-stat__label">Best Student Paper Award 2025</span></div>
 </section>

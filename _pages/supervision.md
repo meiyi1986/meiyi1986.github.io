@@ -6,10 +6,10 @@ author_profile: true
 ---
 
 <section class="home-stats page-highlights" aria-label="Supervision summary">
-  <div class="home-stat"><span class="home-stat__value">18</span><span class="home-stat__label">PhD graduates</span></div>
-  <div class="home-stat"><span class="home-stat__value">22</span><span class="home-stat__label">current PhD students</span></div>
-  <div class="home-stat"><span class="home-stat__value">8</span><span class="home-stat__label">visiting PhD students hosted</span></div>
-  <div class="home-stat"><span class="home-stat__value">47</span><span class="home-stat__label">Honours &amp; summer research projects</span></div>
+  <div class="home-stat"><span class="home-stat__value">{{ site.data.stats.supervision.phd_graduated }}</span><span class="home-stat__label">PhD graduates</span></div>
+  <div class="home-stat"><span class="home-stat__value">{{ site.data.stats.supervision.phd_current }}</span><span class="home-stat__label">current PhD students</span></div>
+  <div class="home-stat"><span class="home-stat__value">{{ site.data.stats.supervision.visiting_phd }}</span><span class="home-stat__label">visiting PhD students hosted</span></div>
+  <div class="home-stat"><span class="home-stat__value">{{ site.data.stats.supervision.honours_summer }}</span><span class="home-stat__label">Honours &amp; summer research projects</span></div>
 </section>
 
 ## PhD

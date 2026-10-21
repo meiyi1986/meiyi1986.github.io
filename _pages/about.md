@@ -31,12 +31,12 @@ redirect_from:
 </section>
 
 <!-- ===================== IMPACT STATS ===================== -->
-<!-- PLACEHOLDER: update these numbers periodically (citations/h-index from Google Scholar) -->
+<!-- Citations and h-index: edit _data/profile.yml. Award count: computed from the Grants & Awards page. -->
 <section class="home-stats" aria-label="Research impact">
-  <div class="home-stat"><span class="home-stat__value">12,000+</span><span class="home-stat__label">Google Scholar citations</span></div>
-  <div class="home-stat"><span class="home-stat__value">56</span><span class="home-stat__label">h-index</span></div>
-  <div class="home-stat"><span class="home-stat__value">8</span><span class="home-stat__label">best / outstanding paper awards</span></div>
-  <div class="home-stat"><span class="home-stat__value">Top 2%</span><span class="home-stat__label">World scientist list, since 2021</span></div>
+  <div class="home-stat"><span class="home-stat__value">{{ site.data.profile.scholar_citations }}</span><span class="home-stat__label">Google Scholar citations</span></div>
+  <div class="home-stat"><span class="home-stat__value">{{ site.data.profile.h_index }}</span><span class="home-stat__label">h-index</span></div>
+  <div class="home-stat"><span class="home-stat__value">{{ site.data.stats.grantsawards.paper_awards }}</span><span class="home-stat__label">best / outstanding paper awards</span></div>
+  <div class="home-stat"><span class="home-stat__value">Top 2%</span><span class="home-stat__label">World scientist list, since {{ site.data.profile.top2_since }}</span></div>
 </section>
 
 <!-- ===================== RESEARCH THEMES ===================== -->

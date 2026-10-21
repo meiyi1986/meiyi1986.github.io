@@ -1,0 +1,70 @@
+{
+  "grantsawards": {
+    "grants": 13,
+    "pi_funding": "$1.5M+",
+    "pi_funding_nzd": 1592720,
+    "theme_leader_funding": "$13M",
+    "awards": 12,
+    "paper_awards": 8,
+    "research_excellence_awards": 2
+  },
+  "services": {
+    "editor_roles": 7,
+    "outstanding_ae": 3,
+    "journals_reviewed": 67,
+    "pc_conferences": 34,
+    "organising_roles": 31
+  },
+  "supervision": {
+    "phd_current": 22,
+    "phd_graduated": 18,
+    "visiting_phd": 8,
+    "masters_current": 0,
+    "masters_graduated": 9,
+    "honours": 27,
+    "summer": 20,
+    "honours_summer": 47
+  },
+  "teaching": {
+    "courses": 13,
+    "coordinated": 18,
+    "first_year": 2016,
+    "latest_year": 2026
+  },
+  "publications": {
+    "journal": 120,
+    "conference": 176,
+    "book": 1,
+    "chapter": 2,
+    "total": 299
+  },
+  "citations": {
+    "10.1007/s40747-017-0036-x": "270+",
+    "10.1080/03036758.2019.1609052": "250+",
+    "10.1109/tcyb.2020.3024849": "260+",
+    "10.1109/tcyb.2021.3069942": "230+",
+    "10.1109/tevc.2009.2023449": "200+",
+    "10.1109/tevc.2010.2051446": "210+",
+    "10.1109/tevc.2013.2281503": "130+",
+    "10.1109/tevc.2013.2281543": "740+",
+    "10.1109/tevc.2021.3065707": "230+",
+    "10.1109/tevc.2022.3225509": "160+",
+    "10.1109/tevc.2023.3255246": "150+",
+    "10.1145/2791291": "240+"
+  },
+  "citations_raw": {
+    "10.1007/s40747-017-0036-x": 279,
+    "10.1080/03036758.2019.1609052": 258,
+    "10.1109/tcyb.2020.3024849": 269,
+    "10.1109/tcyb.2021.3069942": 231,
+    "10.1109/tevc.2009.2023449": 207,
+    "10.1109/tevc.2010.2051446": 216,
+    "10.1109/tevc.2013.2281503": 139,
+    "10.1109/tevc.2013.2281543": 746,
+    "10.1109/tevc.2021.3065707": 233,
+    "10.1109/tevc.2022.3225509": 166,
+    "10.1109/tevc.2023.3255246": 159,
+    "10.1145/2791291": 249
+  },
+  "citations_updated": "October 2026"
+}

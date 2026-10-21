@@ -11,7 +11,7 @@ author_profile: true
 
 <section class="home-stats page-highlights" aria-label="Highlights">
   <div class="home-stat"><span class="home-stat__value">70+</span><span class="home-stat__label">papers in this theme</span></div>
-  <div class="home-stat"><span class="home-stat__value">740+</span><span class="home-stat__label">citations of differential grouping (OpenAlex)</span></div>
+  <div class="home-stat"><span class="home-stat__value">{{ site.data.stats.citations["10.1109/tevc.2013.2281543"] }}</span><span class="home-stat__label">citations of differential grouping (OpenAlex)</span></div>
   <div class="home-stat"><span class="home-stat__value">TEVC</span><span class="home-stat__label">Outstanding Paper Award 2017</span></div>
   <div class="home-stat"><span class="home-stat__value">Runner-up</span><span class="home-stat__label">Best Paper, IEEE ICWS 2018</span></div>
 </section>

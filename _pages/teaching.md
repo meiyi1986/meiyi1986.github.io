@@ -6,9 +6,9 @@ author_profile: true
 ---
 
 <section class="home-stats page-highlights" aria-label="Teaching summary">
-  <div class="home-stat"><span class="home-stat__value">12</span><span class="home-stat__label">different courses taught</span></div>
-  <div class="home-stat"><span class="home-stat__value">17</span><span class="home-stat__label">course offerings coordinated</span></div>
-  <div class="home-stat"><span class="home-stat__value">2016–</span><span class="home-stat__label">teaching at Victoria University of Wellington</span></div>
+  <div class="home-stat"><span class="home-stat__value">{{ site.data.stats.teaching.courses }}</span><span class="home-stat__label">different courses taught</span></div>
+  <div class="home-stat"><span class="home-stat__value">{{ site.data.stats.teaching.coordinated }}</span><span class="home-stat__label">course offerings coordinated</span></div>
+  <div class="home-stat"><span class="home-stat__value">{{ site.data.stats.teaching.first_year }}–</span><span class="home-stat__label">teaching at Victoria University of Wellington</span></div>
   <div class="home-stat"><span class="home-stat__value">Programme Director</span><span class="home-stat__label">BSc in Computer Science, since 2024</span></div>
 </section>
 

@@ -374,7 +374,7 @@ theme(
     card_intro="Designing evolutionary and memetic algorithms that find high-quality solutions to hard routing, scheduling and allocation problems — and scaling them to very large instances by decomposition.",
     card_contrib="MAENS and decomposition-based memetic algorithms for arc routing; differential grouping and cooperative co-evolution for large-scale optimisation (IEEE TEVC Outstanding Paper Award).",
     lead="Many of society's logistics problems — collecting waste, gritting roads, delivering parcels, allocating cloud resources — are <b>combinatorial optimisation</b> problems: the number of possible solutions explodes with problem size. I design <b>evolutionary and memetic algorithms</b> that find near-optimal solutions quickly, and <b>decomposition</b> methods that let them scale to problems with thousands of decisions.",
-    stats=[("740+", "citations of differential grouping (OpenAlex)"), ("TEVC", "Outstanding Paper Award 2017"),
+    stats=[('{{ site.data.stats.citations["10.1109/tevc.2013.2281543"] }}', "citations of differential grouping (OpenAlex)"), ("TEVC", "Outstanding Paper Award 2017"),
            ("Runner-up", "Best Paper, IEEE ICWS 2018")],
     intro=lambda: f"""
 <h3>The problems</h3>
@@ -514,7 +514,7 @@ theme(
     card_intro="Making AI decisions understandable — by evolving models that are interpretable by design, and by explaining the decisions of black-box models.",
     card_contrib="Survey on explainable AI by GP; local and counterfactual explanations for evolved policies; interpretability-aware GP; GECCO 2022 Best Paper Award; ITNAC 2025 Best Student Paper.",
     lead="AI is increasingly trusted with consequential decisions, from scheduling hospital resources to detecting cyber attacks. People need to <b>understand</b> and <b>trust</b> those decisions. My research makes AI explainable in two ways: building models that are <b>interpretable by design</b>, and <b>explaining</b> the decisions of complex models after training.",
-    stats=[("160+", "citations of our XAI-by-GP survey (OpenAlex)"), ("GECCO", "Best Paper Award 2022"),
+    stats=[('{{ site.data.stats.citations["10.1109/tevc.2022.3225509"] }}', "citations of our XAI-by-GP survey (OpenAlex)"), ("GECCO", "Best Paper Award 2022"),
            ("ITNAC", "Best Student Paper Award 2025")],
     intro=lambda: f"""
 <h3>Two routes to explainability</h3>

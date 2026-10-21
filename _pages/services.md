@@ -6,8 +6,8 @@ author_profile: true
 ---
 
 <section class="home-stats page-highlights" aria-label="Highlights">
-  <div class="home-stat"><span class="home-stat__value">7</span><span class="home-stat__label">editor / associate editor roles</span></div>
-  <div class="home-stat"><span class="home-stat__value">3×</span><span class="home-stat__label">Outstanding Associate Editor, IEEE TEVC</span></div>
+  <div class="home-stat"><span class="home-stat__value">{{ site.data.stats.services.editor_roles }}</span><span class="home-stat__label">editor / associate editor roles</span></div>
+  <div class="home-stat"><span class="home-stat__value">{{ site.data.stats.services.outstanding_ae }}×</span><span class="home-stat__label">Outstanding Associate Editor, IEEE TEVC</span></div>
   <div class="home-stat"><span class="home-stat__value">Chair</span><span class="home-stat__label">IEEE New Zealand Council</span></div>
   <div class="home-stat"><span class="home-stat__value">General Chair</span><span class="home-stat__label">AJCAI 2026</span></div>
 </section>
@@ -112,10 +112,10 @@ author_profile: true
 
 ## Journal Reviewer
 
-Reviewer for 67 international journals, including <i>Nature Communications</i>, <i>IEEE Transactions on Evolutionary Computation</i>, <i>ACM Computing Surveys</i> and <i>European Journal of Operational Research</i>.
+Reviewer for {{ site.data.stats.services.journals_reviewed }} international journals, including <i>Nature Communications</i>, <i>IEEE Transactions on Evolutionary Computation</i>, <i>ACM Computing Surveys</i> and <i>European Journal of Operational Research</i>.
 
 <details class="more">
-<summary>Show all 67 journals</summary>
+<summary>Show all {{ site.data.stats.services.journals_reviewed }} journals</summary>
 <ol class="compact-list">
 	<li><a href="https://www.nature.com/ncomms/">Nature Communications</a>, Springer Nature</li>
 	<li><a href="http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4235">IEEE Transactions on Evolutionary Computation</a>, IEEE <strong>(ARC/CORE Tier A*, Q1)</strong></li>
