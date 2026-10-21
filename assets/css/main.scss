@@ -528,7 +528,80 @@ details.more {
   .svg-arrowhead { fill: $accent; }
   .svg-code { fill: #2f3437; }
   .svg-code-text { font-family: Menlo, Consolas, monospace; font-size: 15px; fill: #e8f1f6; }
+
+  .svg-small { font-size: 11px; }
+  .svg-small-dark { font-size: 11px; font-weight: 700; fill: #2f3437; }
+  .svg-light { fill: #fff; }
+  .svg-box--gold { fill: #fdf1cf; stroke: #d9a521; }
+  .svg-box--dark { fill: #2f3437; stroke: #2f3437; }
+  .svg-arrow--gold { stroke: #d9a521; }
+
+  .svg-road { stroke: #c9cdd1; stroke-width: 2; stroke-dasharray: 4 3; }
+  .svg-route { stroke-width: 5; stroke-linecap: round; fill: none; }
+  .svg-route--1 { stroke: $accent; }
+  .svg-route--2 { stroke: #d9a521; }
+  .svg-route--3 { stroke: #3a9a5b; }
+
+  .svg-group--1 { fill: mix(#fff, $accent, 70%); stroke: $accent; }
+  .svg-group--2 { fill: #fbe3a6; stroke: #d9a521; }
+  .svg-group--3 { fill: #cdebd7; stroke: #3a9a5b; }
+
+  .svg-boundary { fill: none; stroke: #2f3437; stroke-width: 2.5; }
+  .svg-dashed { stroke: $gray; stroke-width: 1.5; stroke-dasharray: 5 4; }
+  .svg-cf { fill: #fdf1cf; stroke: #d9a521; stroke-width: 2.5; }
+  .svg-front { fill: none; stroke: $accent; stroke-width: 2; }
+  .svg-knee { fill: none; stroke: #d9a521; stroke-width: 3; }
 }
+
+/* Homepage research theme cards */
+.theme-cards {
+  display: grid;
+  gap: 1em;
+  margin-bottom: 1.5em;
+}
+
+.theme-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75em;
+  padding: 1em 1.1em;
+  border: 1px solid $border-color;
+  border-left: 4px solid $accent;
+  border-radius: $border-radius;
+  background-color: #fff;
+
+  @include breakpoint($medium) {
+    grid-template-columns: 150px minmax(0, 1fr);
+    gap: 1.25em;
+    align-items: start;
+  }
+
+  &__demo {
+    display: block;
+    padding: 0.4em;
+    border-radius: $border-radius;
+    background-color: mix(#fff, $accent, 95%);
+    max-width: 200px;
+  }
+
+  &__svg { width: 100%; }
+
+  h3 {
+    margin: 0 0 0.35em;
+    font-size: $type-size-5;
+    line-height: 1.35;
+
+    a { color: inherit; text-decoration: none; }
+    a:hover { color: $accent; text-decoration: underline; }
+    i { margin-right: 0.3em; color: $accent; }
+  }
+
+  p { margin: 0 0 0.5em; font-size: 0.9em; line-height: 1.5; }
+
+  &__contrib { color: $dark-gray; }
+}
+
+.theme-others { margin-top: 0.5em; }
 
 .theme-split {
   @include breakpoint($medium-wide) {
