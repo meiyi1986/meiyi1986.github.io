@@ -143,7 +143,19 @@ def publications():
                     ("book", "publication-book.bib"), ("chapter", "publication-chapter.bib")]:
         out[kind] = len(re.findall(r"^\s*@\w+\s*\{", (ROOT / "_publications" / f).read_text(encoding="utf-8"), re.M))
     out["total"] = sum(out.values())
+    out["total_rounded"] = out["total"] // 10 * 10   # e.g. "290余篇" on the Chinese page
     return out
+
+
+# ---------------------------------------------------------------- Google Scholar
+def scholar():
+    """Display forms of the hand-entered Google Scholar figures in _data/profile.yml."""
+    prof = (ROOT / "_data" / "profile.yml").read_text(encoding="utf-8")
+    get = lambda k: re.search(rf"^{k}:\s*\"?([\d,]+)", prof, re.M)
+    n = int(get("scholar_citations").group(1).replace(",", ""))
+    h = int(get("h_index").group(1).replace(",", ""))
+    zh = f"{int(n / 1000) / 10:g}万" if n >= 10000 else f"{n}"
+    return {"citations": plus(n), "citations_zh": zh, "citations_number": n, "h_index": h}
 
 
 # ---------------------------------------------------------------- citations
@@ -181,7 +193,7 @@ def citations(previous):
 def main():
     previous = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
     stats = {"grantsawards": grants_awards(), "services": services(), "supervision": supervision(),
-             "teaching": teaching(), "publications": publications()}
+             "teaching": teaching(), "publications": publications(), "scholar": scholar()}
     stats["citations"], stats["citations_raw"], fetched = citations(previous)
     stats["citations_updated"] = (datetime.date.today().strftime("%B %Y") if fetched
                                   else previous.get("citations_updated", ""))

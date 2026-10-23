@@ -31,10 +31,10 @@ redirect_from:
 </section>
 
 <!-- ===================== IMPACT STATS ===================== -->
-<!-- Citations and h-index: edit _data/profile.yml. Award count: computed from the Grants & Awards page. -->
+<!-- Google Scholar citations and h-index: edit _data/profile.yml only. Award count: computed from the Grants & Awards page. -->
 <section class="home-stats" aria-label="Research impact">
-  <div class="home-stat"><span class="home-stat__value">{{ site.data.profile.scholar_citations }}</span><span class="home-stat__label">Google Scholar citations</span></div>
-  <div class="home-stat"><span class="home-stat__value">{{ site.data.profile.h_index }}</span><span class="home-stat__label">h-index</span></div>
+  <div class="home-stat"><span class="home-stat__value">{{ site.data.stats.scholar.citations }}</span><span class="home-stat__label">Google Scholar citations</span></div>
+  <div class="home-stat"><span class="home-stat__value">{{ site.data.stats.scholar.h_index }}</span><span class="home-stat__label">h-index</span></div>
   <div class="home-stat"><span class="home-stat__value">{{ site.data.stats.grantsawards.paper_awards }}</span><span class="home-stat__label">best / outstanding paper awards</span></div>
   <div class="home-stat"><span class="home-stat__value">Top 2%</span><span class="home-stat__label">World scientist list, since {{ site.data.profile.top2_since }}</span></div>
 </section>

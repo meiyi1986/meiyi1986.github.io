@@ -1,11 +1,14 @@
 # Figures that come from outside this repository and must be updated by hand.
+# Update them here only: every page that shows them reads this file.
 # Everything else on the site (award counts, funding totals, student and
 # course counts, paper counts, OpenAlex citation counts) is computed by
 # _scripts/update_stats.py into _data/stats.json on every deploy.
 
 # From https://scholar.google.com/citations?user=vTC_7_wAAAAJ (Google Scholar
-# cannot be queried automatically)
-scholar_citations: "12,000+"
+# cannot be queried automatically). Enter the plain number shown on your
+# profile; the site rounds it for display (e.g. 12345 -> "12,000+" in English
+# and "1.2万" on the Chinese page).
+scholar_citations: 12000
 h_index: 56
 
 # Stanford University / Elsevier World's Top 2% Scientists list

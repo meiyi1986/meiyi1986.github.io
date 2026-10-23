@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-My [Google Scholar profile](https://scholar.google.com/citations?user=vTC_7_wAAAAJ) shows <b>{{ site.data.profile.scholar_citations }}</b> citations and an h-index of <b>{{ site.data.profile.h_index }}</b>.
+My [Google Scholar profile](https://scholar.google.com/citations?user=vTC_7_wAAAAJ) shows <b>{{ site.data.stats.scholar.citations }}</b> citations and an h-index of <b>{{ site.data.stats.scholar.h_index }}</b>.
 
 <nav class="pub-jump" aria-label="Publication lists">
   <a href="#selected"><i class="fas fa-star" aria-hidden="true"></i> Selected</a>
