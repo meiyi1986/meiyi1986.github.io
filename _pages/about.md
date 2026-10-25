@@ -50,7 +50,10 @@ redirect_from:
       <h3><a href="/research/evolutionary-combinatorial-optimisation/"><i class="fas fa-route" aria-hidden="true"></i> Evolutionary Computation for Combinatorial Optimisation</a></h3>
       <p>Designing evolutionary and memetic algorithms that find high-quality solutions to hard routing, scheduling and allocation problems — and scaling them to very large instances by decomposition.</p>
       <p class="theme-card__contrib"><b>Contributions:</b> MAENS and decomposition-based memetic algorithms for arc routing; differential grouping and cooperative co-evolution for large-scale optimisation (IEEE TEVC Outstanding Paper Award).</p>
-      <a class="home-theme__more" href="/research/evolutionary-combinatorial-optimisation/">78 papers · Explore this theme →</a>
+      <div class="action-row action-row--compact">
+        <a class="btn-action btn-action--small btn-action--primary" href="/research/evolutionary-combinatorial-optimisation/">Explore this theme <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        <span class="theme-card__count">78 papers</span>
+      </div>
     </div>
   </article>
   <article class="theme-card">
@@ -59,7 +62,10 @@ redirect_from:
       <h3><a href="/research/genetic-programming/"><i class="fas fa-bolt" aria-hidden="true"></i> Genetic Programming for Real-time Optimisation and Decision-Making</a></h3>
       <p>Evolving compact, interpretable decision rules with genetic programming that react instantly to dynamic events in factories, vehicle fleets, cloud data centres and traffic networks.</p>
       <p class="theme-card__contrib"><b>Contributions:</b> GP hyper-heuristics for dynamic scheduling and routing; the first book on the topic; EuroGP and GECCO Best Paper Awards; HUMIES Silver Award.</p>
-      <a class="home-theme__more" href="/research/genetic-programming/">167 papers · Explore this theme →</a>
+      <div class="action-row action-row--compact">
+        <a class="btn-action btn-action--small btn-action--primary" href="/research/genetic-programming/">Explore this theme <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        <span class="theme-card__count">167 papers</span>
+      </div>
     </div>
   </article>
   <article class="theme-card">
@@ -68,7 +74,10 @@ redirect_from:
       <h3><a href="/research/machine-learning-optimisation/"><i class="fas fa-cogs" aria-hidden="true"></i> Machine Learning and Automated Algorithm Design for Optimisation</a></h3>
       <p>Using machine learning to make optimisers smarter — learning which operator to apply, where to search, and even how to design the algorithm itself.</p>
       <p class="theme-card__contrib"><b>Contributions:</b> Adaptive operator selection; learned and neural neighbourhood search for routing; GP-designed algorithm components; IEEE CIM Outstanding Paper Award; EvoStar 2026 Best Student Paper.</p>
-      <a class="home-theme__more" href="/research/machine-learning-optimisation/">112 papers · Explore this theme →</a>
+      <div class="action-row action-row--compact">
+        <a class="btn-action btn-action--small btn-action--primary" href="/research/machine-learning-optimisation/">Explore this theme <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        <span class="theme-card__count">112 papers</span>
+      </div>
     </div>
   </article>
   <article class="theme-card">
@@ -77,7 +86,10 @@ redirect_from:
       <h3><a href="/research/explainable-ai/"><i class="fas fa-search" aria-hidden="true"></i> Explainable AI</a></h3>
       <p>Making AI decisions understandable — by evolving models that are interpretable by design, and by explaining the decisions of black-box models.</p>
       <p class="theme-card__contrib"><b>Contributions:</b> Survey on explainable AI by GP; local and counterfactual explanations for evolved policies; interpretability-aware GP; GECCO 2022 Best Paper Award; ITNAC 2025 Best Student Paper.</p>
-      <a class="home-theme__more" href="/research/explainable-ai/">18 papers · Explore this theme →</a>
+      <div class="action-row action-row--compact">
+        <a class="btn-action btn-action--small btn-action--primary" href="/research/explainable-ai/">Explore this theme <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        <span class="theme-card__count">18 papers</span>
+      </div>
     </div>
   </article>
   <article class="theme-card">
@@ -86,7 +98,10 @@ redirect_from:
       <h3><a href="/research/transfer-multitask-lifelong-learning/"><i class="fas fa-project-diagram" aria-hidden="true"></i> Transfer, Multitask, and Lifelong Machine Learning</a></h3>
       <p>Reusing knowledge across related problems so that learning is faster and generalises better — from one task to another, across tasks at once, and over a lifetime of tasks.</p>
       <p class="theme-card__contrib"><b>Contributions:</b> Knowledge-transfer and multitask GP; lifelong learning for optimiser generation and neural routing solvers (IJCAI 2025, ICLR 2026); EuroGP 2022 Best Paper Award.</p>
-      <a class="home-theme__more" href="/research/transfer-multitask-lifelong-learning/">34 papers · Explore this theme →</a>
+      <div class="action-row action-row--compact">
+        <a class="btn-action btn-action--small btn-action--primary" href="/research/transfer-multitask-lifelong-learning/">Explore this theme <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        <span class="theme-card__count">34 papers</span>
+      </div>
     </div>
   </article>
 </div>
@@ -100,7 +115,9 @@ redirect_from:
 <li><span class="news-date">2025</span> <span class="news-tag">Award</span> Dedy Hendro's paper "<a href="https://ieeexplore.ieee.org/document/11302604">An Investigation of Feature-Grouping for Robust SHAP Explanations in IoT Intrusion Detection</a>" won the <b>Best Student Paper Award</b> at the <i>IEEE International Telecommunication Networks and Applications Conference (ITNAC) 2025</i>.</li>
 <li><span class="news-date">2025</span> <span class="news-tag">Award</span> Honoured to receive the Victoria University of Wellington <b>Ki te Pae Research Excellence Award</b>.</li>
 </ul>
-<p class="home-more"><a href="/grantsawards/">All grants &amp; awards →</a></p>
+<nav class="action-row" aria-label="More news">
+  <a class="btn-action" href="/grantsawards/"><i class="fas fa-trophy" aria-hidden="true"></i> All grants &amp; awards <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+</nav>
 
 <!-- ===================== JOIN ===================== -->
 <a name="join"></a>

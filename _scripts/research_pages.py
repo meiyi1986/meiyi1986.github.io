@@ -748,7 +748,10 @@ author_profile: true
 <h2>Research Themes</h2>
 {theme_nav(t['slug'])}
 
-<p class="home-more"><a href="/publications/">Full publication list →</a> &nbsp; <a href="/">← Back to home</a></p>
+<nav class="action-row" aria-label="More">
+  <a class="btn-action btn-action--primary" href="/publications/"><i class="fas fa-book" aria-hidden="true"></i> Full publication list <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+  <a class="btn-action" href="/"><i class="fas fa-arrow-left" aria-hidden="true"></i> Back to home</a>
+</nav>
 """
 
 
@@ -763,7 +766,10 @@ def homepage_section():
       <h3><a href="{url}"><i class="fas {t['icon']}" aria-hidden="true"></i> {t['short']}</a></h3>
       <p>{t['card_intro']}</p>
       <p class="theme-card__contrib"><b>Contributions:</b> {t['card_contrib']}</p>
-      <a class="home-theme__more" href="{url}">{len(papers)} papers · Explore this theme →</a>
+      <div class="action-row action-row--compact">
+        <a class="btn-action btn-action--small btn-action--primary" href="{url}">Explore this theme <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        <span class="theme-card__count">{len(papers)} papers</span>
+      </div>
     </div>
   </article>""")
     return ("<!-- ===================== RESEARCH THEMES ===================== -->\n"

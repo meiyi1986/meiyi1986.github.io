@@ -400,7 +400,7 @@ details.more {
     gap: 0.45em;
     padding: 0.45em 1em;
     border: 1px solid mix(#fff, $accent, 60%);
-    border-radius: $border-radius;
+    border-radius: 999px;
     background-color: #fff;
     color: $accent;
     font-size: 0.85em;
@@ -693,4 +693,77 @@ details.more {
   margin-top: 0.5em;
   font-size: $type-size-6;
   font-weight: 700;
+}
+
+/* Action buttons ("Full publication list", "Back to home", "Explore this theme") */
+.action-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75em;
+  margin: 1.75em 0 1em;
+
+  &--compact { margin: 0.75em 0 0; gap: 0.6em; }
+}
+
+.page__content a.btn-action,
+.archive a.btn-action,
+a.btn-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.55em 1.15em;
+  border: 1px solid mix(#fff, $accent, 55%);
+  border-radius: 999px;
+  background-color: #fff;
+  color: $accent;
+  font-size: 0.85em;
+  font-weight: 600;
+  line-height: 1.3;
+  text-decoration: none;
+  box-shadow: 0 1px 2px rgba(#000, 0.06);
+  transition: background-color 0.15s, color 0.15s, border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+
+  i { font-size: 0.9em; transition: transform 0.15s; }
+
+  &:hover,
+  &:focus {
+    border-color: $accent;
+    background-color: mix(#fff, $accent, 90%);
+    color: mix(#000, $accent, 15%);
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba($accent, 0.2);
+  }
+
+  &:hover .fa-arrow-right { transform: translateX(3px); }
+  &:hover .fa-arrow-left { transform: translateX(-3px); }
+
+  &:focus-visible { outline: 2px solid $accent; outline-offset: 2px; }
+
+  &.btn-action--primary {
+    border-color: $accent;
+    background-color: $accent;
+    color: #fff;
+
+    &:hover,
+    &:focus {
+      background-color: mix(#000, $accent, 15%);
+      border-color: mix(#000, $accent, 15%);
+      color: #fff;
+    }
+  }
+
+  &.btn-action--small { padding: 0.4em 0.95em; font-size: 0.8em; }
+}
+
+.theme-card__count {
+  font-size: 0.8em;
+  font-weight: 600;
+  color: $gray;
+}
+
+.theme-others + .action-row {
+  margin-top: 2em;
+  padding-top: 1.25em;
+  border-top: 1px solid $border-color;
 }

@@ -93,4 +93,7 @@ author_profile: true
   <a href="/research/transfer-multitask-lifelong-learning/" class="is-current" aria-current="page"><i class="fas fa-project-diagram" aria-hidden="true"></i> Transfer, Multitask, and Lifelong Machine Learning</a>
 </nav>
 
-<p class="home-more"><a href="/publications/">Full publication list →</a> &nbsp; <a href="/">← Back to home</a></p>
+<nav class="action-row" aria-label="More">
+  <a class="btn-action btn-action--primary" href="/publications/"><i class="fas fa-book" aria-hidden="true"></i> Full publication list <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+  <a class="btn-action" href="/"><i class="fas fa-arrow-left" aria-hidden="true"></i> Back to home</a>
+</nav>
