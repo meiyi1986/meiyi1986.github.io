@@ -789,7 +789,7 @@ $mx-shadow: 0 14px 34px rgba(23, 33, 38, 0.09);
 $mx-shadow-soft: 0 6px 18px rgba(23, 33, 38, 0.055);
 $mx-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
 
-body.home-page {
+body {
   background: linear-gradient(180deg, #fbfaf6 0%, #eef5f3 100%);
   background-attachment: fixed;
   color: $mx-text;
@@ -1369,4 +1369,153 @@ strong.accolade {
 
     &__detail, &__heading { display: none; }
   }
+}
+
+/* ==========================================================================
+   Inner pages: profile card | content cards (same look as the homepage)
+   ========================================================================== */
+
+#main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.25rem;
+  width: calc(100% - 2rem);
+  max-width: 90rem;
+  margin: 1.5rem auto 2.5rem;
+  padding: 0;
+  font-family: $mx-sans;
+
+  &::before, &::after { display: none; content: none; }
+
+  @include breakpoint($large) {
+    grid-template-columns: minmax(15rem, 18rem) minmax(0, 1fr);
+    gap: clamp(1rem, 1.8vw, 2rem);
+    align-items: start;
+  }
+
+  > .sidebar,
+  > .archive,
+  > .page {
+    float: none;
+    width: auto;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  > .sidebar {
+    opacity: 1;
+
+    @include breakpoint($large) {
+      position: sticky;
+      top: 5.5rem;
+      max-height: calc(100vh - 6.5rem);
+      overflow-y: auto;
+      scrollbar-width: thin;
+    }
+  }
+}
+
+.page-header {
+  margin-bottom: 1.15rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid rgba($mx-teal, 0.16);
+
+  .page__title {
+    margin: 0;
+    color: $mx-ink;
+    font-family: $mx-sans;
+    font-size: clamp(1.8rem, 2.8vw, 2.35rem);
+    letter-spacing: -0.025em;
+    line-height: 1.16;
+  }
+}
+
+.page-card {
+  margin-bottom: 1.4rem;
+  padding: 1.45rem 1.55rem;
+  border: 1px solid $mx-line-strong;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: $mx-shadow;
+  color: $mx-text;
+  line-height: 1.62;
+
+  @media (max-width: #{$medium - 1px}) { padding: 1rem 1rem 1rem 1.15rem; }
+
+  > :last-child { margin-bottom: 0; }
+
+  &--intro {
+    position: relative;
+    padding-left: 1.9rem;
+    overflow: hidden;
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 0.42rem;
+      background: linear-gradient(180deg, $mx-teal, $mx-indigo 55%, $mx-amber);
+    }
+
+    > .page-highlights:first-child, > p:first-child { margin-top: 0; }
+  }
+
+  a { color: $mx-teal-dark; text-decoration-color: rgba($mx-teal, 0.45); text-underline-offset: 0.15em; }
+  a:hover { color: $mx-teal; }
+}
+
+.archive .page-card > h2,
+.page__content .page-card > h2 {
+  margin: 0 0 1.1rem;
+  padding: 0 0 0.75rem;
+  border-bottom: 1px solid $mx-line;
+  color: $mx-ink;
+  font-family: $mx-sans;
+  font-size: 1.32rem;
+  font-weight: 760;
+  line-height: 1.25;
+
+  &::after { display: none; }
+}
+
+.page-card h3 { color: $mx-teal-dark; font-family: $mx-sans; }
+
+/* inner components follow the teal palette */
+.home-stat {
+  border-color: $mx-line;
+  border-top-color: $mx-teal;
+  background-color: #f7faf9;
+
+  &__value { color: $mx-ink; }
+}
+
+.page-highlights .home-stat:nth-child(2) { border-top-color: $mx-indigo; }
+.page-highlights .home-stat:nth-child(3) { border-top-color: $mx-amber; }
+.page-highlights .home-stat:nth-child(4) { border-top-color: $mx-coral; }
+
+.cv-list__year { color: $mx-indigo; }
+.teaching-year__year { color: $mx-indigo; }
+.contrib-list li { border-left-color: rgba($mx-teal, 0.45); }
+.theme-figure { background-color: #fbfcfb; border-color: $mx-line; }
+
+/* undo the theme's sidebar typography inside the profile card */
+.sidebar .profile-card {
+  font-family: $mx-sans;
+
+  h2, h3 { margin-top: 0; font-family: $mx-sans; }
+  .profile-card__name { font-size: 1.3rem; margin: 0.8rem 0 0.35rem; }
+  .profile-card__bio { font-size: 0.92rem; line-height: 1.6; }
+  .profile-card__links li { font-size: 0.86rem; line-height: 1.55; }
+  p { margin-bottom: 0.6rem; }
+
+  @media (max-width: #{$large - 1px}) {
+    .profile-card__name { margin-top: 0; }
+    .profile-card__bio { font-size: 0.85rem; margin: 0; }
+  }
+}
+
+/* long badges wrap instead of overflowing on phones */
+@media (max-width: #{$medium-wide - 1px}) {
+  .badge { max-width: 100%; white-space: normal; }
 }
