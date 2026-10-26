@@ -1543,3 +1543,168 @@ strong.accolade {
 .student-list li,
 .teaching-year ul { font-size: 1rem; line-height: 1.6; }
 .teaching-year__year { font-size: 1.05rem; }
+
+/* ==========================================================================
+   Resources page
+   ========================================================================== */
+
+.section-intro { margin: -0.3rem 0 1rem; color: $mx-muted; font-size: 0.95rem; }
+
+.repo-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+
+  @include breakpoint($medium-wide) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+.repo-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid $mx-line;
+  border-top: 3px solid $mx-teal;
+  border-radius: 10px;
+  background: #f8faf9;
+  transition: box-shadow 0.15s, transform 0.15s;
+
+  &:hover { box-shadow: $mx-shadow-soft; transform: translateY(-1px); }
+
+  &--featured {
+    border-top-color: $mx-amber;
+    background: #fffaf0;
+  }
+
+  &__head {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+
+    > i { color: $mx-ink; font-size: 1.15rem; }
+  }
+
+  .page-card &__name,
+  &__name {
+    color: $mx-ink;
+    font-size: 1.08rem;
+    font-weight: 800;
+    text-decoration: none;
+
+    &:hover { color: $mx-teal; text-decoration: underline; }
+  }
+
+  &__lang {
+    margin-left: auto;
+    padding: 0.1rem 0.55rem;
+    border-radius: 999px;
+    background: #eef3f2;
+    color: $mx-text;
+    font-size: 0.72rem;
+    font-weight: 700;
+
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 0.55rem;
+      height: 0.55rem;
+      margin-right: 0.3rem;
+      border-radius: 50%;
+      background: $mx-muted;
+      vertical-align: 0.02rem;
+    }
+
+    &--java::before { background: #b07219; }
+    &--cpp::before { background: #f34b7d; }
+    &--matlab::before { background: #e16737; }
+    &--jupyter-notebook::before { background: #da5b0b; }
+    &--video::before { background: $mx-red; }
+  }
+
+  p { margin: 0; color: $mx-text; font-size: 0.92rem; line-height: 1.6; flex: 1; }
+
+  &__foot {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding-top: 0.55rem;
+    border-top: 1px solid $mx-line;
+  }
+
+  &__badges { display: inline-flex; gap: 0.3rem; img { height: 20px; } }
+
+  &__links { font-size: 0.85rem; font-weight: 700; }
+}
+
+.data-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.15rem;
+    margin: 0;
+    padding: 0.7rem 0;
+    border-top: 1px solid $mx-line;
+
+    @include breakpoint($medium) { grid-template-columns: 12rem minmax(0, 1fr); gap: 1rem; }
+  }
+
+  li:first-child { border-top: 0; padding-top: 0; }
+
+  .page-card &__name {
+    font-weight: 800;
+    color: $mx-teal-dark;
+    text-decoration: none;
+
+    i { margin-right: 0.3rem; color: $mx-amber; }
+    &:hover { text-decoration: underline; }
+  }
+
+  &__desc { color: $mx-text; font-size: 0.93rem; line-height: 1.6; }
+}
+
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+  gap: 0.7rem;
+}
+
+.page-card a.tool-card,
+a.tool-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.7rem 0.85rem;
+  border: 1px solid $mx-line;
+  border-left: 3px solid $mx-indigo;
+  border-radius: 8px;
+  background: #f8f9fc;
+  color: $mx-text;
+  text-decoration: none;
+  transition: background-color 0.15s, border-color 0.15s;
+
+  &:hover { background: #eef1f9; border-color: $mx-indigo; }
+}
+
+.tool-card__name { color: $mx-ink; font-weight: 800; }
+.tool-card__lang { color: $mx-muted; font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
+.tool-card__note { color: $mx-teal-dark; font-size: 0.8rem; }
+
+.cv-list--plain > li {
+  font-size: 0.95rem;
+
+  @include breakpoint($medium) { grid-template-columns: 13rem 1fr; }
+}
+
+.reading-list {
+  margin: 0;
+  padding-left: 1.2rem;
+
+  li { margin-bottom: 0.45rem; font-size: 0.95rem; line-height: 1.6; }
+}
