@@ -36,7 +36,7 @@ redirect_from:
     <li><time>2025</time><span>Dedy Hendro's paper "<a href="https://ieeexplore.ieee.org/document/11302604">An Investigation of Feature-Grouping for Robust SHAP Explanations in IoT Intrusion Detection</a>" won the <strong class="accolade">Best Student Paper Award</strong> at the <i>IEEE International Telecommunication Networks and Applications Conference (ITNAC) 2025</i>.</span></li>
     <li><time>2025</time><span>Honoured to receive the Victoria University of Wellington <strong class="accolade">Ki te Pae Research Excellence Award</strong>.</span></li>
   </ul>
-  <a class="text-link" href="/grantsawards/">View all grants &amp; awards <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+  <a class="text-link" href="/awards/">View all honours &amp; awards <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
 </section>
 
 <!-- ===================== RESEARCH THEMES ===================== -->

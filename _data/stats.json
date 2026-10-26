@@ -1,10 +1,12 @@
 {
   "grantsawards": {
     "grants": 13,
+    "research_grants": 11,
+    "industry_projects": 2,
     "pi_funding": "$1.5M+",
     "pi_funding_nzd": 1592720,
     "theme_leader_funding": "$13M",
-    "awards": 12,
+    "awards": 16,
     "paper_awards": 8,
     "research_excellence_awards": 2
   },

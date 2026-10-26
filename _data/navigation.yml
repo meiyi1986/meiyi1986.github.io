@@ -3,8 +3,11 @@ main:
   - title: "Publications"
     url: /publications/
     
-  - title: "Grants & Awards"
-    url: /grantsawards/
+  - title: "Grants & Projects"
+    url: /grants/
+
+  - title: "Honours & Awards"
+    url: /awards/
 
   # - title: "Talks"
   #   url: /talks/    

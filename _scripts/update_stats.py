@@ -3,7 +3,8 @@
 _data/stats.json, which the pages read as site.data.stats.
 
 Sources:
-  _pages/grantsawards.md   funding totals, award counts
+  _pages/grants.md         funding totals, grant and project counts
+  _pages/awards.md         award counts
   _pages/services.md       editor roles, Outstanding AE count, journals reviewed
   _pages/supervision.md    student counts
   _pages/teaching.md       courses taught and coordinated
@@ -69,8 +70,10 @@ def plus(n):
 
 # ---------------------------------------------------------------- grants & awards
 def grants_awards():
-    t = read("grantsawards.md")
-    grants = re.findall(r"<li>.*?</li>", section(t, "## Grants", "## Awards"), re.S)
+    t = read("grants.md")
+    research = re.findall(r"<li>.*?</li>", section(t, "## Research Grants", "## Industry Projects"), re.S)
+    industry = re.findall(r"<li>.*?</li>", section(t, "## Industry Projects"), re.S)
+    grants = research + industry
     pi_total, theme = 0, 0
     for g in grants:
         amt = re.search(r'badge--amount">\$([\d,]+) NZD', g)
@@ -82,10 +85,10 @@ def grants_awards():
             pi_total += v
         if any("Theme Leader" in r for r in role):
             theme = max(theme, v)
-    awards = re.findall(r'badge--award">([^<]+)<', section(t, "## Awards"))
+    awards = re.findall(r'badge--award">([^<]+)<', read("awards.md"))
     paper = [a for a in awards if re.fullmatch(r"(Best|Outstanding)( Student)? Paper Award", a.strip())]
     excellence = [a for a in awards if "Research Excellence Award" in a]
-    return {"grants": len(grants), "pi_funding": money(pi_total) + ("+" if pi_total % 100000 else ""),
+    return {"grants": len(grants), "research_grants": len(research), "industry_projects": len(industry), "pi_funding": money(pi_total) + ("+" if pi_total % 100000 else ""),
             "pi_funding_nzd": pi_total, "theme_leader_funding": money(theme),
             "awards": len(awards), "paper_awards": len(paper), "research_excellence_awards": len(excellence)}
 
