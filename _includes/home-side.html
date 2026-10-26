@@ -1,0 +1,23 @@
+{% comment %}Citations and h-index: edit _data/profile.yml. Other counts are computed by _scripts/update_stats.py.{% endcomment %}
+<section class="glance-card">
+  <p class="section-label">At a glance</p>
+  <dl class="glance-card__stats">
+    <div><dt>Google Scholar citations</dt><dd>{{ site.data.stats.scholar.citations }}</dd></div>
+    <div><dt>h-index</dt><dd>{{ site.data.stats.scholar.h_index }}</dd></div>
+    <div><dt>Publications</dt><dd>{{ site.data.stats.publications.total_rounded }}+</dd></div>
+    <div><dt>Best / outstanding paper awards</dt><dd>{{ site.data.stats.grantsawards.paper_awards }}</dd></div>
+    <div><dt>PhD graduates supervised</dt><dd>{{ site.data.stats.supervision.phd_graduated }}</dd></div>
+    <div><dt>World's Top 2% Scientists</dt><dd>since {{ site.data.profile.top2_since }}</dd></div>
+  </dl>
+</section>
+<section class="glance-card">
+  <p class="section-label">Explore</p>
+  <ul class="glance-card__links">
+    <li><a href="/publications/"><i class="fas fa-fw fa-book" aria-hidden="true"></i> Publications</a></li>
+    <li><a href="#research-interests"><i class="fas fa-fw fa-lightbulb" aria-hidden="true"></i> Research themes</a></li>
+    <li><a href="/grantsawards/"><i class="fas fa-fw fa-trophy" aria-hidden="true"></i> Grants &amp; awards</a></li>
+    <li><a href="/supervision/"><i class="fas fa-fw fa-user-graduate" aria-hidden="true"></i> Supervision</a></li>
+    <li><a href="/services/"><i class="fas fa-fw fa-hands-helping" aria-hidden="true"></i> Services</a></li>
+    <li><a href="/teaching/"><i class="fas fa-fw fa-chalkboard-teacher" aria-hidden="true"></i> Teaching</a></li>
+  </ul>
+</section>

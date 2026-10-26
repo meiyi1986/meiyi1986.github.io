@@ -1,0 +1,40 @@
+{% include base_path %}
+{% assign author = site.author %}
+<div class="profile-card" itemscope itemtype="https://schema.org/Person">
+  <div class="profile-card__avatar">
+    <img src="{{ author.avatar | prepend: '/images/' | prepend: base_path }}" alt="{{ author.name }}" itemprop="image">
+  </div>
+  <div class="profile-card__content">
+    <h2 class="profile-card__name" itemprop="name">{{ author.name }}</h2>
+    <p class="profile-card__badges">
+      <span class="profile-card__badge">Fellow, Engineering NZ</span>
+      <span class="profile-card__badge profile-card__badge--muted">IEEE Senior Member</span>
+    </p>
+    <p class="profile-card__bio" itemprop="description">Professor researching evolutionary computation, machine learning and optimisation</p>
+  </div>
+  <ul class="profile-card__links">
+    <li class="profile-card__detail">
+      <span class="profile-card__label">Location</span>
+      <span class="profile-card__value">{{ author.location }}</span>
+    </li>
+    <li class="profile-card__detail">
+      <span class="profile-card__label">Institution</span>
+      <span class="profile-card__value">School of Engineering and Computer Science, {{ author.employer }}</span>
+    </li>
+    <li class="profile-card__detail">
+      <span class="profile-card__label">Centre</span>
+      <span class="profile-card__value">Centre for Data Science and Artificial Intelligence (CDSAI)</span>
+    </li>
+    <li class="profile-card__detail">
+      <span class="profile-card__label">Research groups</span>
+      <span class="profile-card__value">ECCO · ECRG</span>
+    </li>
+    <li class="profile-card__heading">Connect</li>
+    {% if author.email %}<li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i><span>{{ author.email }}</span></a></li>{% endif %}
+    {% if author.googlescholar %}<li><a href="{{ author.googlescholar }}"><i class="ai ai-fw ai-google-scholar" aria-hidden="true"></i><span>Google Scholar</span></a></li>{% endif %}
+    {% if author.orcid %}<li><a href="{{ author.orcid }}"><i class="ai ai-fw ai-orcid" aria-hidden="true"></i><span>ORCID</span></a></li>{% endif %}
+    {% if author.researchgate %}<li><a href="{{ author.researchgate }}"><i class="ai ai-fw ai-researchgate" aria-hidden="true"></i><span>ResearchGate</span></a></li>{% endif %}
+    {% if author.linkedin %}<li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a></li>{% endif %}
+    {% if author.uri %}<li><a href="{{ author.uri }}"><i class="fas fa-fw fa-university" aria-hidden="true"></i><span>University profile</span></a></li>{% endif %}
+  </ul>
+</div>

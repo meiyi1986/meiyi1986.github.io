@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{% comment %}Three-column homepage: profile card | main content | at-a-glance rail.{% endcomment %}
+<main class="home-grid" role="main">
+  <aside class="home-rail home-rail--profile" aria-label="Profile">
+    {% include home-profile.html %}
+  </aside>
+
+  <article class="home-main">
+    <header class="home-main__header">
+      <h1 class="home-main__title">{{ page.title }}</h1>
+    </header>
+    <div class="home-main__body">
+      {{ content }}
+    </div>
+  </article>
+
+  <aside class="home-rail home-rail--side" aria-label="At a glance">
+    {% include home-side.html %}
+  </aside>
+</main>
