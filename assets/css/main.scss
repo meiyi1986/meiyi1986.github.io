@@ -1519,3 +1519,27 @@ strong.accolade {
 @media (max-width: #{$medium-wide - 1px}) {
   .badge { max-width: 100%; white-space: normal; }
 }
+
+/* titles and affiliations in the profile card */
+.profile-card__lines {
+  line-height: 1.5 !important;
+
+  a {
+    display: inline !important;
+    padding: 0 !important;
+    color: $mx-teal-dark !important;
+    text-decoration: underline;
+    text-decoration-color: rgba($mx-teal, 0.45);
+    text-underline-offset: 0.15em;
+    background: none !important;
+  }
+}
+
+@media (max-width: #{$large - 1px}) {
+  .profile-card__detail--positions { display: block !important; grid-column: 1 / -1; width: 100%; margin-bottom: 0.4rem !important; }
+}
+
+/* larger text on Teaching and Supervision */
+.student-list li,
+.teaching-year ul { font-size: 1rem; line-height: 1.6; }
+.teaching-year__year { font-size: 1.05rem; }

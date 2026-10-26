@@ -23,34 +23,20 @@ redirect_from:
   <a class="announcement-action" href="mailto:yi.mei@ecs.vuw.ac.nz">Email me</a>
 </aside>
 
-<!-- ===================== CURRENT POSITION ===================== -->
-<section class="profile-summary">
-  <div class="summary-main">
-    <p class="section-label">Current Position</p>
-    <h2>Professor at Victoria University of Wellington</h2>
-    <!-- PLACEHOLDER: one- or two-sentence pitch in your own words -->
-    <p>I build AI solutions to learn how to make hard decisions, by evolving interpretable algorithms and policies for scheduling, routing, and resource allocation, and their applications to the real world.</p>
-    <p class="summary-lines">
-      Professor<br>
-      Programme Director (Computer Science and Computer Graphics)<br>
-      School of Engineering and Computer Science (<a href="https://www.wgtn.ac.nz/ecs">SECS</a>)<br>
-      Centre for Data Science and Artificial Intelligence (<a href="https://www.wgtn.ac.nz/cdsai">CDSAI</a>)<br>
-      Victoria University of Wellington (<a href="https://www.wgtn.ac.nz/">VUW</a>)
-    </p>
-    <p class="summary-lines summary-lines--muted">
-      Evolutionary Computation for Combinatorial Optimisation Group (<a href="https://ecs.wgtn.ac.nz/Groups/ECCO/WebHome">ECCO</a>)<br>
-      Evolutionary Computation and Machine Learning Research Group (<a href="https://ecs.wgtn.ac.nz/Groups/ECRG/WebHome">ECRG</a>)<br>
-      IEEE CIS Taskforce on Evolutionary Scheduling and Combinatorial Optimisation (<a href="https://cis.taskforce.ieee.org/esco/">TESCO</a>)
-    </p>
+<!-- ===================== NEWS ===================== -->
+<section class="content-section">
+  <div class="section-heading">
+    <p>Latest</p>
+    <h2>Recent Updates</h2>
   </div>
-  <aside class="summary-facts" aria-label="Profile summary">
-    <dl>
-      <div><dt>Recognition</dt><dd>Fellow of Engineering New Zealand; IEEE Senior Member; Stanford/Elsevier World's Top 2% Scientists since {{ site.data.profile.top2_since }}</dd></div>
-      <div><dt>Editorial</dt><dd>Associate Editor, <i>IEEE Transactions on Evolutionary Computation</i>; {{ site.data.stats.services.outstanding_ae }}× Outstanding Associate Editor</dd></div>
-      <div><dt>Leadership</dt><dd>Chair, IEEE New Zealand Council; Chair, IEEE CIS Evolutionary Computation Technical Committee</dd></div>
-      <div><dt>Email</dt><dd><a href="mailto:yi.mei@ecs.vuw.ac.nz">yi.mei@ecs.vuw.ac.nz</a></dd></div>
-    </dl>
-  </aside>
+  <ul class="clean-list">
+    <li><time>2026</time><span>Meng Xu's paper "<a href="https://doi.org/10.1109/MCI.2024.3363970">Genetic Programming and Reinforcement Learning on Learning Heuristics for Dynamic Scheduling: A Preliminary Comparison</a>" won the <strong class="accolade">IEEE Computational Intelligence Magazine Outstanding Paper Award</strong>.</span></li>
+    <li><time>2026</time><span>Saining Liu's paper "<a href="https://link.springer.com/chapter/10.1007/978-3-032-23604-3_7">Adaptive Curriculum Learning in Genetic Programming–Guided Local Search for Large-Scale Vehicle Routing Problems</a>" won the <strong class="accolade">Best Student Paper Award</strong> at <i><a href="https://www.evostar.org/2026/">EvoStar 2026</a></i>.</span></li>
+    <li><time>2026</time><span>Recognised as an <strong class="accolade">Outstanding Associate Editor</strong> of <i>IEEE Transactions on Evolutionary Computation</i> for the third consecutive year (2024–2026).</span></li>
+    <li><time>2025</time><span>Dedy Hendro's paper "<a href="https://ieeexplore.ieee.org/document/11302604">An Investigation of Feature-Grouping for Robust SHAP Explanations in IoT Intrusion Detection</a>" won the <strong class="accolade">Best Student Paper Award</strong> at the <i>IEEE International Telecommunication Networks and Applications Conference (ITNAC) 2025</i>.</span></li>
+    <li><time>2025</time><span>Honoured to receive the Victoria University of Wellington <strong class="accolade">Ki te Pae Research Excellence Award</strong>.</span></li>
+  </ul>
+  <a class="text-link" href="/grantsawards/">View all grants &amp; awards <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
 </section>
 
 <!-- ===================== RESEARCH THEMES ===================== -->
@@ -108,38 +94,6 @@ redirect_from:
     </article>
   </div>
   <a class="text-link" href="/publications/">View full publication list <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
-</section>
-
-<!-- ===================== NEWS ===================== -->
-<section class="content-section">
-  <div class="section-heading">
-    <p>Latest</p>
-    <h2>Recent Updates</h2>
-  </div>
-  <ul class="clean-list">
-    <li><time>2026</time><span>Meng Xu's paper "<a href="https://doi.org/10.1109/MCI.2024.3363970">Genetic Programming and Reinforcement Learning on Learning Heuristics for Dynamic Scheduling: A Preliminary Comparison</a>" won the <strong class="accolade">IEEE Computational Intelligence Magazine Outstanding Paper Award</strong>.</span></li>
-    <li><time>2026</time><span>Saining Liu's paper "<a href="https://link.springer.com/chapter/10.1007/978-3-032-23604-3_7">Adaptive Curriculum Learning in Genetic Programming–Guided Local Search for Large-Scale Vehicle Routing Problems</a>" won the <strong class="accolade">Best Student Paper Award</strong> at <i><a href="https://www.evostar.org/2026/">EvoStar 2026</a></i>.</span></li>
-    <li><time>2026</time><span>Recognised as an <strong class="accolade">Outstanding Associate Editor</strong> of <i>IEEE Transactions on Evolutionary Computation</i> for the third consecutive year (2024–2026).</span></li>
-    <li><time>2025</time><span>Dedy Hendro's paper "<a href="https://ieeexplore.ieee.org/document/11302604">An Investigation of Feature-Grouping for Robust SHAP Explanations in IoT Intrusion Detection</a>" won the <strong class="accolade">Best Student Paper Award</strong> at the <i>IEEE International Telecommunication Networks and Applications Conference (ITNAC) 2025</i>.</span></li>
-    <li><time>2025</time><span>Honoured to receive the Victoria University of Wellington <strong class="accolade">Ki te Pae Research Excellence Award</strong>.</span></li>
-  </ul>
-  <a class="text-link" href="/grantsawards/">View all grants &amp; awards <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
-</section>
-
-<!-- ===================== APPOINTMENTS ===================== -->
-<section class="content-section">
-  <div class="section-heading">
-    <p>Career</p>
-    <h2>Appointments and Education</h2>
-  </div>
-  <ul class="clean-list timeline-list">
-    <li><time>Present</time><span>Professor, School of Engineering and Computer Science, Victoria University of Wellington, New Zealand.</span></li>
-    <li><time>Oct 2024 – Present</time><span>Programme Director, BSc in Computer Science, Victoria University of Wellington.</span></li>
-    <li><time>Jun 2023 – May 2026</time><span>Associate Dean (Research), Faculty of Engineering, Victoria University of Wellington.</span></li>
-    <li><time>2010</time><span>PhD in Computer Science, University of Science and Technology of China.</span></li>
-    <li><time>2007</time><span>MSc in Computer Science, University of Science and Technology of China.</span></li>
-    <li><time>2005</time><span>BSc in Mathematics, University of Science and Technology of China.</span></li>
-  </ul>
 </section>
 
 <!-- ===================== BIOGRAPHY ===================== -->

@@ -17,17 +17,23 @@
       <span class="profile-card__label">Location</span>
       <span class="profile-card__value">{{ author.location }}</span>
     </li>
-    <li class="profile-card__detail">
-      <span class="profile-card__label">Institution</span>
-      <span class="profile-card__value">School of Engineering and Computer Science, {{ author.employer }}</span>
+    <li class="profile-card__detail profile-card__detail--positions">
+      <span class="profile-card__label">Positions</span>
+      <span class="profile-card__value profile-card__lines">
+        Professor<br>
+        Programme Director (Computer Science and Computer Graphics)<br>
+        School of Engineering and Computer Science (<a href="https://www.wgtn.ac.nz/ecs">SECS</a>)<br>
+        Centre for Data Science and Artificial Intelligence (<a href="https://www.wgtn.ac.nz/cdsai">CDSAI</a>)<br>
+        Victoria University of Wellington (<a href="https://www.wgtn.ac.nz/">VUW</a>)
+      </span>
     </li>
-    <li class="profile-card__detail">
-      <span class="profile-card__label">Centre</span>
-      <span class="profile-card__value">Centre for Data Science and Artificial Intelligence (CDSAI)</span>
-    </li>
-    <li class="profile-card__detail">
+    <li class="profile-card__detail profile-card__detail--positions">
       <span class="profile-card__label">Research groups</span>
-      <span class="profile-card__value">ECCO · ECRG</span>
+      <span class="profile-card__value profile-card__lines">
+        Evolutionary Computation for Combinatorial Optimisation Group (<a href="https://ecs.wgtn.ac.nz/Groups/ECCO/WebHome">ECCO</a>)<br>
+        Evolutionary Computation and Machine Learning Research Group (<a href="https://ecs.wgtn.ac.nz/Groups/ECRG/WebHome">ECRG</a>)<br>
+        IEEE CIS Taskforce on Evolutionary Scheduling and Combinatorial Optimisation (<a href="https://cis.taskforce.ieee.org/esco/">TESCO</a>)
+      </span>
     </li>
     <li class="profile-card__heading">Connect</li>
     {% if author.email %}<li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i><span>{{ author.email }}</span></a></li>{% endif %}

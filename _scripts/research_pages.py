@@ -786,7 +786,8 @@ def main():
     about = ROOT / "_pages" / "about.md"
     s = about.read_text(encoding="utf-8")
     a = s.index("<!-- ===================== RESEARCH THEMES ===================== -->")
-    b = s.index("<!-- ===================== NEWS ===================== -->")
+    b = s.find("<!-- =====", a + 10)
+    b = b if b != -1 else len(s)
     about.write_text(s[:a] + homepage_section() + s[b:], encoding="utf-8")
     print("updated about.md")
 
