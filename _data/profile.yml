@@ -9,7 +9,7 @@
 # profile; the site rounds it for display (e.g. 12345 -> "12,000+" in English
 # and "1.2万" on the Chinese page).
 scholar_citations: 12000
-h_index: 56
+h_index: 57
 
 # Stanford University / Elsevier World's Top 2% Scientists list
 top2_since: 2021
